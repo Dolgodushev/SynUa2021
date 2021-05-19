@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html>
+<head>
+  <title>Coupon</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+<style type="text/css">
+    body{background-image:url(coupon_background.png);}
+    .top_box
+    {
+        background-color:#ffffff;
+        background:rgba(255,255,2255, 0.5);
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        margin: 20px 20px 15px;
+        padding: 10px;
+    }
+    .coupon_shadow
+    {
+        -webkit-box-shadow: -1px -1px 0px 0px rgba(0,0,0,.1), 1px 1px 0px 0px rgba(255,255,255,.7);
+        -moz-box-shadow: -1px -1px 0px 0px rgba(0,0,0,.1), 1px 1px 0px 0px rgba(255,255,255,.7);
+        box-shadow: -1px -1px 0px 0px rgba(0,0,0,.1), 1px 1px 0px 0px rgba(255,255,255,.7);
+    }
+    .coupon_details
+    {
+        color:#ffffff;
+        background:rgba(255,255,2255, 0.5);
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        font-family:Helvetica;
+        font-size:16px;
+        line-height:20px;
+        padding:10px;
+        margin:10px 20px;
+    }
+    .coupon_divider
+    {
+        background:url(coupon_divider.png);
+        height:5px;
+        margin:10px 35px;
+        background-size: 205px 5px;
+    }
+    .coupon_howtounlock
+    {
+        color:#161515;
+        font-size:15px;
+        border-bottom:solid 1px #232322;
+        font-family: Arial;
+        -webkit-box-shadow: 0px 1px 0px 0px rgba(255,255,255,.7);
+        -moz-box-shadow: 0px 1px 0px 0px rgba(255,255,255,.7);
+        box-shadow: 0px 1px 0px 0px rgba(255,255,255,.7);    
+    }
+</style>
+</head>
+<body>
+<input type="hidden" id="couponimageh" value="">
+<input type="hidden" id="startdateh" value="">
+<input type="hidden" id="enddateh" value="">
+<input type="hidden" id="qrcodebarh" value="">
+<input type="hidden" id="countofscans" value="">
+<input type="hidden" id="hoursbeforecheckh" value="">
+<input type="hidden" id="canbeusedagainh" value="">
+<input type="hidden" id="gpsdatah" value="">
+
+<div align="center" class="top_box coupon_shadow">
+   <table cellspacing="0" cellspacing="0" width="100%">
+      <tbody>
+        <tr>
+          <td align="left" rowspan="2"><img src="coupongps.png" style="margin: 0; padding: 0 10px 0 0"></td>
+          <td align="left">
+            <img src="couponlock.png" style="vertical-align:middle;width:16px; height: 16px" />
+            <div id="couponcountscan" style="display:inline;font-size:15px;color:#161515; font-family: Arial">0/4</div>
+          </td>
+        </tr>
+        <tr>
+          <td align="left">
+            <img src="couponunlock.png" style="vertical-align:middle;width:16px; height: 16px">
+            <a href="howunlockcoupongps.html"><span class="coupon_howtounlock">How to Unlock?</span></a>
+          </td>
+        </tr>
+     </tbody>
+   </table>
+</div>
+
+<div class="coupon_details coupon_shadow" align="center">
+  <table cellpadding="0" cellspacing="0">
+    <tbody>
+      <tr>
+        <td align="center" id="couponnameh" style="color:#161515; text-shadow:1px 1px rgba(255,255,255,.7);font-size:20px; padding: 10px 0 0;">COUPON NAME</td>
+      </tr>
+      <tr>
+        <td><div class="coupon_divider"></div>
+      </tr>
+      <tr>
+        <td id="coupondescriptionh">
+        <div style="color: #161515; font-size: 13px; line-height:22px;">
+        Description about coupon. Maecenas nec odio et ante tincidunt tempus.
+        Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.!</div>
+        <div style="text-align:center;color:#457c68; text-shadow:1px 1px rgba(255,255,255,.7);font-size:20px; padding: 30px 0 10px;">SAVE $50.00</div>
+        </td>
+      </tr>
+   </tbody>
+  </table>
+</div>
+
+</body>
+</html>

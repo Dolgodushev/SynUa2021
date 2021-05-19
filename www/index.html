@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Syngenta Ukraine</title>
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.5.min.css">
+	<link rel="stylesheet" href="additionals/css/syngenta.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+   <link rel="stylesheet" type="text/css" href="css/awesome2/css/all.css">
+	<script src="js/jquery.js"></script>
+	<script src="additionals/js/index.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+
+     <style type="text/css">
+
+    <!--
+   .swiper-container {
+        width: 100%;
+        height: auto;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    #promo {
+        background: transparent;
+        text-decoration: none;
+        text-shadow: none;
+        text-transform: uppercase;
+        color: #00a0be;
+        border-radius: 3px;
+        font-weight: 300;
+        text-align: center
+
+    }
+
+    /*animation*/
+.animate-in-01 {
+    animation:animateIn 1s ease;
+    -webkit-animation:animateIn 1s ease;
+}
+.animate-in-02 {
+    animation:animateIn 1s ease forwards;
+    animation-delay:.2s;
+    -webkit-animation:animateIn 1s ease forwards;
+    -webkit-animation-delay:.2s;
+    opacity:0;
+}
+.animate-in-03 {
+    animation:animateIn 1s ease forwards;
+    animation-delay:.4s;
+    -webkit-animation:animateIn 1s ease forwards;
+    -webkit-animation-delay:.4s;
+    opacity:0;
+}
+.animate-in-04 {
+    animation:animateIn 1s ease forwards;
+    animation-delay:.5s;
+    -webkit-animation:animateIn 1s ease forwards;
+    -webkit-animation-delay:.5s;
+    opacity:0;
+}
+.animate-in-05 {
+    animation:animateIn 1s ease forwards;
+    animation-delay:.6s;
+    -webkit-animation:animateIn 1s ease forwards;
+    -webkit-animation-delay:.6s;
+    opacity:0;
+}
+@keyframes animateIn {
+    0%{
+        opacity:0;
+        transform: translateY(50px);
+        -webkit-transform: translateY(50px);
+        -moz-transform: translateY(50px);
+        -ms-transform: translateY(50px);
+        -o-transform: translateY(50px);
+    }
+    100%{
+        opacity:1;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+    }
+}
+@-webkit-keyframes animateIn {
+    0%{
+        opacity:0;
+        transform: translateY(50px);
+        -webkit-transform: translateY(50px);
+        -moz-transform: translateY(50px);
+        -ms-transform: translateY(50px);
+        -o-transform: translateY(50px);
+    }
+    100%{
+        opacity:1;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+    }
+}
+
+.animate-in-image {
+    animation:animateInImage 1s ease;
+    -webkit-animation:animateInImage 1s ease;
+}
+@keyframes animateInImage {
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+@-webkit-keyframes animateInImage {
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+
+.animate-in-card {
+    animation:animateIn .7s ease;
+    -webkit-animation:animateIn .7s ease;
+}
+
+.quadrat {
+
+    -webkit-animation: NAME-YOUR-ANIMATION 0.5s infinite;  /* Safari 4+ */
+    -moz-animation: NAME-YOUR-ANIMATION 0.5s infinite;  /* Fx 5+ */
+    -o-animation: NAME-YOUR-ANIMATION 0.5s infinite;  /* Opera 12+ */
+    animation: NAME-YOUR-ANIMATION 0.5s infinite;  /* IE 10+, Fx 29+ */
+}
+
+@-webkit-keyframes NAME-YOUR-ANIMATION {
+    0%, 29% {
+        background-color: #273469;
+        border: 3px solid #364891;
+    }
+    50%, 100% {
+        background-color: #304182;
+        border: 3px solid #364891; }
+
+  /*  70%, 100% {
+        background-color: #fff;
+        border: 3px solid #364891;
+        color: #273469
+
+
+    }*/
+}
+
+/* social icons */
+.set_container {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 0px;
+    clear: both;
+    text-align: center
+}
+
+.set_15_social-button {
+    display: inline-block;
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    line-height: 48px;
+    margin: 0 5px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    opacity: .99;
+    border-radius: 28%;
+    box-shadow: 0 1px 1.5px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.24);
+    -webkit-transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+    transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+}
+.set_15_social-button:focus:before, .set_15_social-button:hover:before {
+    top: -10%;
+    left: -10%;
+}
+
+.set_15_social-button:before {
+    content: '';
+    background-color: #000;
+    width: 120%;
+    height: 120%;
+    position: absolute;
+    top: 90%;
+    left: -110%;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+    transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+}
+
+.set_15_social-button .fab {
+    font-size: 35px;
+    vertical-align: middle;
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    -webkit-transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+    transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
+
+
+}
+.set_15_social-button.Vfacebook .fab {
+    color: #3B5998;
+    text-shadow: none
+}
+.set_15_social-button.Vyoutube .fab {
+    color: #ff0000;
+    text-shadow: none
+}
+.set_15_social-button.Vinsta .fab {
+    color: #e95950;
+    text-shadow: none
+}
+.set_15_social-button.Vtele .fab {
+    color: #0088cc;
+    text-shadow: none
+}
+.set_15_social-button.Vln .fab {
+    color: #2867B2;
+    text-shadow: none
+}
+.set_15_social-button:focus .fab, .set_15_social-button:hover .fab {
+    color: #fff;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+.set_15_social-button.Vfacebook:before {
+    background-color: #3CF;
+}
+.set_15_social-button.Vyoutube:before {
+    background-color: #DC4A38;
+}
+.set_15_social-button.Vinsta:before {
+    background-color: #F26798;
+}
+.set_15_social-button.Vtele:before {
+    background-color: #00AFF0;
+}
+.set_15_social-button.Vln:before {
+    background-color: #00AFF0;
+}
+/* end social icons */
+    -->
+    </style>
+
+</head>
+<body>
+<div data-role="page" class="jqm-syt jqm-home" style="background: #F5f5f5">
+     <!-- header -->
+	<div data-role="header" class="jqm-header" style="" data-position="fixed">
+	   <h2><img src="images/icons/synlogowhite.png" alt="syngenta"></h2>
+		<a href="#" class="jqm-navmenu-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-bars ui-nodisc-icon ui-icon ui-btn-left">Menu</a>
+		<!--<a href="announcements.html" class="ui-btn ui-btn-icon-notext ui-corner-all ui-icon-mail ui-nodisc-icon ui-icon ui-btn-right" target="_self">Messages</a>-->
+	</div><!-- /header -->
+
+
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide"><a href="action_amistar_xtra2021.html" target="_self"><img src="images/banners/actions/2021_amistar_extra.jpg"  style="width: 100%; height: auto"></a></div>
+<!--
+<div class="swiper-slide"><a href="action_zn2020-21.html" target="_self"><img src="images/banners/actions/2021_SC_2020.jpg"  style="width: 100%; height: auto"></a></div>
+-->
+<div class="swiper-slide"><a href="action_elatus_2021.html" target="_self"><img src="images/banners/actions/2021_elatus.jpg"  style="width: 100%; height: auto"></a></div>
+            <div class="swiper-slide"><a href="action_chysta_kukurudza2021.html" target="_self"><img src="images/banners/actions/2021_chysta_kukurudza.jpg"  style="width: 100%; height: auto"></a></div>
+<div class="swiper-slide"><a href="action_prima_forte2021.html" target="_self"><img src="images/banners/actions/2021_prima_forte.jpg"  style="width: 100%; height: auto"></a></div>
+<div class="swiper-slide"><a href="action_soybean_2021.html" target="_self"><img src="images/banners/actions/14223_soybean_vibrance_1.jpg"  style="width: 100%; height: auto" alt=""></a></div>
+<div class="swiper-slide"><a href="action_garden_2021.html" target="_self"><img src="images/banners/actions/baner_na_sayt_zakhyst_sadu.jpg"  style="width: 100%; height: auto" alt=""></a></div>
+  <!--<div class="swiper-slide"><a href="welcome.html" target="_self"><img src="images/banners/greetings1.jpg"  style="width: 100%; height: auto"></a></div>-->
+
+
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+        <!-- END Swiper -->
+    <!-- <a href="menu_actions.html" id="promo"  target="_self"><p style="text-align: center; margin: 0.5em"><i class="far fa-hand-point-right"></i>
+Всі акційні пропозиції</p></a>-->
+<div style="width: 100%; background: #DEDEDE; height: 1px">&nbsp;</div>
+        <div role="main"  style="padding-left: 2px; padding-right: 2px">
+
+        <div class="ui-grid-a ui-responsive" style="margin-top: 3px">
+
+         <div class="jqm-block-herb animate-in-01">
+        		   <a href="menu_actions.html" class="ui-btn ui-corner-all" data-ajax="false"  style="background-image: linear-gradient( 111.5deg, rgba(20,100,196,1) 0.4%, rgba(33,152,214,1) 100.2% ); color: #fff; text-transform: uppercase;text-shadow: none; border: none;box-shadow: 0 1px 1.5px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.24);"><i class="fas fa-gifts" style="color: fff; padding-right: 10px"></i>Акційні пропозиції</a>
+<!--<a href="menu_demo.html" class="ui-btn ui-corner-all" data-ajax="false"  style="background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,95,104,1) 0%, rgba(15,156,168,1) 90% ); color: #fff; text-transform: uppercase;text-shadow: none; border: none;box-shadow: 0 1px 1.5px 0 rgba(0,0,0,.12),0 1px 1px 0 rgba(0,0,0,.24);"><i class="fas fa-directions" style="color: fff; padding-right: 10px"></i>Демо поля Syngenta</a>-->
+        		</div>
+
+
+
+
+
+
+
+        	<div class="ui-block-a animate-in-card">
+        		<div class="jqm-block-content">
+        			<h3 style="text-shadow: none; color: #70840b; text-transform: uppercase; border-bottom: 1px solid #70840b !important;"><i class="fas fa-shield-alt" style="color: #70840b; padding-right: 10px"></i>Засоби захисту&nbsp;<sup style="color: #70840b; font-size: small"><b>2021</b></sup></h3>
+
+        			<a href="menu_herb.html" data-ajax="false" style="text-shadow: none; color: #636363;"><div style="width: 100%; border-color: #ddd; border-bottom-style: solid; border-bottom-width: thin;padding-bottom: 5px; text-transform: uppercase"><p>Гербіциди</p></div></a>
+        		   	<a href="menu_insect.html" data-ajax="false" style="text-shadow: none; color: #636363"><div style="width: 100%; border-color: #ddd; border-bottom-style: solid; border-bottom-width: thin;padding-bottom: 5px; text-transform: uppercase"><p>Інсектициди</p></div></a>
+        				<a href="menu_fung.html" data-ajax="false" style="text-shadow: none; color: #636363"><div style="width: 100%; border-color: #ddd; border-bottom-style: solid; border-bottom-width: thin;padding-bottom: 5px; text-transform: uppercase"><p>Фунгіциди</p></div></a>
+        				<a href="menu_sc.html" data-ajax="false" style="text-shadow: none; color: #636363"><div style="width: 100%; border-color: #ddd; border-bottom-style: solid; border-bottom-width: thin;padding-bottom: 5px; text-transform: uppercase"><p>Протруйники</p></div></a>
+	<a href="menu_retar.html" data-ajax="false" style="text-shadow: none; color: #636363"><div style="width: 100%; border-color: #ddd; border-bottom-style: solid; border-bottom-width: thin;padding-bottom: 5px; text-transform: uppercase"><p>РЕТАРДАНТИ</p></div></a>
+<a href="menu_rodent.html" data-ajax="false" style="text-shadow: none; color: #636363"><div style="width: 100%; border-color: #ddd; border-bottom-style: solid; border-bottom-width: thin;padding-bottom: 5px; text-transform: uppercase"><p>Родентициди</p></div></a>
+<a href="menu_fert.html" data-ajax="false" style="text-shadow: none; color: #636363"><div style="width: 100%; border-color: #ddd; border-bottom-style: solid; border-bottom-width: thin;padding-bottom: 5px; text-transform: uppercase"><p>Органічне добриво</p></div></a>
+        		</div>
+        	</div>
+        	<div class="ui-block-b animate-in-01">
+        		<div class="jqm-block-content">
+        			<h3 style="text-shadow: none; color: #ed8001; text-transform: uppercase; border-bottom: 1px solid #ed8001 !important;"><i class="fas fa-seedling" style="color: #ed8001; padding-right: 10px"></i>Насіння&nbsp;<sup style="color: #ed8001; font-size: small"><b>2021</b></sup></h3>
+
+        			<a href="menu_sf.html" data-ajax="false" style="text-shadow: none; color: #636363"><div style="width: 100%; border-color: #ddd; border-bottom-style: solid; border-bottom-width: thin;padding-bottom: 5px; text-transform: uppercase"><p>Соняшник</p></div></a>
+        			<a href="menu_corn.html" data-ajax="false" style="text-shadow: none; color: #636363"><div style="width: 100%; border-color: #ddd; border-bottom-style: solid; border-bottom-width: thin;padding-bottom: 5px; text-transform: uppercase"><p>Кукурудза</p></div></a>
+        			<a href="menu_osr.html" data-ajax="false" style="text-shadow: none; color: #636363"><div style="width: 100%; border-color: #ddd; border-bottom-style: solid; border-bottom-width: thin;padding-bottom: 5px; text-transform: uppercase"><p>Ріпак озимий</p></div></a>
+
+        			<a href="menu_cereals.html" data-ajax="false" style="text-shadow: none; color: #636363"><div style="width: 100%; border-color: #ddd; border-bottom-style: solid; border-bottom-width: thin;padding-bottom: 5px; text-transform: uppercase"><p>Зернові</p></div></a>
+
+	<a href="index_veg.html" data-ajax="false" style="text-shadow: none; color: #636363"><div style="width: 100%; border-color: #ddd; border-bottom-style: solid; border-bottom-width: thin;padding-bottom: 5px; text-transform: uppercase"><p>Овочеві культури</p></div></a>
+
+<!--
+<a href="#" data-ajax="false" style="text-shadow: none; color: #636363"><div style="width: 100%; border-color: #ddd; border-bottom-style: solid; border-bottom-width: thin;padding-bottom: 5px; text-transform: uppercase"><p>&nbsp;</p></div></a>
+<a href="#" data-ajax="false" style="text-shadow: none; color: #636363"><div style="width: 100%; border-color: #ddd; border-bottom-style: solid; border-bottom-width: thin;padding-bottom: 5px; text-transform: uppercase"><p>&nbsp;</p></div></a>
+-->
+
+        		</div>
+        	</div>
+
+<div class="ui-block-a animate-in-02">
+        		<div class="jqm-block-content">
+        			<h3 style="text-shadow: none; color: #166d8b; text-transform: uppercase; border-bottom: 1px solid #166d8b !important;"><i class="fas fa-hand-holding-usd" style="color: #166d8b; padding-right: 10px"></i>Фінансові рішення</h3>
+
+        					<a href="fiso_pidtr_plus.html" data-ajax="false" style="text-shadow: none; color: #636363;"><div style="width: 100%; border-color: #ddd; border-bottom-style: solid; border-bottom-width: thin;padding-bottom: 5px; text-transform: uppercase"><p>Підтримка плюс</p></div></a>
+                		   	<a href="fiso_pidtr_XXL.html" data-ajax="false" style="text-shadow: none; color: #636363"><div style="width: 100%; border-color: #ddd; border-bottom-style: solid; border-bottom-width: thin;padding-bottom: 5px; text-transform: uppercase"><p>Підтримка XXL</p></div></a>
+                				<a href="fiso_meteozakh.html" data-ajax="false" style="text-shadow: none; color: #636363"><div style="width: 100%; border-color: #ddd; border-bottom-style: solid; border-bottom-width: thin;padding-bottom: 5px; text-transform: uppercase"><p>Метеозахист</p></div></a>
+                				<a href="fiso_forward.html" data-ajax="false" style="text-shadow: none; color: #636363"><div style="width: 100%; border-color: #ddd; border-bottom-style: solid; border-bottom-width: thin;padding-bottom: 5px; text-transform: uppercase"><p>Форвардні програми</p></div></a>
+<!--	<a href="fiso_agrarni_rozpisky.html" data-ajax="false" style="text-shadow: none; color: #636363"><div style="width: 100%; border-color: #ddd; border-bottom-style: solid; border-bottom-width: thin;padding-bottom: 5px; text-transform: uppercase"><p>Аграрні розписки</p></div></a>-->
+    	<a href="fiso_legkoposivna.html" data-ajax="false" style="text-shadow: none; color: #636363"><div style="width: 100%; border-color: #ddd; border-bottom-style: solid; border-bottom-width: thin;padding-bottom: 5px; text-transform: uppercase"><p>Легкопосівна&nbsp;<span style="color: #ff0000"></span></p></div></a>
+	<a href="contacts_fiso_new.html" data-ajax="false" style="text-shadow: none; color: #636363"><div style="width: 100%; border-color: #ddd; border-bottom-style: solid; border-bottom-width: thin;padding-bottom: 5px; text-transform: uppercase"><p>контакти відділу фінансових рішень</p></div></a>
+<!--
+    	<a href="#" data-ajax="false" style="text-shadow: none; color: #636363"><div style="width: 100%; border-color: #ddd; border-bottom-style: solid; border-bottom-width: thin;padding-bottom: 5px; text-transform: uppercase"><p>&nbsp;</p></div></a>
+-->
+        		</div>
+        	</div>
+
+        	<div class="ui-block-b animate-in-03">
+        		<div class="jqm-block-content">
+        			<h3 style="text-shadow: none; color: #039eba; text-transform: uppercase; border-bottom: 1px solid #039eba !important;"><i class="fas fa-book" style="color: #039eba; padding-right: 10px"></i>Бібліотека агронома</h3>
+   <a href="menu_actions.html" data-ajax="false" style="text-shadow: none; color: #636363"><div style="width: 100%; border-color: #ddd; border-bottom-style: solid; border-bottom-width: thin;padding-bottom: 5px; text-transform: uppercase"><p>Акції компанії "Сингента"</p></div></a>
+<!--<a href="menu_books_start.html" data-ajax="false" style="text-shadow: none; color: #636363"><div style="width: 100%; border-color: #ddd; border-bottom-style: solid; border-bottom-width: thin;padding-bottom: 5px; text-transform: uppercase"><p>Бібліотека Syngenta</p></div></a>  -->
+        		   <a href="menu_calc.html" data-ajax="false" style="text-shadow: none; color: #636363"><div style="width: 100%; border-color: #ddd; border-bottom-style: solid; border-bottom-width: thin;padding-bottom: 5px; text-transform: uppercase"><p>Агро-калькулятори</p></div></a>
+        			<a href="menu_schemes.html" data-ajax="false"  style="text-shadow: none; color: #636363"><div style="width: 100%; border-color: #ddd; border-bottom-style: solid; border-bottom-width: thin;padding-bottom: 5px; text-transform: uppercase"><p>Схеми захисту</p> </div></a>
+        			<a href="menu_weeds.html" data-ajax="false" style="text-shadow: none; color: #636363"><div style="width: 100%; border-color: #ddd; border-bottom-style: solid; border-bottom-width: thin;padding-bottom: 5px; text-transform: uppercase"><p>Шкідники,&nbsp;Хвороби,&nbsp;Бур'яни</p></div></a>
+        			<a href="menu_about_cp.html" data-ajax="false" style="text-shadow: none; color: #636363"><div style="width: 100%; border-color: #ddd; border-bottom-style: solid; border-bottom-width: thin;padding-bottom: 5px; text-transform: uppercase"><p>Про ЗЗР</p></div></a>
+        			<a href="menu_about_seeds.html" data-ajax="false" style="text-shadow: none; color: #636363"><div style="width: 100%; border-color: #ddd; border-bottom-style: solid; border-bottom-width: thin;padding-bottom: 5px; text-transform: uppercase"><p>Про насіння</p></div></a>
+<!--<a href="#" data-ajax="false" style="text-shadow: none; color: #636363"><div style="width: 100%; border-color: #ddd; border-bottom-style: solid; border-bottom-width: thin;padding-bottom: 5px; text-transform: uppercase"><p>&nbsp;</p></div></a>-->
+
+        		</div>
+        	</div>
+        	<div class="ui-block-a animate-in-04">
+        		<div class="jqm-block-content">
+        			<h3 style="text-shadow: none; color: #00a873; text-transform: uppercase; border-bottom: 1px solid #00a873 !important;"> <i class="fas fa-address-book" style="color: #00a873; padding-right: 10px"></i>Контакти</h3>
+
+        			<a href="contacts_distr.html" data-ajax="false"  style="text-shadow: none; color: #636363"><div style="width: 100%; border-color: #ddd; border-bottom-style: solid; border-bottom-width: thin;padding-bottom: 5px; text-transform: uppercase"><p>Офіційні дистриб'ютори</p></div></a>
+        			<a href="contactsKAM.html" data-ajax="false" style="text-shadow: none; color: #636363"><div style="width: 100%; border-color: #ddd; border-bottom-style: solid; border-bottom-width: thin;padding-bottom: 5px; text-transform: uppercase"><p>Група по роботі з агрохолдингами</p></div></a>
+        		   <a href="contacts.html" data-ajax="false" style="text-shadow: none; color: #636363">	<div style="width: 100%; border-color: #ddd; border-bottom-style: solid; border-bottom-width: thin;padding-bottom: 5px; text-transform: uppercase"><p>Регіональні представники</p></div></a>
+        			<a href="contacts_fiso_new.html" data-ajax="false" style="text-shadow: none; color: #636363"><div style="width: 100%; border-color: #ddd; border-bottom-style: solid; border-bottom-width: thin;padding-bottom: 5px; text-transform: uppercase"><p>Команда фінансових рішень</p></div></a>
+        			<a href="contacts_main_office.html" data-ajax="false" style="text-shadow: none; color: #636363"><div style="width: 100%; border-color: #ddd; border-bottom-style: solid; border-bottom-width: thin;padding-bottom: 5px; text-transform: uppercase"><p>Головний офіс</p></div></a>
+        	   
+        		</div>
+        	</div>
+
+
+        </div>
+
+    </div>
+    <!-- /content -->
+
+            <!-- left  menu -->
+	    <div data-role="panel" class="jqm-navmenu-panel" data-position="left" data-display="overlay" data-theme="a">
+	    	<ul class="jqm-list ui-alt-icon ui-nodisc-icon">
+<li data-filtertext="home" data-icon="home"><a href="index.html">На головну</a></li>
+<li data-filtertext="ззр" data-icon="carat-r"  style="background: #70840b; text-transform: none; text-shadow: none; color: #FFFFFF; text-decoration: none"><b>ЗЗР</b></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"   href="menu_herb.html">Гербіциди</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_insect.html">Інсектициди</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_fung.html">Фунгіциди</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_sc.html">Протруники</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_retar.html">Ретарданти</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_rodent.html">Родентициди</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_fert.html">Органічне добриво</a></li>
+
+<li data-filtertext="ззр" data-icon="carat-r" style="background: #ed8001; text-transform: none; text-shadow: none; color: #FFFFFF; text-decoration: none"><b>НАСІННЯ</b></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_sf.html">Соняшник</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_corn.html">Кукурудза</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_osr.html">Ріпак озимий</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_sorgum.html">Сорго</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_cereals.html">Зернові</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="index_veg.html">Овочеві культури</a></li>
+
+<li data-filtertext="ззр" data-icon="carat-r" style="background: #94c120; text-transform: none; text-shadow: none; color: #FFFFFF; text-decoration: none"><b>ФІНАНСОВІ РІШЕННЯ</b></li>
+ <li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="fiso_new_horiz.html">Підтримка плюс</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="fiso_pidtr_XXL.html">Підтримка XXL</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="fiso_meteozakh.html">Метеозахист</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="fiso_legkoposivna.html">Легкопосівна</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="fiso_agrarni_rozpisky.html">Аграрні розписки</a></li>
+
+ <li data-filtertext="ззр" data-icon="carat-r" style="background: #039eba; text-transform: none; text-shadow: none; color: #FFFFFF; text-decoration: none"><b>БІБЛІОТЕКА АГРОНОМА</b></li>
+ <li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_actions.html">Акції</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_calc.html">Агро-калькулятори</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_schemes.html">Схеми захисту</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_weeds.html">Шкідники, хвороби</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_about_cp.html">Про ЗЗР</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_about_seeds.html">Про насіння</a></li>
+
+
+ <li data-filtertext="ззр" data-icon="carat-r" style="background: #00a873; text-transform: none; text-shadow: none; color: #FFFFFF; text-decoration: none"><b>КОНТАКТИ</b></li>
+ <li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="contacts_distr.html">Дистриб'ютори</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="contactsKAM.html">КАМ відділ</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="contacts.html">Регіони</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="contacts_fiso.html">Фінансові рішення</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="contacts_main_office.html">Головний офіс</a></li>
+
+<!-- otherpanel -->
+		     </ul>
+		</div><!-- /panel -->
+
+
+	<div data-role="footer" data-position="fixed" data-tap-toggle="false" class="jqm-footer">
+	    <div>&nbsp;</div>
+     <div class="set_container">
+      <div class="set_15_social-buttons">
+        <a href="external://https://www.facebook.com/syngentaukraine/" data-ajax="false"><div class="set_15_social-button Vfacebook"><i class="fab fa-facebook fa-lg"></i></div></a>
+        <!--End of Button 1 -->
+        <a href="external://https://www.youtube.com/user/SyngentaUA"  data-ajax="false"><div class="set_15_social-button Vyoutube"><i class="fab fa-youtube fa-lg"></i></div></a>
+        <!--End of Button 2 -->
+        <a href="external://https://www.instagram.com/syngenta_ukraine/"  data-ajax="false"><div class="set_15_social-button Vinsta"><i class="fab fa-instagram fa-lg"></i></div></a>
+        <!--End of Button 3 -->
+        <a href="external://https://t.me/syngenta_ua"  data-ajax="false"><div class="set_15_social-button Vtele"><i class="fab fa-telegram fa-lg"></i></div></a>
+        <!--End of Button 4 -->
+        <a href="external://https://www.linkedin.com/company/syngenta-ukraine"  data-ajax="false"><div class="set_15_social-button Vln"><i class="fab fa-linkedin fa-lg"></i></div></a>
+        <!--End of Button 5 -->
+      </div>
+
+    </div><div>&nbsp;</div>
+	</div><!-- /footer -->
+	<!-- TODO: This should become an external panel so we can add input to markup (unique ID) -->
+    <div data-role="panel" class="jqm-search-panel" data-position="right" data-display="overlay" data-theme="a">
+		<div class="jqm-search">
+			<ul class="jqm-list" data-filter-placeholder="Пошук..." data-filter-reveal="true">
+<li data-filtertext="насіння" data-icon="carat-r"><a href="#">насіння</a></li>
+<li data-filtertext="introduction overview getting started"><a href="corn_fenomen.html" data-ajax="false">Феномен</a></li>
+<li data-filtertext="кукурудза фортаго"><a href="corn_fortago.html" data-ajax="false">Фортаго</a></li>
+
+
+
+			</ul>
+		</div>
+	</div><!-- /panel -->
+
+
+</div><!-- /page -->
+<!-- Swiper JS -->
+
+        <script src="js/swiper.min.js"></script>
+        <!-- Initialize Swiper -->
+        <script>
+        $(document).ready(function () {
+        //initialize swiper when document ready
+        var mySwiper = new Swiper ('.swiper-container', {
+            // Optional parameters
+
+            loop: true,
+
+            autoplay: 3000
+        })
+    });
+        </script>
+</body>
+</html>

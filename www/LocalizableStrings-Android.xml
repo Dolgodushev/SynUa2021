@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <!-- version: 38 -->
+    <!-- date: 2015-01-15 -->
+
+
+    <!-- common -->
+    <string name="tab">Вкладка</string>
+    <string name="sync">Синхронізація...</string>
+    <string name="home">Головна</string>
+    <string name="customize">Настроїти</string>
+    <string name="send">Відправити</string>
+    <string name="camera_menu">Камера</string>
+    <string name="library_menu">Фото</string>
+    <string name="rate">Рейтинг</string>
+    <string name="submit">Надіслати</string>
+    <string name="save">Зберегти</string>
+    <string name="done">Готово</string>
+    <string name="cancel">Відміна</string>
+    <string name="exit">Вихід</string>
+    <string name="yes">Так</string>
+    <string name="no">Ні</string>
+    <string name="continue_str">Продовжити</string>
+    <string name="delete">Видалити</string>
+    <string name="rename">Переіменувати</string>
+    <string name="confirmation">Підтвердження</string>
+    <string name="error">помилка</string>
+    <string name="warning">увага</string>
+    <string name="info">Інфо</string>
+    <string name="today">сьогодні</string>
+    <string name="message">Повідомлення</string>
+    <string name="OK">OK</string>
+    <string name="new_c">Створити</string>
+    <string name="edit">Редагувати</string>
+    <string name="create">Створити</string>
+    <string name="add">Додати</string>
+    <string name="apply">Підтвердити</string>
+    <string name="appstart_no_external_storage">Програма не може стартувати бо не знайдено SD картку</string>
+    <string name="expansion_files_downloading">Скачую додаткові файли...</string>
+    <string name="expansion_files_download_stoppped">Для запуску програми потрібно скачати додаткові файли</string>
+    <string name="common_sync_cancelled">Синхронізацію скасовано.</string>
+    <string name="common_page_not_found">Сторінку \"%1$s\" не знайдено!</string>
+    <string name="common_rotate_to_portrait_label">Please rotate to portrait orientation</string>
+    <string name="common_response_timeout">Помилка: Будь-ласка, перевірте Ваше Інтернет-підключення та повторіть...</string>
+    <string name="common_no_network">Ви в офлайні!</string>
+    <string name="common_network_error">Помилка: Будь-ласка, перевірте Ваше Інтернет-підключення та повторіть...</string>
+    <string name="common_internal_server_error">Помилка: Будь-ласка, перевірте Ваше Інтернет-підключення та повторіть...</string>
+    <string name="common_search">Пошук</string>
+    <string name="feature_google_maps_not_available">Ця функція недоступна на Вашому пристрої, бо недоступний сервіс Google Map</string>
+    <string name="feature_cant_take_photos">Ця функція не доступна на Вашому пристрої!</string>
+    <string name="error_cant_download_external_resources">Please insert an SD card to be able to download all the necessary resources</string>
+    <string name="error_activity_not_found">У вас не встановлено додаток, який може відкрити це посилання</string>
+    <string name="error_system_try_reinstall">The app cannot be started because of a system error. Please try reinstalling the app</string>
+    <string name="error_option_is_not_available">The  option is not available</string>
+
+    <!-- previewer -->
+    <string name="previewer_search">Пошук</string>
+    <string name="previewer_search_hint">Search by title or id</string>
+    <string name="previewer_filter">Фільтр</string>
+    <string name="previewer_log_in_as">Log in as</string>
+    <string name="previewer_refresh">Оновити</string>
+    <string name="previewer_about">About</string>
+    <string name="previewer_log_out">Log out</string>
+    <string name="previewer_logged_in_as">%1$s as %2$s</string>
+    <string name="previewer_no_apps">No apps</string>
+    <string name="previewer_app_description">Description</string>
+    <string name="previewer_app_preview">PREVIEW</string>
+    <string name="previewer_app_size">Розмір</string>
+    <string name="previewer_filter_by_platform">Platform</string>
+    <string name="previewer_filter_platform_any">Any</string>
+
+    <!-- previewer login -->
+    <string name="previewer_login_signinto_label">Вхід</string>
+    <string name="previewer_login_label_username">Логін</string>
+    <string name="previewer_login_label_password">Пароль</string>
+    <string name="previewer_login_btn_login">ВХІД</string>
+    <string name="previewer_login_auth_error">Помилка. Невірний логін або пароль.</string>
+    <string name="previewer_login_google_auth_error">Google authentication error. Try again later.</string>
+    <string name="previewer_login_social_label">Or log in with</string>
+    <string name="previewer_login_facebook">Facebook</string>
+    <string name="previewer_login_google">Google</string>
+    <string name="previewer_forgot_password_button"><u>Forgot password or username?</u></string>
+    <string name="previewer_forgot_password_title">Forgot something?</string>
+    <string name="previewer_forgot_password_email_hint">Your email address</string>
+    <string name="previewer_forgot_password_send">Надіслати</string>
+    <string name="previewer_forgot_password_note">"We will send you an email with your username reminder and instructions on how to reset your password. If you don't find an email from us in your inbox, please check your BULK or SPAM folder."</string>
+    <string name="previewer_forgot_password_user_not_found">"User with provided email doesn't exist"</string>
+    <string name="previewer_forgot_password_invalid_email">Please provide a valid email address</string>
+    <string name="previewer_forgot_password_email_sent">"Email sent!"</string>
+
+    <!-- previewer send announcement -->
+    <string name="previewer_try_again">Please try again later</string>
+    <string name="previewer_pn_message_too_short">Message too short</string>
+    <string name="previewer_pn_error_loading_app_data">Eror Loading App Data</string>
+    <string name="previewer_pn_delivered">Delivered to:</string>
+    <string name="previewer_pn_devices">device(s)</string>
+    <string name="previewer_pn_server_error">Server Error</string>
+    <string name="previewer_pn_network_error">Network Error</string>
+    <string name="previewer_pn_delivery_error">Delivery Error</string>
+    <string name="previewer_pn_apn_config_error">APN Configuration Error</string>
+    <string name="previewer_pn_apn_config_error_detail">APN certificate is missing or invalid</string>
+    <string name="previewer_pn_message_too_big">Message is too big</string>
+    <string name="previewer_pn_over_capacity_error">Server Overloaded</string>
+    <string name="previewer_pn_queued">Scheduled</string>
+    <string name="previewer_pn_queued_detail">The message is waiting in queue</string>
+    <string name="previewer_pn_cloud_messaging_not_allowed_for_app">Push Notifications not allowed</string>
+    <string name="previewer_pn_cloud_messaging_not_allowed_for_app_detail">The app needs to be added to an active Premium (or higher) plan in order to be able to send Push Notifications</string>
+    <string name="previewer_pn_send_title">Send Announcement</string>
+    <string name="previewer_pn_message_placeholder">Message</string>
+    <string name="previewer_pn_send_another_message">SEND ANOTHER MESSAGE</string>
+    <string name="previewer_pn_no_topics">No Topics</string>
+    <string name="previewer_pn_all_topics">All Topics</string>
+    <string name="previewer_pn_n_topics">%1$d Topic(s)</string>
+
+    <!-- app state -->
+    <string name="app_state_initializing">Ініціалізація…</string>
+    <string name="app_state_syncing">Синхронізація. Натисніть будь-де на екран, аби не чекати оновлення та завнтажити додаток.</string>
+    <string name="app_state_configuring">Конфігурування…</string>
+
+    <!-- calendar -->
+    <string name="calendar_event_category_spinner_prompt">Категорія</string>
+    <string name="calendar_select_today_date">Сьогодні</string>
+    <string name="calendar_event_create_new">New event</string>
+    <string name="calendar_event_edit">Edit event</string>
+    <string name="calendar_event_view">View event</string>
+    <string name="calendar_event_delete">Delete event</string>
+    <string name="calendar_event_delete_confirmation">This event will be deleted</string>
+    <string name="calendar_recurring_event_delete_only_this">Only this event</string>
+    <string name="calendar_recurring_event_delete_all">All connected events</string>
+    <string name="calendar_info">Інфо</string>
+    <string name="calendar_info_dialog_title">Event Categories</string>
+    <string name="calendar_view_agenda">Agenda</string>
+    <string name="calendar_view_month">Місяць</string>
+    <string name="calendar_no_events">No events</string>
+    <string name="calendar_syncing_events">Syncing…</string>
+    <string name="calendar_event_edit_title">Title</string>
+    <string name="calendar_event_edit_category">Category</string>
+    <string name="calendar_event_edit_case_number">Case number</string>
+    <string name="calendar_event_edit_case_reference">Reference</string>
+    <string name="calendar_event_edit_location">Локація</string>
+    <string name="calendar_event_edit_start_time">Starts</string>
+    <string name="calendar_event_edit_end_time">Ends</string>
+    <string name="calendar_event_edit_all_day">All-day</string>
+    <string name="calendar_event_edit_days_on">On</string>
+    <string name="calendar_event_edit_days_on_hint">Days on</string>
+    <string name="calendar_event_edit_days_off">Off</string>
+    <string name="calendar_event_edit_days_off_hint">Days off</string>
+    <string name="calendar_event_edit_error_start_date_after_end_date">Choose an end date after the start date</string>
+    <string name="calendar_work_events_generation_confirmation">Work events for the following days will be created:\n</string>
+    <string name="calendar_event_edit_view_description">View description</string>
+
+    <!-- search -->
+    <string name="search_content_hint">Search content</string>
+    <string name="search_error_index_file_not_found">Index file not found!</string>
+    <string name="search_no_matches_found">No matches found</string>
+
+    <!-- save photo -->
+    <string name="save_photo_title">Title</string>
+    <string name="save_photo_title_hint">Photo title</string>
+    <string name="save_photo_address">Address</string>
+    <string name="save_photo_address_hint">Shot-at address</string>
+    <string name="save_photo_location">Location</string>
+    <string name="save_photo_location_hint">Shot-at location</string>
+    <string name="save_photo_album">Album</string>
+    <string name="save_photo_album_spinner_prompt">Choose album</string>
+    <string name="save_photo_create_new_album">New…</string>
+    <string name="save_photo_create_new_album_dialog_title">New album</string>
+    <string name="save_photo_no_album_selected_error">Please select an album</string>
+    <string name="save_photo_external_storage_not_mounted_error">Please insert an SD card before saving photos</string>
+    <string name="save_photo_saving_progress">Saving…</string>
+    <string name="save_photo_left_text_prefix">Bottom-Left Text Prefix</string>
+    <string name="save_photo_left_text_prefix_spinner_prompt">Choose prefix</string>
+    <string name="save_photo_left_text">Bottom-Left Text</string>
+    <string name="save_photo_left_text_hint">Optional text</string>
+    <string name="save_photo_right_text">Bottom-Right Text</string>
+    <string name="save_photo_right_text_hint">Optional text</string>
+    <string name="save_photo_error_saving">Error saving photo: could not load original photo from disk or save the result</string>
+    <string name="save_photo_location_refine_limit">Cannot refine location by more than %d yards.</string>
+    <string name="save_photo_use_street_address">Use street address</string>
+
+    <!-- starbucks -->
+    <string name="starbucks_card_number_hint">Card Number</string>
+    <string name="starbucks_card_security_code_hint">Code</string>
+    <string name="starbucks_action_add_card">Add Card</string>
+    <string name="starbucks_action_refresh_balance">Refresh balance</string>
+    <string name="starbucks_action_remove_card">Remove Card</string>
+    <string name="starbucks_card_number_label">Your Starbucks Card number is</string>
+    <string name="starbucks_cards_list_empty">No Cards</string>
+    <string name="starbucks_refreshing_balance">Refreshing…</string>
+    <string name="starbucks_card_remove_confirmation">Are you sure you want to delete this card?</string>
+
+    <!-- notes -->
+    <string name="notes_no_notes">No notes</string>
+    <string name="note_create_new">New note</string>
+    <string name="note_edit">Edit note</string>
+    <string name="note_delete">Delete note</string>
+    <string name="note_delete_confirmation">This note will be deleted</string>
+    <string name="note_share">Share note</string>
+    <string name="note_saved">Note saved.</string>
+    <string name="relative_date_today">Today</string>
+    <string name="relative_date_tomorrow">Tomorrow</string>
+    <string name="relative_date_yesterday">Yesterday</string>
+    <string name="relative_date_days_in_future">in %d days</string>
+    <string name="relative_date_days_in_past">%d days ago</string>
+
+    <!-- dynamic list -->
+    <string name="dynamic_list_search_hint">Search</string>
+    <string name="dynamic_list_no_items">No items</string>
+    <string name="dynamic_list_couldnt_open_page">Couldn\'t load the page</string>
+
+    <!-- app licensing -->
+    <string name="licensing_error">Licensing error</string>
+    <string name="licensing_invalid_public_key">Invalid Application Licensing Public Key. The app cannot be started</string>
+    <string name="licensing_app_not_licensed">The app is not licensed. Please buy the app from the Android Market.\nIf you already bought it, please make sure you have Internet connection, reinstall and restart the app.</string>
+    <string name="licensing_buy">Buy</string>
+    <string name="licensing_quit">Quit</string>
+    <string name="licensing_checking_license_message">Configuring…</string>
+
+    <!-- karaoke -->
+    <string name="karaoke_play_pause_button">Play</string>
+
+    <!-- photo effect -->
+    <string name="photoeffect_button_send">Send</string>
+    <string name="photoeffect_button_open">Open</string>
+    <string name="photoeffect_button_apply">Apply</string>
+    <string name="photoeffect_button_delete">Delete</string>
+    <string name="photoeffect_button_choose">Choose…</string>
+    <string name="photoeffect_progresbar_alfa">Alfa:</string>
+    <string name="photoeffect_button_grey">Grey</string>
+    <string name="photoeffect_button_color">Color</string>
+    <string name="photoeffect_button_sepia">Sepia</string>
+    <string name="photoeffect_button_effect">Effect</string>
+    <string name="photoeffect_button_mask">Mask</string>
+    <string name="photoeffect_radiobutton_savetogallery">Save to Gallery</string>
+    <string name="photoeffect_radiobutton_shareviaapps">Share via apps</string>
+    <string name="photoeffect_error_image_doesnt_exist">The image doesn\'t exist.</string>
+    <string name="photoeffect_button_choose_photo">Choose photo</string>
+    <string name="photoeffect_button_gallery">Gallery</string>
+    <string name="photoeffect_button_camera">Camera</string>
+    <string name="photoeffect_mess_mask_not_added">Mask can not be added. Memory of device is full.</string>
+    <string name="photoeffect_photo_saved">Photo saved successfully!</string>
+    <string name="photoeffect_take_photo">Please take a photo.</string>
+    <string name="photoeffect_processing">Processing …</string>
+
+    <!-- mosaic -->
+    <string name="mosaic_image_share">Share</string>
+    <string name="mosaic_image_share_no_sc_card">Please mount an SD card to be able to share images</string>
+
+    <!-- voice record -->
+    <string name="new_voice_record">New</string>
+    <string name="send_voicerecord">Send</string>
+    <string name="retake_voicerecord">Retake</string>
+    <string name="cancel_voicerecord">Cancel</string>
+    <string name="use_voicerecord">Use</string>
+    <string name="startrecord_voicerecord">Start record</string>
+    <string name="stoprecord_voicerecord">Stop record</string>
+    <string name="voicerecordlist_send_all">Send all</string>
+    <string name="voicerecord_picker_no_michrophone_message">Microphone is not available on this device.</string>
+
+    <!-- puzzle -->
+    <string name="puzzle_preview">Preview</string>
+    <string name="puzzle_continue">Continue</string>
+    <string name="puzzle_congrat_title">Congratulations.</string>
+    <string name="puzzle_congrat_message">You have solved the puzzle.</string>
+    <string name="puzzle_randomize">Randomize</string>
+    <string name="puzzle_pick_difficulty">Pick difficulty</string>
+    <string name="puzzle_next_label">Next</string>
+    <string name="puzzle_change_difficulty">Difficulty</string>
+
+    <!-- memo game -->
+    <string name="memo_game_start">Start</string>
+    <string name="memo_game_restart">Restart</string>
+    <string name="memo_game_congrat_title">Congratulations.</string>
+    <string name="memo_game_congrat_message">You have completed the game.</string>
+    <string name="memo_game_info">Info.</string>
+    <string name="memo_game_not_enough_resources">Memo game will work with minimum 3 resources.</string>
+
+    <!-- feedback -->
+    <string name="feedback_label_date">Дата</string>
+    <string name="feedback_label_location">Локація</string>
+    <string name="feedback_label_time">Час</string>
+    <string name="feedback_label_camera_image">Фото</string>
+    <string name="feedback_label_photo_library_image">Картинка</string>
+    <string name="feedback_btn_pick">Вибрати</string>
+    <string name="feedback_btn_take_photo">Зробити фото</string>
+    <string name="feedback_btn_choose">Вибрати</string>
+    <string name="feedback_btn_sign">Відправити</string>
+    <string name="feedback_field_cannot_be_empty">%1$s поле не може бути порожнім!</string>
+    <string name="feedback_list_title">Оберіть із списку</string>
+    <string name="feedback_submitting_message">Відправлення…</string>
+
+    <!-- Location Finder -->
+    <string name="location_finder_show_on_map">Показати на мапі</string>
+
+    <!-- draw surface -->
+    <string name="draw_surface_use">Use</string>
+    <string name="draw_surface_save_error">There was an error saving your signature.</string>
+    <string name="draw_surface_info">Info.</string>
+    <string name="draw_surface_clear">Clear</string>
+
+    <!-- signature -->
+    <string name="signature_stamp_info">Info.</string>
+    <string name="signature_stamp_no_sdcard">You need to have an SD Card to send the signature.</string>
+    <string name="signature_stamp_send">Send</string>
+    <string name="save_file_no_sdcard">You need to have an SD Card to use this option.</string>
+    <string name="signature_can_not_share">Can not share.</string>
+
+    <!-- facebook fan page -->
+    <string name="facebook_fan_page_menu_refresh">Refresh</string>
+    <string name="facebook_fan_page_become_a_fan">Become a fan</string>
+    <string name="facebook_fan_page_post_comment">Post comment</string>
+
+    <!-- barcode -->
+    <string name="barcode_list_menu_clearlist">Clear List</string>
+    <string name="barcode_list_menu_send_all">Send All</string>
+    <string name="barcode_scanner_scan">Сканувати</string>
+    <string name="barcode_scanner_scanning">Сканування …</string>
+    <string name="barcode_scanner_done">Виконано</string>
+    <string name="barcode_scanner_info">Інфо</string>
+    <string name="barcode_scanner_no_camera">Camera not present on this device.</string>
+
+    <!-- coupon -->
+    <string name="coupone_use_bt">Викоритати купон</string>
+    <string name="coupon_already_checked_in">You have already checked-in. Try again later.</string>
+    <string name="coupone_will_access_check">You will have access to check in this coupon after %d hours.</string>
+    <string name="coupone_will_allowed_scan">You will be allowed to scan this coupon in %d hours.</string>
+    <string name="coupone_scan_succ">Сканування зроблено.</string>
+    <string name="coupone_scan_failed">Coupon\'s scanning failed.</string>
+    <string name="coupone_qrcode_noequal">Scanned QR code does not match coupon\'s QR code.</string>
+    <string name="coupone_show_to_vendor">Show this coupon to the vendor.</string>
+    <string name="coupone_expired">This coupon expired</string>
+    <string name="coupone_will_valid">This coupon will be valid</string>
+    <string name="coupone_incorrectly">This page was set up incorrectly.</string>
+    <string name="coupone_complete">Скануваття зроблено</string>
+    <string name="coupone_checkin_bt">Check In</string>
+    <string name="coupone_scan_bt">Сканувати</string>
+    <string name="coupone_check_succ">Coupon successfully checked GPS location.</string>
+    <string name="coupone_haveto_scanqr">Now you have to scan QR code from vendor.</string>
+    <string name="coupone_doyouwantusecoupon">"Do you want to use this coupon?"</string>
+    <string name="coupone_get_directions">Прокласти маршрут</string>
+
+    <!-- camera cover -->
+    <string name="cameracover_info">Інфо.</string>
+    <string name="cameracover_take_a_picture">Take a picture</string>
+    <string name="cameracover_take_picture">Take a picture</string>
+    <string name="cameracover_camera_error">Can not initialize camera.</string>
+    <string name="cameracover_no_camera">Camera not present on this device.</string>
+    <string name="covers_preview_menu_share">Share</string>
+    <string name="covers_preview_no_sd_card">Please mount an SD card to be able to share images.</string>
+    <string name="cameracover_save_failed">Failed to save image.</string>
+    <string name="cameracover_focus_failed">Failed to focus.</string>
+    <string name="cameracover_out_of_memory">Out of memory.</string>
+    <string name="cameracover_save_message">Saving. Please wait.</string>
+    <string name="cameracover_failed_to_load_cover">Failed to load cover.</string>
+    <string name="cameracover_delete_prompt_message">Are you sure you want to delete this item?</string>
+
+    <!-- Login & Register -->
+    <string name="login_register_error_try_again">Помилка доступу. Спробуйте знову трохи пізніше.</string>
+    <string name="login_register_login_both_fields_required">Будь ласка, хаповніть обов\'язкові поля</string>
+    <string name="login_register_login_email_address_invalid">E-mail невірний</string>
+    <string name="login_register_login_successfully_logged_in">Вхід успішно виконано</string>
+    <string name="login_register_login_request_pending_approval">Ваша раєстрація на розгляді модератора</string>
+    <string name="login_register_login_invalid_email_or_password">Невірний e-mail та/або пароль</string>
+    <string name="login_register_login_user_doesnt_exist">Немає користувача з такими даними</string>
+    <string name="login_register_register_all_fields_required">Всі поля є обв\'язковими</string>
+    <string name="login_register_register_email_address_invalid">E-mail вказано невірно</string>
+    <string name="login_register_register_passwords_dont_match">Паролі не співпадають</string>
+    <string name="login_register_register_account_created">Ваш акаунт було усішно створено</string>
+
+    <!-- loyalty -->
+    <string name="loyalty_getstamp_bt">Get Stamp</string>
+    <string name="loyalty_secretcode">Secret Code</string>
+    <string name="loyalty_entercode">Please hand your device to the vendor who will stamp your card.</string>
+    <string name="loyalty_stamp">Stamp</string>
+    <string name="loyalty_secretcode_wrong">Secret code is wrong.</string>
+    <string name="loyalty_stamp_succ">The card has been stamped successfully.</string>
+
+    <!-- shopping cart -->
+    <string name="shoppingcart_succ_added">Item successfully added to cart.</string>
+    <string name="shoppingcart_failed_added">Failed to add item to cart.</string>
+    <string name="shoppingcart_failed_removed">Failed to remove item from cart.</string>
+    <string name="shoppingcart_succ_removed">Item successfully removed from cart.</string>
+
+    <!-- rate and review -->
+    <string name="rateandreview_logout_bt">Log out</string>
+    <string name="rateandreview_login_bt">Увійти</string>
+    <string name="rateandreview_inforate">\"%1$s\" review(s) and \"%2$s\" rating(s)</string>
+    <string name="rateandreview_status">Connect with Facebook to rate or post comments.</string>
+    <string name="rateandreview_ratethis_bt">Rate This</string>
+    <string name="rateandreview_postfb_bt">Post on Facebook</string>
+    <string name="rateandreview_nointernetconnect">No Internet connection.</string>
+    <string name="rateandreview_status_connas">Connected to Facebook as</string>
+    <string name="newrateandcomment_yourrate_lb">Your rating:</string>
+    <string name="newrateandcomment_yourcomment_lb">Your comment / review:</string>
+    <string name="newrateandcomment_hateit_lb">hate it</string>
+    <string name="newrateandcomment_dontlikeit_lb">don\'t like it</string>
+    <string name="newrateandcomment_ok_lb">it\'s OK</string>
+    <string name="newrateandcomment_good_lb">it\'s good</string>
+    <string name="newrateandcomment_great_lb">it\'s great</string>
+
+    <!-- app share -->
+    <string name="appshare_subject">Application %s</string>
+    <string name="appshare_email_app_link">&lt;br /&gt;&lt;br /&gt;&lt;a href=\'%s\'&gt;Application Link&lt;/a&gt;</string>
+    <string name="appshare_facebook_info">Info.</string>
+    <string name="appshare_facebook_error">Error.</string>
+    <string name="appshare_facebook_share_failed">Failed to share on Facebook.</string>
+    <string name="appshare_facebook_share_success">Share on Facebook with success.</string>
+    <string name="appshare_choose_client">Choose an Email client</string>
+    <string name="appshare_choose_client_notfound">There are no email clients installed.</string>
+
+    <!-- epub reader -->
+    <string name="epubreader_contents">Contents</string>
+    <string name="epubreader_back_to_reading">Back to reading</string>
+
+    <!-- image list -->
+    <string name="imagelist_add_from_gallery">Add from gallery</string>
+    <string name="imagelist_add_from_camera">Add from camera</string>
+    <string name="imagelist_error_saving_photo">Photo can not be saved.</string>
+    <string name="imagelist_error_deleting_photo">Failed to delete photo.</string>
+    <string name="imagelist_error_no_sdcard">You need to have an SD Card to take picture from camera.</string>
+    <string name="imagelist_error_adding_from_gallery">Could not add image.</string>
+    <string name="imagelist_new_filename">Enter new file name</string>
+    <string name="imagelist_send_all">Send all</string>
+    <string name="imagelist_delete_all">Delete all</string>
+    <string name="imagelist_confirm_delete_all_dialog">Do you want to delete all images?</string>
+    <string name="imagelist_delete_confirm_dialog">Do you want to delete this image?</string>
+    <string name="imagelist_filename_exists">Filename exists!</string>
+    <string name="imagelist_rename_fail">Failed to rename!</string>
+    <string name="imagelist_invalid_filename">Invalid filename!</string>
+
+    <!-- favorites -->
+    <string name="favorites_remove_confirm_dialog">Delete this favorite?</string>
+
+    <!-- pdf viewer -->
+    <string name="pdviewer_no_pdf_file">Can not find PDF file.</string>
+
+    <!-- zbar -->
+    <string name="zbar_no_native_libs">This functionality is not included in the current application version. Application needs to be updated to support this feature.</string>
+
+    <!-- pdfnet -->
+    <string name="pdfnet_no_native_libs">This functionality is not included in the current application version. Application needs to be updated to support this feature.</string>
+    <string name="pdfnet_not_supported">This feature is not currently available on this device</string>
+
+    <!-- pdfreader -->
+    <string name="pdfreader_no_native_libs">This functionality is not included in the current application version. Application needs to be updated to support this feature.</string>
+
+    <!-- pdfeditorreader -->
+    <string name="pdfreader_next_label">Next</string>
+    <string name="pdfreader_editor_table_of_contents">Contents</string>
+
+    <!-- map -->
+    <string name="map_not_ready">Мапа ще не готова.</string>
+
+    <!-- location detector -->
+    <string name="location_detector_search_hint">Address, city, etc.</string>
+    <string name="location_detector_map_latitude">Latitude:</string>
+    <string name="location_detector_map_longitude">Longitude:</string>
+    <string name="location_detector_location_not_found">No results found for: %1$s</string>
+    <string name="location_detector_error_searching_location">Could not find location.\nInternet connection is not available or some other error occurred</string>
+
+    <!-- video list -->
+    <string name="download_button_text">Скачати</string>
+    <string name="delete_button_text">Видалити</string>
+    <string name="play_button_text">Play</string>
+    <string name="videolist_delete_file_message">Do you want to delete \'%1$s\'?</string>
+    <string name="videolist_cancel_downloading_message">Do you want to cancel the \'%1$s\' downloading?</string>
+    <string name="videolist_download_warning_message">Do you want to download %1$s MB over the mobile network?</string>
+    <string name="videolist_mass_storage_is_shared_message">"The media shared via USB mass storage!"</string>
+    <string name="videolist_download_canceled_message">"Download cancelled!"</string>
+    <string name="videolist_download_error_message">"Download error:"</string>
+    <string name="videolist_cannot_delete_file_error_message">"Cannot delete file:"</string>
+    <string name="videolist_error_title">" Error:"</string>
+
+    <!-- quiz -->
+    <string name="quiz_result_finish">Finish</string>
+    <string name="quiz_result_hint">Enter Your Name For New HighScore!</string>
+    <string name="quiz_result_score">000</string>
+    <string name="quiz_result_points_label_name">Total Points</string>
+    <string name="quiz_result_header">Quiz Over</string>
+    <string name="quiz_play_passed_label">Total passed:</string>
+    <string name="quiz_play_current_points_label">Current points:</string>
+    <string name="quiz_play_quit_btn_name">QUIT</string>
+    <string name="quiz_play_default_score">0</string>
+    <string name="quiz_play_question_image_default">Question image</string>
+    <string name="quiz_play_question_description_default">Question description</string>
+    <string name="quiz_play_next_btn_name">Next</string>
+    <string name="quiz_root_quiz_title_hint">Quiz title</string>
+    <string name="quiz_root_start_btn_name">Start Quiz</string>
+    <string name="quiz_root_highscores_btn_name">High Scores</string>
+
+    <!-- score board -->
+    <string name="scoreboard_total">Total</string>
+    <string name="scoreboard_zero">0</string>
+    <string name="scoreboard_fighter_name_1">Player #1</string>
+    <string name="scoreboard_fighter_name_2">Player #2</string>
+    <string name="scoreboard_round">Round #</string>
+    <string name="scoreboard_num_of_rounds">Rounds:</string>
+    <string name="scoreboard_apply_button_label">Apply</string>
+    <string name="scoreboard_cancel_button_label">Cancel</string>
+    <string name="scoreboard_clear_button_title">Edit</string>
+    <string name="scoreboard_post_via_button_title">Share via</string>
+    <string name="scoreboard_clear_scores_chkbox_title">Clear scores</string>
+
+    <!-- login page -->
+    <string name="login_page_forgot_password_title">Please enter the email address below:</string>
+    <string name="login_page_forgot_password_restore_button">Get Password</string>
+
+    <!-- purchase -->
+    <string name="purchase_processing">Processing purchase…</string>
+    <string name="purchase_error_generic">Purchase error</string>
+    <string name="purchase_error_billing_unavailable_on_device">In-app Billing service is not available on this device</string>
+    <string name="purchase_retry">Retry</string>
+    <string name="purchase_simulation_text">This is purchase simulation. After successful transaction the user will be redirected to target URL or page.\n\nProduct ID:\n%1$s\n\nProduct type:\n%2$s\n\nTarget:</string>
+
+    <!-- magazine store -->
+    <string name="magazine_store_buy">"      BUY      "</string>
+    <string name="magazine_store_buy_with_price">BUY %1$s</string>
+    <string name="magazine_store_open">"    OPEN    "</string>
+
+    <!-- dropbox medialist -->
+    <string name="dropbox_medialist_refresh_button_title">Refresh</string>
+    <string name="dropbox_medialist_delete_file_message">Do you want to delete \'%1$s\'?</string>
+    <string name="dropbox_medialist_cancel_downloading_message">Do you want to cancel the \'%1$s\' downloading?</string>
+    <string name="dropbox_medialist_mass_storage_is_shared_message">The media shared via USB mass storage!</string>
+    <string name="dropbox_medialist_wrong_url_error_message">Error: Wrong file url.</string>
+    <string name="dropbox_medialist_download_canceled_message">Download cancelled!</string>
+    <string name="dropbox_medialist_download_error_message">Download error:</string>
+    <string name="dropbox_medialist_cannot_delete_file_error_message">Cannot delete file:</string>
+    <string name="dropbox_medialist_file_size_info">Size,date</string>
+    <string name="dropbox_medialist_file_download_progress">99.99%</string>
+    <string name="dropbox_medialist_error_title">" Error:"</string>
+    <string name="dropbox_medialist_download_warning_message">Do you want to download %1$s MB over the mobile network?</string>
+
+    <!-- gcm topics -->
+    <string name="gcm_topics_saved">Topic subscriptions saved!</string>
+    <string name="gcm_topics_no_topics">No Topics</string>
+    <string name="gcm_topics_search_hint">Search…</string>
+    <string name="gcm_topics_clear_group_filter">SHOW ALL</string>
+    <string name="gcm_topis_group_filter_label">"FILTERED BY:  "</string>
+
+    <!-- nearbylocations -->
+    <string name="nearbylocations_button_name">Find places</string>
+    <string name="nearbylocations_connection_error">No connection</string>
+    <string name="nearbylocations_overquery_limit_error">Query limit to Google Places is reached.</string>
+    <string name="nearbylocations_zero_results">No places found.</string>
+
+    <!-- messenger -->
+    <string name="messenger_sign_in">Sign In</string>
+    <string name="messenger_sign_out">Sign Out</string>
+    <string name="messenger_signed_in_as">Signed in as: %1$s</string>
+    <string name="messenger_signed_out">You\'re now signed out</string>
+    <string name="messenger_new_message_hint">Send a message</string>
+    <string name="messenger_no_conversations">No Conversations</string>
+    <string name="messenger_no_messages">Повідомлень немає :-(</string>
+    <string name="messenger_message_too_long">Message too long (%1$d/%2$d)</string>
+    <string name="messenger_notification_title_suffix">: нове повідомлення</string>
+    <string name="messenger_notifications">Повідомлення від Сингенти</string>
+    <string name="messenger_notifications_subscription_note">You will be notified when a new message appears in any of the selected conversations</string>
+
+    <!-- app sign in -->
+    <string name="app_sign_in_note">Please sign in</string>
+    <string name="app_sign_in_with_google">Sign in with Google</string>
+    <string name="app_sign_in_with_facebook">Sign in with Facebook</string>
+
+    <!-- order -->
+    <string name="order_item_name">Name</string>
+    <string name="order_item_size_name">Size name</string>
+    <string name="order_item_price">Price</string>
+    <string name="order_item_price_value">USD9999.99</string>
+    <string name="order_item_quantity">Quantity</string>
+    <string name="order_item_action">Action</string>
+    <string name="order_shipping">Shipping:</string>
+    <string name="order_payment_method">Payment method</string>
+    <string name="order_payment_method_cash">Cash</string>
+    <string name="order_payment_method_credit_card">Credit card</string>
+    <string name="order_payment_method_paypal">PayPal</string>
+    <string name="order_choose_payment_method_promt">Choose a payment method</string>
+    <string name="order_details_email">Detail emails</string>
+    <string name="order_details_phone_number">Phone number</string>
+    <string name="order_details_instructinos">Order instructions</string>
+    <string name="order_details_instructions_place_holder">Order instructions(optional):</string>
+    <string name="order_delivery_address">Delivery address:</string>
+    <string name="order_delivery_method">Delivery method</string>
+    <string name="order_delivery_method_pickup">Pick up</string>
+    <string name="order_delivery_method_delivery">Delivery</string>
+    <string name="order_pickup_address">Pickup address</string>
+    <string name="order_pickup_address_place_holder">Pickup address(required)</string>
+    <string name="order_delivery_address_place_holder">Delivery address(required)</string>
+    <string name="order_tax">Tax:</string>
+    <string name="order_subtotal">Subtotal:</string>
+    <string name="order_total">Total:</string>
+    <string name="order_zero">0</string>
+    <string name="order_progress_dialog_message">Order is being processed …</string>
+    <string name="order_progress_dialog_title">Please wait</string>
+    <string name="order_info_message_order_was_successfully_processed">Order was successfully processed</string>
+    <string name="order_exp_month_spinner_promt">Choose a month</string>
+    <string name="order_error_message_order_failed">Order failed</string>
+    <string name="order_warning_message_different_pickup_addresses">You may have added the products from different stores. Order can contain products only from one store.</string>
+    <string name="order_info_message_there_are_no_any_products">There are no any products</string>
+    <string name="order_card_holder_last_name">Last Name</string>
+    <string name="order_card_holder_first_name">First Name</string>
+    <string name="order_card_number">Card number</string>
+    <string name="order_card_code">Card code</string>
+    <string name="order_card_exp_month">Expire month</string>
+    <string name="order_card_exp_year">Expire year</string>
+    <string name="order_submit_order_button_title">Submit order</string>
+    <string name="order_action_bar_cart_title">Cart</string>
+    <string name="order_free_delivery_field_title">free</string>
+    <string name="order_size_title">Size:</string>
+    <string name="order_error_message">Invalid input params</string>
+    <string name="order_paypal_done">Done</string>
+    <string name="order_warning_message_install_chrome">Please install web browser Chrome to checkout via PayPal.</string>
+    <string name="order_warning_message_enable_chrome">Please enable web browser Chrome to checkout via PayPal.</string>
+    <string name="order_email_required">Email is required.</string>
+    <string name="order_email_invalid">Email address is invalid</string>
+    <string name="order_phone_required">Phone number is required.</string>
+    <string name="order_delivey_method_required">Delivery method is required.</string>
+    <string name="order_delivey_address_required">Delivery address is required.</string>
+    <string name="order_card_number_required">Card number is required.</string>
+    <string name="order_card_invalid">The credit card number is invalid.</string>
+    <string name="order_security_code_required">Card security code is required.</string>
+    <string name="order_security_code_invalid">The card code is invalid.</string>
+    <string name="order_first_name_required">First name is required.</string>
+    <string name="order_last_name_required">Last name is required.</string>
+    <string name="order_invalid_date">Credit card expiration date is invalid.</string>
+    <string name="order_card_expired">The credit card has expired.</string>
+    <string name="order_something_went_wrong">Something went wrong. Please try again.</string>
+
+    <!-- product order -->
+    <string name="product_order_description_field_title">Description:</string>
+    <string name="product_order_add_to_order_button_title">Add to order</string>
+    <string name="product_order_warning_message_too_many_options_in_group">Too many options in group \'%1s\'</string>
+    <string name="product_order_warning_message_too_few_options_in_group">Too few options in group \'%1s\'</string>
+    <string name="product_order_error_message_there_is_no_any_order_page">There is no any order page</string>
+    <string name="product_order_info_message_there_are_no_any_locations">There are no any locations</string>
+    <string name="product_order_info_message_there_are_no_any_categoreis">There are no any categories</string>
+    <string name="product_order_info_message_there_are_no_any_products">There are no any products</string>
+    <string name="product_order_dialog_message_show_order_page">Show order</string>
+    <string name="product_order_default_email">myemail@mail.com</string>
+    <string name="product_order_company_info">Company info:</string>
+    <string name="product_order_info">Info</string>
+    <string name="product_order_company_brief">Brief:</string>
+    <string name="product_order_product_options_group_details">Max options: %1$d; Min options: %2$d</string>
+    <string name="product_order_products_count">Products count:</string>
+    <string name="product_order_product_options">Options: %1$d</string>
+    <string name="product_order_product_sizes">Sizes: %1$d</string>
+    <string name="product_order_product_details">Product details</string>
+    <string name="product_order_sizes">Sizes</string>
+    <string name="product_order_count">Count: </string>
+
+    <!-- native tetris -->
+    <string name="native_tetris_score">Score:</string>
+    <string name="native_tetris_level">Level:</string>
+    <string name="native_tetris_best_score">Best Score:</string>
+    <string name="native_tetris_left">Left</string>
+    <string name="native_tetris_right">Right</string>
+    <string name="native_tetris_down">Down</string>
+    <string name="native_tetris_rotate">Rotate</string>
+    <string name="native_tetris_result_score">0000</string>
+    <string name="native_tetris_state_paused">Pause</string>
+    <string name="native_tetris_state_game_over">Game Over</string>
+
+    <!-- fusioncharts -->
+    <string name="fusioncharts_login_message">Please login</string>
+    <string name="fusioncharts_login_title">Login</string>
+
+    <!-- login -->
+    <string name="login_message_page_id_cannot_be_null">Page id cannot be null</string>
+    <string name="login_message_username_exists_but_specified_password_is_incorrect">Username exists, but specified password is incorrect.</string>
+    <string name="login_message_username_does_not_exist">Username does not exist.</string>
+    <string name="login_message_username_and_password_do_not_exist">Username and password do not exist.</string>
+
+    <!-- sharepoint client -->
+    <string name="sharepoint_client_message_time_out">Time out</string>
+    <string name="sharepoint_client_message_no_items">No items</string>
+    <string name="sharepoint_client_message_you_must_login_to_area">You must log in to area</string>
+    <string name="sharepoint_client_message_could_not_load_url">Could not load URL.</string>
+    <string name="sharepoint_client_title_date_and_time">Date and Time</string>
+    <string name="sharepoint_client_title_check_from_list">Check from list</string>
+    <string name="sharepoint_client_title_choose_from_list">Choose from list</string>
+    <string name="sharepoint_client_message_item_successfully_deleted">Item successfully deleted</string>
+    <string name="sharepoint_client_message_rememebering">Remembering…</string>
+    <string name="sharepoint_client_message_created">created</string>
+    <string name="sharepoint_client_message_saved">saved</string>
+
+    <!-- location lock -->
+    <string name="location_lock_unlock">Розблокувати</string>
+    <string name="location_lock_locating">Визначення…</string>
+    <string name="location_lock_couldnt_get_location">Неможливо визначити поточну локацію. Спробуйте пізніше.</string>
+    <string name="location_lock_no_unlocked_page_configured">There is no unlocked page configured for current location.</string>
+    <string name="location_lock_locked_message">You must be physically located at a predefined place to be able to unlock the page.</string>
+    <string name="location_lock_no_locations">There are no locations configured for this page.</string>
+
+    <!-- facebook feeds -->
+    <string name="facebook_feeds_no_feeds_message">No feeds</string>
+    <string name="facebook_feeds_like_button_title">Like</string>
+    <string name="facebook_feeds_menu_sign_in">Sign in</string>
+    <string name="facebook_feeds_menu_sign_out">Sign Out</string>
+    <string name="facebook_feeds_menu_item_refresh">Refresh</string>
+    <string name="facebook_feeds_menu_item_post">Post</string>
+    <string name="facebook_feeds_signed_in_as">Signed in as: %1$s</string>
+    <string name="facebook_feeds_likes_and_comments_info_text">%1$d Likes %2$d Comments</string>
+    <string name="facebook_feeds_please_sign_in_message">Please sign in to see the feeds</string>
+    <string name="facebook_feeds_add_user_to_freinds_message">You should add %1$s to your friends list to comment this post</string>
+    <string name="facebook_feeds_no_active_users">No active user, please sign in</string>
+    <string name="facebook_feeds_post_feed_image_from_camera">Image from camera</string>
+    <string name="facebook_feeds_post_feed_video_from_camera">Video from camera</string>
+    <string name="facebook_feeds_post_feed_image_from_gallery">Image from gallery</string>
+    <string name="facebook_feeds_post_feed_video_from_gallery">Video from gallery</string>
+    <string name="facebook_feeds_post_feed_choose_an_option">Choose an option</string>
+    <string name="facebook_feeds_post_feed_unable_to_load_the_video">Unable to load the video</string>
+    <string name="facebook_feeds_post_feed_unable_to_load_the_image">Unable to load the image</string>
+    <string name="facebook_feeds_post_feed_please_wait_message">Please wait</string>
+    <string name="facebook_feeds_post_feed_processing_message">Processing…</string>
+    <string name="facebook_feeds_list_should_sign_in_warning">Please sign in with facebook</string>
+    <string name="facebook_feeds_list_no_publish_actions_permissions_warning_message">You can only read the feeds on the page. You may not have granted the publish permission to the app or the facebook app id you use have not went through the review process.</string>
+    <string name="facebook_feeds_no_comments_message">Leave your comment.</string>
+    <string name="facebook_feeds_pending_message">pending…</string>
+
+    <!-- goal tracker -->
+    <string name="goal_tracker_goal_edit_fragment_goal_title">Goal title:</string>
+    <string name="goal_tracker_goal_edit_fragment_due_date_title">Due date:</string>
+    <string name="goal_tracker_goal_edit_fragment_priority_title">Priority:</string>
+    <string name="goal_tracker_goal_edit_fragment_goal_alert_time_title">Goal alert time:</string>
+    <string name="goal_tracker_goal_edit_fragment_goal_repeat_interval_title">Repeat interval:</string>
+    <string name="goal_tracker_goal_edit_fragment_goal_category_title">Category:</string>
+    <string name="goal_tracker_goal_edit_fragment_goal_notes_title">Note:</string>
+    <string name="goal_tracker_goal_details_fragment_goal_curret_progress_message">Current progress is %1$s</string>
+    <string name="goal_tracker_goal_details_fragment_goal_congratulation">Congratulation, You achieved a goal!!!</string>
+    <string name="goal_tracker_goal_details_fragment_goal_congratulation_with_name">Congratulation, You achieved a goal: %1$s !!!</string>
+    <string name="goal_tracker_goal_edit_fragment_repeat_interval_daily">Daily</string>
+    <string name="goal_tracker_goal_edit_fragment_repeat_interval_weekly">Weekly</string>
+    <string name="goal_tracker_goal_edit_fragment_repeat_interval_montly">Montly</string>
+    <string name="goal_tracker_goal_edit_fragment_priority_high">High</string>
+    <string name="goal_tracker_goal_edit_fragment_priority_medium">Medium</string>
+    <string name="goal_tracker_goal_edit_fragment_priority_low">Low</string>
+    <string name="goal_tracker_categories_list_create_new_category">Create a new category</string>
+    <string name="goal_tracker_categories_list_update_category">Edit the category</string>
+    <string name="goal_tracker_categories_list_enter_category_name">Enter the category name</string>
+    <string name="goal_tracker_categories_list_no_categories_message">No goal categories, please add one.</string>
+    <string name="goal_tracker_categories_list_no_goals_message">No goals, please add one.</string>
+
+    <!-- Hosted page resources downloader -->
+
+    <string name="hprd_sync_should_be_enabled_info">Синхронізація повинна бути включена для роботи бібліотеки</string>
+    <string name="hprd_downloading_resources_label">Скачування файлу до Вашої бібліотеки</string>
+    <string name="hprd_cancel_button_label">Відмінити</string>
+    <string name="hprd_retry_button_label">Повторити</string>
+    <string name="hprd_downloading_failed_label">Помилка при завантаженні додаткових файлів</string>
+
+    <!-- RSS PRO page resources -->
+    <string name="rsspro_error_parsing_title">Error parsing RSS</string>
+    <string name="rsspro_error_parsing_reason">Unable to access rss content from specified url</string>
+    <string name="rsspro_error_parsing_empty_url">Rss feed url cannot be empty</string>
+
+    <!-- BMI calculator -->
+    <string name="bmi_calculator_height_title_txt_view">Height:</string>
+    <string name="bmi_calculator_height_ft_txt_view">ft</string>
+    <string name="bmi_calculator_height_in_txt_view">in</string>
+    <string name="bmi_calculator_height_ft_in_txt_view">ft+in</string>
+    <string name="bmi_calculator_height_cm_txt_view">cm</string>
+    <string name="bmi_calculator_weight_title_txt_view">Weight:</string>
+    <string name="bmi_calculator_weight_lbs_txt_view">lbs</string>
+    <string name="bmi_calculator_weight_kg_txt_view">kg</string>
+    <string name="bmi_calculator_calculate_button_title">CALCULATE</string>
+    <string name="bmi_calculator_clear_button_title">CLEAR</string>
+    <string name="bmi_calculator_no_result">0.0</string>
+    <string name="bmi_calculator_result_place_holder_text">Here will be BMI description result.</string>
+    <string name="bmi_calculator_fill_all_fields_message">Please fill all fields.</string>
+
+    <!-- Slot machine -->
+    <string name="slotmachine_available_in_years">Next spin will be available in %1$d year(s)</string>
+    <string name="slotmachine_available_in_months">Next spin will be available in %1$d month(s)</string>
+    <string name="slotmachine_available_in_weeks">Next spin will be available in %1$d week(s)</string>
+    <string name="slotmachine_available_in_days">Next spin will be available in %1$d day(s)</string>
+    <string name="slotmachine_available_in_hours">Next spin will be available in %1$d hour(s)</string>
+    <string name="slotmachine_available_in_minutes">Next spin will be available in %1$d minute(s)</string>
+    <string name="slotmachine_available_in_seconds">Next spin will be available in %1$d seconds</string>
+
+    <!-- Scan document -->
+    <string name="scan_document_share">Share</string>
+    <string name="scan_document_take_picture">Take picture</string>
+    <string name="scan_document_delete">Delete</string>
+    <string name="scan_document_delete_all">Delete all</string>
+    <string name="scan_document_to_grayscale">Grayscale</string>
+    <string name="scan_document_to_original">Original</string>
+    <string name="scan_document_to_threshold">Threshold</string>
+    <string name="scan_document_crop">Crop</string>
+    <string name="scan_document_failed_to_save">Failed to save image.</string>
+    <string name="scan_document_no_storage">You need to have an SD Card to use this page.</string>
+    <string name="scan_document_next">Next</string>
+    <string name="scan_document_in_progress">In progress</string>
+    <string name="scan_document_please_wait">Please wait</string>
+    <string name="scan_document_generate_pdf_file">Generate PDF</string>
+    <string name="scan_document_no_internet">You need an internet connection to perform this action.</string>
+    <string name="scan_document_general_error">An error occurred while perform this action.\nPlease try again.</string>
+
+    <!-- throw game -->
+    <string name="throw_game_do_you_want_to_exit">Do you want to exit?</string>
+
+    <!-- facebook sdk -->
+    <string name="facebook_error_dialog_title">Something Went Wrong</string>
+    <string name="facebook_error_dialog_button_text">OK</string>
+    <string name="facebook_error_dialog_default_text">No response from server.</string>
+    <string name="facebook_error_authentication_retry">An error occurred that requires your attention. %1$s</string>
+    <string name="facebook_error_authentication_reopen">An error occurred, please re-login.</string>
+    <string name="facebook_error_permission">Please allow us to post on your behalf.</string>
+    <string name="facebook_error_server">The server is busy, please retry later.</string>
+    <string name="facebook_error_bad_request">An error occurred, please contact the developer with the following message: %1$s</string>
+    <string name="facebook_error_unknown">An unknown error occurred, please contact the developer with the following message: %1$s</string>
+    <string name="facebook_error_no_app_id_provided">Please provide a facebook app id</string>
+
+    <!-- fusioncharts editor -->
+    <string name="fusioncharts_editor_data_for_year_update">Year %1$s updated</string>
+    <string name="fusioncharts_editor_year_dialog">Year %1$s will be deleted</string>
+    <string name="fusioncharts_editor_psa_report">PSA Report</string>
+    <string name="fusioncharts_editor_psa">PSA</string>
+    <string name="fusioncharts_editor_psa_ng_ml">PSA (in ng/mL)</string>
+    <string name="fusioncharts_editor_year">Year</string>
+    <string name="fusioncharts_editor_total_psa">Total PSA</string>
+    <string name="fusioncharts_editor_free_psa">Free PSA</string>
+    <string name="fusioncharts_editor_total_free_psa">PSA: total %1$s - free %2$s (%3$s)</string>
+    <string name="fusioncharts_editor_detail_year">Year %1$s</string>
+    <string name="fusioncharts_editor_free_total_psa_ratio">Free/Total PSA ratio: %1$s</string>
+    <string name="fusioncharts_editor_year_promt">Choose an year</string>
+    
+    <!-- golf score card -->
+    <string name="golf_sc_player_name_1">Player 1</string>
+    <string name="golf_sc_player_name_2">Player 2</string>
+    <string name="golf_sc_reset_scores_menu_title">Clear old scores</string>
+    <string name="golf_sc_facebook_menu_title">Share via Facebook</string>
+    <string name="golf_sc_twitter_menu_title">Share via Twitter</string>
+    <string name="golf_sc_share_via_title">Share via</string>
+    <string name="golf_sc_share_via_apps_title">Share via apps…</string>
+    <string name="golf_sc_share_scores_using">Share your scores using</string>
+    <string name="golf_sc_pick_your_choice_title">Pick your choice</string>
+    <string name="golf_sc_install_facebook_app_message">Please install the facebook app.</string>
+    <string name="golf_sc_install_twitter_app_message">Please install the twitter app.</string>
+    <string name="golf_sc_invalid_config_file">Invalid config file</string>
+    <string name="golf_sc_unable_to_save_state">Unable to save the card state</string>
+    <string name="golf_sc_clear_scores_message">Confirm delete scores</string>
+    
+    <!-- announcements -->
+    <string name="announcements_title">Повідомлення від Сингенти</string>
+
+    <!-- Expansion files downloader library strings start -->
+    <!--
+         When a download completes, a notification is displayed, and this
+        string is used to indicate that the download successfully completed.
+        Note that such a download could have been initiated by a variety of
+        applications, including (but not limited to) the browser, an email
+        application, a content marketplace.
+    -->
+    <string name="notification_download_complete">Завантаження завершено</string>
+
+    <!--
+         When a download completes, a notification is displayed, and this
+        string is used to indicate that the download failed.
+        Note that such a download could have been initiated by a variety of
+        applications, including (but not limited to) the browser, an email
+        application, a content marketplace.
+    -->
+    <string name="notification_download_failed">Не вдалося завантажити</string>
+    <string name="state_unknown">Запуск…</string>
+    <string name="state_idle">Чекаємо завантаження потрібних файлів</string>
+    <string name="state_fetching_url">Підготовка додактових файлів для скачування</string>
+    <string name="state_connecting">Синхронизуюсь із сервером</string>
+    <string name="state_downloading">Йде скачування додаткових файлів</string>
+    <string name="state_completed">Завантаження завершено</string>
+    <string name="state_paused_network_unavailable">Download paused because no network is available</string>
+    <string name="state_paused_network_setup_failure">Download paused. Test a website in browser</string>
+    <string name="state_paused_by_request">Завантаження призупинено</string>
+    <string name="state_paused_wifi_unavailable">Завантаження зупинено через відсутність wifi</string>
+    <string name="state_paused_wifi_disabled">Завантаження зупинено через відсутність wifi</string>
+    <string name="state_paused_roaming">Download paused because you are roaming</string>
+    <string name="state_paused_sdcard_unavailable">Download paused because the external storage is unavailable</string>
+    <string name="state_failed_unlicensed">Download failed because you may not have purchased this app</string>
+    <string name="state_failed_fetching_url">Скачати повторно, тому, що не можливо знайти потрібні файли</string>
+    <string name="state_failed_sdcard_full">Помилка завантаження: не вистачає вільного місця</string>
+    <string name="state_failed_cancelled">Завантаження відмінено</string>
+    <string name="state_failed">Помилка завантаження</string>
+    <string name="kilobytes_per_second">%1$s KB/s</string>
+    <string name="time_remaining">Залишилось: %1$s</string>
+    <string name="time_remaining_notification">%1$s залишилось</string>
+
+    <!-- Expansion files downloader library strings end -->
+
+	<string name="Distance">Дистанція</string>
+	<string name="distance">Дистанція</string>
+	<string name="Distance: ">Відстань до поля:</string>
+	<string name="map_distance_to_location">Дистанція</string>
+	<string name="map_location_permission_required_toast">Потрібен доступ до GPS кординат</string>
+</resources>

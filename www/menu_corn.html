@@ -1,0 +1,1240 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Syngenta Ukraine</title>
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.5.min.css">
+	<link rel="stylesheet" href="additionals/css/syngenta.css">
+    	<link rel="stylesheet" href="additionals/css/crn_cards.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+   <link rel="stylesheet" type="text/css" href="css/awesome2/css/all.css">
+
+	<script src="js/jquery.js"></script>
+	<script src="additionals/js/index.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+
+     <style type="text/css">
+
+    <!--
+   .swiper-container {
+        width: 100%;
+        height: auto;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    #promo {
+        background: transparent;
+        text-decoration: none;
+        text-shadow: none;
+        text-transform: uppercase;
+        color: #00a0be;
+        border-radius: 3px;
+        font-weight: 300;
+        text-align: center
+
+    }
+
+          /*animation*/
+.animate-in-01 {
+    animation:animateIn .6s ease;
+    -webkit-animation:animateIn 1s ease;
+}
+
+@keyframes animateIn {
+    0%{
+        opacity:0;
+        transform: translateY(50px);
+        -webkit-transform: translateY(50px);
+        -moz-transform: translateY(50px);
+        -ms-transform: translateY(50px);
+        -o-transform: translateY(50px);
+    }
+    100%{
+        opacity:1;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+    }
+}
+@-webkit-keyframes animateIn {
+    0%{
+        opacity:0;
+        transform: translateY(50px);
+        -webkit-transform: translateY(50px);
+        -moz-transform: translateY(50px);
+        -ms-transform: translateY(50px);
+        -o-transform: translateY(50px);
+    }
+    100%{
+        opacity:1;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+    }
+}
+
+.animate-in-image {
+    animation:animateInImage 1s ease;
+    -webkit-animation:animateInImage 1s ease;
+}
+@keyframes animateInImage {
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+@-webkit-keyframes animateInImage {
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+
+.animate-in-card {
+    animation:animateIn .7s ease;
+    -webkit-animation:animateIn .7s ease;
+}
+    -->
+    </style>
+
+</head>
+<body>
+<div data-role="page" class="jqm-syt jqm-home" style="background: #f5f5f5">
+     <!-- header -->
+	<div data-role="header" class="jqm-header" data-position="fixed">
+	   <h2><img src="images/icons/synlogowhite.png" alt="syngenta"></h2>
+		<a href="#" class="jqm-navmenu-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-bars ui-nodisc-icon ui-icon ui-btn-left">Menu</a>
+		<!--<a href="announcements.html" class="ui-btn ui-btn-icon-notext ui-corner-all ui-icon-mail ui-nodisc-icon ui-icon ui-btn-right" target="_self">Messages</a>-->
+	</div><!-- /header -->
+
+
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="images/banners/corn1.jpg"  style="width: 100%; height: auto"></div>
+
+
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+        <!-- END Swiper -->
+
+<div style="width: 100%; background: #DEDEDE; height: 1px">&nbsp;</div>
+        <div role="main" class="ui-content jqm-content">
+
+  <form style="margin-left: 0.5em; margin-right: 0.5em">
+    <input data-type="search" id="cont-input" placeholder="Пошук по назві \ періоду вегетації">
+</form>
+
+<div class="jqm-block-menu animate-in-01"  style="background: transparent">
+<div class="scrollmenu">
+  <a href="#" id="showall">Всі гібриди</a>
+  <a href="#" class="200">ФАО 200</a>
+  <a href="#" class="220">ФАО 220</a>
+  <a href="#" class="220">ФАО 240</a>
+  <a href="#" class="250">ФАО 250</a>
+  <a href="#" class="260">ФАО 260</a>
+  <a href="#" class="270">ФАО 270</a>
+  <a href="#" class="280">ФАО 280</a>
+  <a href="#" class="290">ФАО 290</a>
+  <a href="#" class="310">ФАО 310</a>
+  <a href="#" class="320">ФАО 320</a>
+  <a href="#" class="330">ФАО 330</a>
+  <a href="#" class="340">ФАО 340</a>
+  <a href="#" class="360">ФАО 360</a>
+  <a href="#" class="430">ФАО 430</a>
+
+
+</div></div>
+
+    <div class="elements" data-filter="true" data-input="#cont-input">
+
+
+<!-- card start -->
+<a href="corn_rotango.html" target="_self" class="btnlink all fao200">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/logo/corn/rotango.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+СИ РОТАНГО
+            </h3>
+        <h4>
+ВИСОКА УРОЖАЙНІСТЬ І СТРЕСОСТІЙКІСТЬ
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-balance-scale fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+Інтенсивний
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="far fa-clock fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+ФАО 200
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+<div class="vegline" ></div>
+
+<!-- card start -->
+<a href="corn_talisman.html" target="_self" class="btnlink all fao200">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/logo/corn/talisman_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+СИ Талісман
+            </h3>
+        <h4>
+ВИСОКА ХОЛОДОСТІЙКІСТЬ,
+РАННІЙ УРОЖАЙ ЗЕРНА Й СИЛОСУ
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-balance-scale fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+Середньопластичний
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="far fa-clock fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+ФАО 200
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+<div class="vegline" ></div>
+
+<!-- card start -->
+<a href="corn_fenomen.html" target="_self" class="btnlink all fao220">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/logo/corn/fenome_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+СИ Феномен
+            </h3>
+        <h4>
+ВИСОКА УРОЖАЙНІСТЬ В УМОВАХ ПОСУХИ
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-balance-scale fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+Високоадаптивний
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="far fa-clock fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+ФАО 220
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+<div class="vegline" ></div>
+
+<!-- card start -->
+
+<a href="corn_telias.html" target="_self" class="btnlink all fao220">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/logo/corn/telias_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+СИ Теліас
+            </h3>
+        <h4>
+СТАБІЛЬНА УРОЖАЙНІСТЬ В УМОВАХ СТРЕСУ
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-balance-scale fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+Високоадаптивний
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="far fa-clock fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+ФАО 220
+            </li>
+        </ul>
+    </div>
+</div></a>
+
+<!-- card end -->
+  <div class="vegline" ></div>
+
+<!-- card start -->
+<!--
+<a href="corn_delitop.html" target="_self" class="btnlink all fao220">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/logo/corn/delitop_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+Делітоп
+            </h3>
+        <h4>
+ВИСОКА АДАПТИВНІСТЬ ДО УМОВ ВИРОЩУВАННЯ
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-balance-scale fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+Високоадаптивний
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="far fa-clock fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+ФАО 220
+            </li>
+        </ul>
+    </div>
+</div></a>
+-->
+<!-- card end -->
+
+
+
+<!-- card start -->
+<!--
+<a href="corn_novatop.html" target="_self" class="btnlink all fao240">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/logo/corn/novatop_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+СИ Новатоп
+            </h3>
+        <h4>
+ЯКІСНИЙ УРОЖАЙ ЗЕРНА І СИЛОСУ
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-balance-scale fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+Інтенсивний
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="far fa-clock fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+ФАО 240
+            </li>
+        </ul>
+    </div>
+</div></a>
+<div class="vegline" ></div>
+-->
+
+<!-- card start -->
+<a href="corn_marimba.html" target="_self" class="btnlink all fao240">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/logo/corn/marimba_new.jpg" alt="">
+    </div>
+    <div class="card-content">
+        <h3>
+СИ марімба
+            </h3>
+        <h4>
+СТАБІЛЬНА УРОЖАЙНІСТЬ В УМОВАХ СТРЕСУ
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-balance-scale fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+Інтенсивний
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="far fa-clock fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+ФАО 240
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+<div class="vegline" ></div>
+
+<!-- card start -->
+<a href="corn_pandoras_new.html" target="_self" class="btnlink all fao250">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/logo/corn/pandoras_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+СИ Пандорас
+            </h3>
+        <h4>
+ВИСОКОПРОДУКТИВНИЙ ГІБРИД
+ЗІ СТАБІЛЬНОЮ ВРОЖАЙНІСТЮ
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-balance-scale fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+Середньопластичний
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="far fa-clock fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+ФАО 250
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+<div class="vegline" ></div>
+
+<!-- card start -->
+<a href="corn_fortago.html" target="_self" class="btnlink all fao260">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/logo/corn/fortago_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+СИ Фортаго
+            </h3>
+        <h4>
+СТАБІЛЬНА ВРОЖАЙНІСТЬ, ВІДМІННІ
+ВОЛОГОВІДДАЧА І ПОСУХОСТІЙКІСТЬ
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-balance-scale fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+Високоадаптивний
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="far fa-clock fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+ФАО 260
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+<div class="vegline" ></div>
+
+<!-- card start -->
+<a href="corn_foton.html" target="_self" class="btnlink all fao260">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/logo/corn/foton_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+СИ Фотон
+            </h3>
+        <h4>
+ІНТЕНСИВНОГО ТИПУ
+ЗІ ШВИДКОЮ ВОЛОГОВІДДАЧЕЮ
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-balance-scale fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+Інтенсивний
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="far fa-clock fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+ФАО 260
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+
+<div class="vegline" ></div>
+
+<!-- card start -->
+<a href="corn_ariosso.html" target="_self" class="btnlink all fao270">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/logo/corn/ariosso_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+СИ Аріосо
+            </h3>
+        <h4>
+СТІЙКИЙ ДО ВИЛЯГАННЯ І ХВОРОБ
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-balance-scale fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+Інтенсивний
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="far fa-clock fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+ФАО 270
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+
+<div class="vegline" ></div>
+
+<!-- card start -->
+<!--
+<a href="corn_aladium.html" target="_self" class="btnlink all fao280">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/logo/corn/aladium_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+СИ Аладіум
+            </h3>
+        <h4>
+ВИСОКА СТІЙКІСТЬ ДО ПОСУХИ,
+ФУЗАРІОЗУ КАЧАНА І ГНИЛЕЙ
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-balance-scale fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+Середньопластичний
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="far fa-clock fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+ФАО 280
+            </li>
+        </ul>
+    </div>
+</div></a>
+-->
+<!-- card end -->
+
+
+
+<!-- card start -->
+<a href="corn_impulse_new.html" target="_self" class="btnlink all fao280">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/logo/corn/impulse_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+СИ Імпульс
+            </h3>
+        <h4>
+НОВЕ СЛОВО У ВИРОБНИЦТВІ
+КУРЯЧОГО ЯЙЦЯ
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-balance-scale fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+Середньопластичний
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="far fa-clock fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+ФАО 280
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+ <div class="vegline" ></div>
+
+<!-- card start -->
+
+<a href="corn_scorpius_new.html" target="_self" class="btnlink all fao290">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/logo/corn/scorpius_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+СИ Скорпіус
+            </h3>
+        <h4>
+ВИСОКИЙ РІВЕНЬ УРОЖАЙНОСТІ
+ЗА СТРЕСОВИХ УМОВ
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-balance-scale fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+Високоадаптивний
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="far fa-clock fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+ФАО 290
+            </li>
+        </ul>
+    </div>
+</div></a>
+
+<!-- card end -->
+ <div class="vegline" ></div>
+
+<!-- card start -->
+<a href="corn_chorintos.html" target="_self" class="btnlink all fao290">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/logo/corn/chorintos_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+СИ Чорінтос
+            </h3>
+        <h4>
+ВИСОКА ВРОЖАЙНІСТЬ В УМОВАХ СТРЕСУ
+І ШВИДКА ВОЛОГОВІДДАЧА
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-balance-scale fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+Високоадаптивний
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="far fa-clock fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+ФАО 290
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+ <div class="vegline" ></div>
+ <a href="corn_torino_new.html" target="_self" class="btnlink all fao310">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/logo/corn/torino_new.jpg" alt="">
+    </div>
+    <div class="card-content">
+        <h3>
+СИ торіно
+            </h3>
+        <h4>
+Тріумф інтенсивної технології
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-balance-scale fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+Інтенсивний
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="far fa-clock fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+ФАО 310
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+ <div class="vegline" ></div>
+
+<!-- card start -->
+<a href="corn_cobalt.html" target="_self" class="btnlink all fao320">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/logo/corn/cobalt_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+НК Кобальт
+            </h3>
+        <h4>
+ВИСОКА ПРОДУКТИВНІСТЬ ТА СТІЙКІСТЬ
+ДО МІНЛИВИХ УМОВ ВИРОЩУВАННЯ
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-balance-scale fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+Середньопластичний
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="far fa-clock fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+ФАО 320
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+
+ <div class="vegline" ></div>
+
+<!-- card start -->
+<a href="corn_enermax_new.html" target="_self" class="btnlink all fao330">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/logo/corn/enermax_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+СИ Енермакс
+            </h3>
+        <h4>
+ВИСОКІ ВРОЖАЙНІСТЬ
+І СТРЕСОСТІЙКІСТЬ
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-balance-scale fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+Інтенсивний
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="far fa-clock fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+ФАО 330
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+ <div class="vegline" ></div>
+
+<!-- card start -->
+<a href="corn_termo.html" target="_self" class="btnlink all fao330">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/logo/corn/termo_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+НК Термо
+            </h3>
+        <h4>
+ВИСОКІ ХОЛОДОСТІЙКІСТЬ ТА
+КОМПЕНСАЦІЙНИЙ ПОТЕНЦІАЛ
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-balance-scale fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+Інтенсивний
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="far fa-clock fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+ФАО 330
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+
+ <div class="vegline" ></div>
+
+<!-- card start -->
+<!--
+<a href="corn_lucius.html" target="_self" class="btnlink all fao340">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/logo/corn/luciys_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+НК Люціус
+            </h3>
+        <h4>
+ЯКІСНИЙ УРОЖАЙ ЗЕРНА І СИЛОСУ
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-balance-scale fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+Інтенсивний
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="far fa-clock fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+ФАО 340
+            </li>
+        </ul>
+    </div>
+</div></a>
+-->
+<!-- card end -->
+
+
+
+<!-- card start -->
+<a href="corn_batanga.html" target="_self" class="btnlink all fao340">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/logo/corn/batanga_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+СИ Батанга
+            </h3>
+        <h4>
+СТАБІЛЬНА ВРОЖАЙНІСТЬ У МІНЛИВИХ
+УМОВАХ РОСТУ І РОЗВИТКУ
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-balance-scale fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+Високоадаптивний
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="far fa-clock fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+ФАО 340
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+
+ <div class="vegline" ></div>
+
+<!-- card start -->
+<a href="corn_orpheys_new.html" target="_self" class="btnlink all fao360">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/logo/corn/orpheys_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+СИ Орфеус
+            </h3>
+        <h4>
+ВИСОКИЙ РІВЕНЬ УРОЖАЙНОСТІ
+В СТРЕСОВИХ УМОВАХ
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-balance-scale fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+Високоадаптивний
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="far fa-clock fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+ФАО 360
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+
+
+<!-- card end -->
+ <div class="vegline" ></div>
+ <a href="corn_premeo_new.html" target="_self" class="btnlink all fao360">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/logo/corn/premeo_new.jpg" alt="">
+    </div>
+    <div class="card-content">
+        <h3>
+СИ премео
+            </h3>
+        <h4>
+Стабільність преміального результату
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-balance-scale fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+Високоадаптивний
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="far fa-clock fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+ФАО 360
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+<div class="vegline" ></div>
+ <a href="corn_okteon_new.html" target="_self" class="btnlink all fao380">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/logo/corn/okteon_new.jpg" alt="">
+    </div>
+    <div class="card-content">
+        <h3>
+СИ октеон
+            </h3>
+        <h4>
+Чемпіон у бою з посухою!
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-balance-scale fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+Високоадаптивний
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="far fa-clock fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+ФАО 380
+            </li>
+        </ul>
+    </div>
+</div></a>
+
+
+ <div class="vegline" ></div>
+
+<!-- card start -->
+<a href="corn_zefir.html" target="_self" class="btnlink all fao430">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/logo/corn/zephyr_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+СИ Зефір
+            </h3>
+        <h4>
+ВИСОКА УРОЖАЙНІСТЬ, ПОСУХОСТІЙКІСТЬ
+І ШВИДКА ВОЛОГОВІДДАЧА
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-balance-scale fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+Високоадаптивний
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="far fa-clock fa-lg"  style="color: #7faf55; padding-right: 10px"></i>
+ФАО 430
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+<div class="vegline" ></div>
+
+
+    </div></div>
+    <!-- /content -->
+
+            <!-- left  menu -->
+	    <div data-role="panel" class="jqm-navmenu-panel" data-position="left" data-display="overlay" data-theme="a">
+	    	<ul class="jqm-list ui-alt-icon ui-nodisc-icon">
+<li data-filtertext="home" data-icon="home"><a href="index.html">На головну</a></li>
+<li data-filtertext="ззр" data-icon="carat-r"  style="background: #70840b; text-transform: none; text-shadow: none; color: #FFFFFF; text-decoration: none"><b>ЗЗР</b></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"   href="menu_herb.html">Гербіциди</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_insect.html">Інсектициди</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_fung.html">Фунгіциди</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_sc.html">Протруники</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_retar.html">Ретарданти</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_rodent.html">Родентициди</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_fert.html">Органічне добриво</a></li>
+
+<li data-filtertext="ззр" data-icon="carat-r" style="background: #ed8001; text-transform: none; text-shadow: none; color: #FFFFFF; text-decoration: none"><b>НАСІННЯ</b></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_sf.html">Соняшник</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_corn.html">Кукурудза</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_osr.html">Ріпак озимий</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_sorgum.html">Сорго</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_cereals.html">Зернові</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="index_veg.html">Овочеві культури</a></li>
+
+<li data-filtertext="ззр" data-icon="carat-r" style="background: #94c120; text-transform: none; text-shadow: none; color: #FFFFFF; text-decoration: none"><b>ФІНАНСОВІ РІШЕННЯ</b></li>
+ <li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="fiso_new_horiz.html">Підтримка плюс</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="fiso_pidtr_XXL.html">Підтримка XXL</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="fiso_meteozakh.html">Метеозахист</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="fiso_legkoposivna.html">Легкопосівна</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="fiso_agrarni_rozpisky.html">Аграрні розписки</a></li>
+
+ <li data-filtertext="ззр" data-icon="carat-r" style="background: #039eba; text-transform: none; text-shadow: none; color: #FFFFFF; text-decoration: none"><b>БІБЛІОТЕКА АГРОНОМА</b></li>
+ <li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_actions.html">Акції</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_calc.html">Агро-калькулятори</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_schemes.html">Схеми захисту</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_weeds.html">Шкідники, хвороби</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_about_cp.html">Про ЗЗР</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_about_seeds.html">Про насіння</a></li>
+
+
+ <li data-filtertext="ззр" data-icon="carat-r" style="background: #00a873; text-transform: none; text-shadow: none; color: #FFFFFF; text-decoration: none"><b>КОНТАКТИ</b></li>
+ <li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="contacts_distr.html">Дистриб'ютори</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="contactsKAM.html">КАМ відділ</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="contacts.html">Регіони</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="contacts_fiso.html">Фінансові рішення</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="contacts_main_office.html">Головний офіс</a></li>
+
+<!-- otherpanel -->
+		     </ul>
+		</div><!-- /panel -->
+
+
+	<div data-role="footer" data-position="fixed" data-tap-toggle="false" class="jqm-footer">
+		<p>Сингента Україна 2019</p>
+		<p>версія 1.0</p>
+	</div><!-- /footer -->
+	<!-- TODO: This should become an external panel so we can add input to markup (unique ID) -->
+    <div data-role="panel" class="jqm-search-panel" data-position="right" data-display="overlay" data-theme="a">
+		<div class="jqm-search">
+			<ul class="jqm-list" data-filter-placeholder="Пошук..." data-filter-reveal="true">
+<li data-filtertext="насіння" data-icon="carat-r"><a href="#">насіння</a></li>
+<li data-filtertext="introduction overview getting started"><a href="corn_fenomen.html" data-ajax="false">Феномен</a></li>
+<li data-filtertext="кукурудза фортаго"><a href="corn_fortago.html" data-ajax="false">Фортаго</a></li>
+
+
+
+			</ul>
+		</div>
+	</div><!-- /panel -->
+
+
+</div><!-- /page -->
+
+ <script>
+jQuery(function(){
+         jQuery('#showall').click(function(){
+               jQuery('.all').show();
+        });
+        jQuery('.200').click(function(){
+              jQuery('.all').hide();
+              jQuery('.fao200').show();
+        });
+
+        jQuery('.220').click(function(){
+              jQuery('.all').hide();
+              jQuery('.fao220').show();
+        });
+
+        jQuery('.250').click(function(){
+              jQuery('.all').hide();
+              jQuery('.fao250').show();
+        });
+
+        jQuery('.260').click(function(){
+              jQuery('.all').hide();
+              jQuery('.fao260').show();
+        });
+
+        jQuery('.270').click(function(){
+              jQuery('.all').hide();
+              jQuery('.fao270').show();
+        });
+
+        jQuery('.280').click(function(){
+              jQuery('.all').hide();
+              jQuery('.fao280').show();
+        });
+
+        jQuery('.290').click(function(){
+              jQuery('.all').hide();
+              jQuery('.fao290').show();
+        });
+
+        jQuery('.320').click(function(){
+              jQuery('.all').hide();
+              jQuery('.fao320').show();
+        });
+
+        jQuery('.330').click(function(){
+              jQuery('.all').hide();
+              jQuery('.fao330').show();
+        });
+
+        jQuery('.340').click(function(){
+              jQuery('.all').hide();
+              jQuery('.fao340').show();
+        });
+
+
+        jQuery('.360').click(function(){
+              jQuery('.all').hide();
+              jQuery('.fao360').show();
+        });
+
+        jQuery('.430').click(function(){
+              jQuery('.all').hide();
+              jQuery('.fao430').show();
+        });
+});
+</script>
+<!-- Swiper JS -->
+
+        <script src="js/swiper.min.js"></script>
+        <!-- Initialize Swiper -->
+        <script>
+        $(document).ready(function () {
+        //initialize swiper when document ready
+        var mySwiper = new Swiper ('.swiper-container', {
+            // Optional parameters
+
+            loop: false,
+
+            autoplay: 3000
+        })
+    });
+        </script>
+</body>
+</html>

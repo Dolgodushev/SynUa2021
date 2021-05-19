@@ -1,0 +1,607 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Syngenta Ukraine</title>
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.5.min.css">
+	<link rel="stylesheet" href="additionals/css/syngenta_veg.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
+	<script src="js/jquery.js"></script>
+	<script src="additionals/js/index.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+
+     <style type="text/css">
+
+    <!--
+   .swiper-container {
+        width: 100%;
+        height: auto;
+        border-radius: 5px
+
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+
+    #custom-collapsible {
+        background-color: white  !important;
+
+
+}
+
+#custom-collapsible h4 a {
+    background: #fff  !important;
+
+    color: #7faf55;
+    font-weight: 300;
+    text-shadow: none;
+     -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: thin solid #7faf55 !important;
+
+}
+
+#custom-btn {
+        background-color: #7faf55  !important;
+        color: #fff;
+    font-weight: 300;
+    text-shadow: none
+
+}
+
+ .ui-content {
+     padding: 0.5em !important
+ }
+
+ .circular--square {
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  max-width: 200px;
+  height: auto;
+  width: 50%
+}
+
+/*basic layout*/
+.material-contact {
+    width:100%;
+    max-width:100%;
+    height:auto;
+    padding:50px 30px 30px 30px;
+    box-sizing:border-box;
+    display:block;
+    position:relative;
+    overflow:hidden;
+
+    box-shadow:0 1px 5px 0 rgba(0,0,0,0.3);
+    background:#fff;
+    border-radius:5px;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px
+}
+
+/*header*/
+.material-contact img {
+    width:150px;
+    height:150px;
+    display:block;
+    margin:0 auto;
+    border-radius:100%;
+}
+.material-contact h1 {
+    width:100%;
+    height:auto;
+    padding:05px 0 5px 0;
+    display:block;
+    font-size:1.9rem;
+    font-weight:300;
+    line-height:1em;
+    text-align:center;
+
+    color:#5F7800;
+    background:none;
+}
+.material-contact h2 {
+    width:100%;
+    height:auto;
+    padding:5px 0;
+    display:block;
+
+    font-size:1.1rem;
+    font-weight:300;
+    line-height:1.6em;
+    text-align:center;
+
+    color:#333;
+    background:none;
+}
+
+.material-contact hr {
+    width:30%;
+    height:0;
+    padding:0;
+    display:block;
+    margin:30px auto;
+    border:1px solid #5F7800;
+}
+
+/*info section*/
+.material-contact p {
+    width:100%;
+    height:auto;
+    padding:10px 0;
+    display:block;
+
+    font-size:1rem;
+    font-weight:400;
+    line-height:1.2em;
+    text-align:justify;
+}
+
+.material-contact .actions {
+    width:100%;
+    height:auto;
+    padding:0;
+    display:block;
+    margin:10px 0 0 0;
+
+    align-content:center;
+    text-align:center;
+}
+.material-contact .actions a {
+    width:auto;
+    height:auto;
+    padding:5px 10px;
+    box-sizing:border-box;
+    display:inline-block;
+    margin:5px auto;
+
+    font-size:1rem;
+    font-weight:300;
+    line-height:1.2em;
+    text-decoration:none;
+
+    border-radius:100px;
+    background:#fff;
+    color:#333;
+
+    transition:.1s;
+}
+.material-contact .actions a:hover {
+    background:#fff;
+    color:#333;
+}
+.material-contact .actions a:active {
+    background:#333;
+    color:#fff;
+}
+
+/*animation*/
+.animate-in-01 {
+    animation:animateIn 1s ease;
+    -webkit-animation:animateIn 1s ease;
+}
+.animate-in-02 {
+    animation:animateIn 1s ease forwards;
+    animation-delay:.2s;
+    -webkit-animation:animateIn 1s ease forwards;
+    -webkit-animation-delay:.2s;
+    opacity:0;
+}
+.animate-in-03 {
+    animation:animateIn 1s ease forwards;
+    animation-delay:.4s;
+    -webkit-animation:animateIn 1s ease forwards;
+    -webkit-animation-delay:.4s;
+    opacity:0;
+}
+.animate-in-04 {
+    animation:animateIn 1s ease forwards;
+    animation-delay:.5s;
+    -webkit-animation:animateIn 1s ease forwards;
+    -webkit-animation-delay:.5s;
+    opacity:0;
+}
+.animate-in-05 {
+    animation:animateIn 1s ease forwards;
+    animation-delay:.6s;
+    -webkit-animation:animateIn 1s ease forwards;
+    -webkit-animation-delay:.6s;
+    opacity:0;
+}
+@keyframes animateIn {
+    0%{
+        opacity:0;
+        transform: translateY(50px);
+        -webkit-transform: translateY(50px);
+        -moz-transform: translateY(50px);
+        -ms-transform: translateY(50px);
+        -o-transform: translateY(50px);
+    }
+    100%{
+        opacity:1;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+    }
+}
+@-webkit-keyframes animateIn {
+    0%{
+        opacity:0;
+        transform: translateY(50px);
+        -webkit-transform: translateY(50px);
+        -moz-transform: translateY(50px);
+        -ms-transform: translateY(50px);
+        -o-transform: translateY(50px);
+    }
+    100%{
+        opacity:1;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+    }
+}
+
+.animate-in-image {
+    animation:animateInImage 1s ease;
+    -webkit-animation:animateInImage 1s ease;
+}
+@keyframes animateInImage {
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+@-webkit-keyframes animateInImage {
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+
+.animate-in-card {
+    animation:animateIn .7s ease;
+    -webkit-animation:animateIn .7s ease;
+}
+    -->
+    </style>
+
+</head>
+<body>
+
+<div data-role="page" class="jqm-syt jqm-home" style="background: #f5f5f5">
+    <!-- header -->
+    <div data-role="header" class="jqm-header" data-position="fixed">
+       <h2><img src="images/icons/synlogowhite.png" alt="syngenta"></h2>
+        <a href="#" class="jqm-navmenu-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-bars ui-nodisc-icon ui-icon ui-btn-left">Menu</a>
+        <!--<a href="announcements.html" class="ui-btn ui-btn-icon-notext ui-corner-all ui-icon-mail ui-nodisc-icon ui-icon ui-btn-right" target="_self">Messages</a>-->
+    </div><!-- /header -->
+
+
+
+    <div role="main" class="ui-content jqm-content">
+
+<div class="ui-body ui-body-a ui-corner-all">
+    <div class="ui-grid-solo"  style="margin-top: 1px">
+             <div class="ui-block-a"><p style="text-align: center"><img src="images/logo/syt_logo_transp.png"  class="logo_cp_short"></p></div>
+
+                    <div class="ui-block-a"><p class="lozung">
+менеджери з продажу овочевих культур
+                        </p></div>
+                </div></div>
+     <!-- the contact card -->
+<div class="material-contact animate-in-card">
+
+			<!-- image -->
+			<img class="animate-in-image" src="images/veg/contacts/bobruiko.png">
+			<!-- name -->
+			<h1 class="animate-in-01">
+БОБРУЙКО ВАДИМ
+                </h1>
+			<!-- title -->
+			<h2 class="animate-in-02">
+ Одеська, Вінницька, Хмельницька, Тернопільська, Чернівецька, Кіровоградська, Черкаська області
+                </h2>
+
+			<hr class="animate-in-03">
+
+
+
+			<!-- contact links -->
+			<span class="actions animate-in-05">
+
+                                <a href="tel:+38 067 555 24 91" target="_blank"><i class="fas fa-phone-square fa-lg"></i>&nbsp;+38 067 555 24 91</a>
+
+                         <a href="mailto:vadim.bobruiko@syngenta.com"><i class="fas fa-envelope fa-lg"></i>&nbsp;vadim.bobruiko@syngenta.com</a>
+
+                        </span>
+
+</div>
+
+
+ <!-- the contact card -->
+<div class="material-contact animate-in-card">
+
+			<!-- image -->
+			<img class="animate-in-image" src="images/veg/contacts/avatar_gedz.png">
+			<!-- name -->
+			<h1 class="animate-in-01">
+ГЕДЗ СЕРГІЙ
+                </h1>
+			<!-- title -->
+			<h2 class="animate-in-02">
+Закарпатська, Львівська, Волинська, Івано-Франківська, Київська, Житомирська, Рівненська області
+                </h2>
+
+			<hr class="animate-in-03">
+
+
+
+			<!-- contact links -->
+			<span class="actions animate-in-05">
+
+                                <a href="tel:+38 067 555 24 95" target="_blank"><i class="fas fa-phone-square fa-lg"></i>&nbsp;+38 067 555 24 95</a>
+
+                        <a href="mailto:sergiy.gedz@syngenta.com"><i class="fas fa-envelope fa-lg"></i>&nbsp;
+                             sergiy.gedz@syngenta.com
+                             </a>
+
+                        </span>
+
+</div>
+       <!-- end the contact card -->
+
+
+<!-- the contact card -->
+<div class="material-contact animate-in-card">
+
+			<!-- image -->
+			<img class="animate-in-image" src="images/veg/contacts/avatar_nikolaenko.png">
+			<!-- name -->
+			<h1 class="animate-in-01">
+НІКОЛАЄНКО ІГОР
+                </h1>
+			<!-- title -->
+			<h2 class="animate-in-02">
+Полтавська, Сумська, Харківська, Дніпропетровська, Луганська, Донецька (крім м. Маріуполь) області
+                </h2>
+
+			<hr class="animate-in-03">
+
+
+
+			<!-- contact links -->
+			<span class="actions animate-in-05">
+
+                                <a href="tel:+38 067 555 28 50" target="_blank"><i class="fas fa-phone-square fa-lg"></i>&nbsp;
++38 067 555 28 50
+</a>
+
+                         <a href="mailto:Igor.Nikolaenko@syngenta.com"><i class="fas fa-envelope fa-lg"></i>&nbsp;
+                           Igor.Nikolaenko@syngenta.com
+                             </a>
+
+                        </span>
+
+</div>
+       <!-- end the contact card -->
+
+
+<!-- the contact card -->
+<div class="material-contact animate-in-card">
+
+			<!-- image -->
+			<img class="animate-in-image" src="images/veg/contacts/avatar_landa.png">
+			<!-- name -->
+			<h1 class="animate-in-01">
+ЛАНДА ОЛЕКСАНДР
+                </h1>
+			<!-- title -->
+			<h2 class="animate-in-02">
+Чернігівська області, цукрова кукурудза по всій Україні
+                </h2>
+
+			<hr class="animate-in-03">
+
+
+
+			<!-- contact links -->
+			<span class="actions animate-in-05">
+
+                                <a href="tel:+38 067 555 27 06" target="_blank"><i class="fas fa-phone-square fa-lg"></i>&nbsp;
++38 067 555 27 06
+</a>
+
+                        <a href="mailto:
+                         oleksandr.landa@syngenta.com"><i class="fas fa-envelope fa-lg"></i>&nbsp;
+                        oleksandr.landa@syngenta.com
+                             </a>
+
+                        </span>
+
+</div>
+       <!-- end the contact card -->
+
+<!-- the contact card -->
+<div class="material-contact animate-in-card">
+
+			<!-- image -->
+			<img class="animate-in-image" src="images/veg/contacts/avatar_melchenko.png">
+			<!-- name -->
+			<h1 class="animate-in-01">
+ОМЕЛЬЧЕНКО СЕРГІЙ
+                </h1>
+			<!-- title -->
+			<h2 class="animate-in-02">
+Миколаївська, Херсонська області
+                </h2>
+
+			<hr class="animate-in-03">
+
+
+
+			<!-- contact links -->
+			<span class="actions animate-in-05">
+
+                                <a href="tel: +38 067 555 24 98" target="_blank"><i class="fas fa-phone-square fa-lg"></i>&nbsp;
+ +38 067 555 24 98
+</a>
+
+                     <a href="mailto:
+                       sergey.omelchenko@syngenta.com"><i class="fas fa-envelope fa-lg"></i>&nbsp;
+                      sergey.omelchenko@syngenta.com
+                             </a>
+
+                        </span>
+
+</div>
+       <!-- end the contact card -->
+
+
+       <!-- the contact card -->
+<div class="material-contact animate-in-card">
+
+			<!-- image -->
+			<img class="animate-in-image" src="images/veg/contacts/avatar-barabash.png">
+			<!-- name -->
+			<h1 class="animate-in-01">
+БАРАБАШ ГЕННАДІЙ
+                </h1>
+			<!-- title -->
+			<h2 class="animate-in-02">
+Запорізька, м. Маріуполь (Донецька обл.), м. Нікополь (Дніпропетровська обл.)
+                </h2>
+
+			<hr class="animate-in-03">
+
+
+
+			<!-- contact links -->
+			<span class="actions animate-in-05">
+
+                                <a href="tel: +38 067 679 54 77" target="_blank"><i class="fas fa-phone-square fa-lg"></i>&nbsp;
+ +38 067 679 54 77
+</a>
+
+                  <a href="mailto:
+                       Hennadii.Barabash@syngenta.com"><i class="fas fa-envelope fa-lg"></i>&nbsp;
+              Hennadii.Barabash@syngenta.com
+                             </a>
+
+                        </span>
+
+</div>
+       <!-- end the contact card -->
+
+    </div>
+
+    <!-- /content -->
+
+
+	  <!-- left  menu -->
+	    <div data-role="panel" class="jqm-navmenu-panel" data-position="left" data-display="overlay" data-theme="a">
+	    	<ul class="jqm-list ui-alt-icon ui-nodisc-icon">
+<li data-filtertext="home" data-icon="home"><a href="index.html">На головну</a></li>
+<li data-filtertext="ззр" data-icon="carat-r"  style="background: #70840b; text-transform: none; text-shadow: none; color: #FFFFFF; text-decoration: none"><b>ЗЗР</b></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"   href="menu_herb.html">Гербіциди</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_insect.html">Інсектициди</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_fung.html">Фунгіциди</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_sc.html">Протруники</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_retar.html">Ретарданти</a></li>
+
+<li data-filtertext="ззр" data-icon="carat-r" style="background: #ed8001; text-transform: none; text-shadow: none; color: #FFFFFF; text-decoration: none"><b>НАСІННЯ</b></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_sf.html">Соняшник</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_corn.html">Кукурудза</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_osr.html">Ріпак озимий</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_sorgum.html">Сорго</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_cereals.html">Зернові</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="index_veg.html">Овочеві культури</a></li>
+
+<li data-filtertext="ззр" data-icon="carat-r" style="background: #94c120; text-transform: none; text-shadow: none; color: #FFFFFF; text-decoration: none"><b>ФІНАНСОВІ РІШЕННЯ</b></li>
+ <li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="fiso_new_horiz.html">Підтримка плюс</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="fiso_pidtr_XXL.html">Підтримка XXL</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="fiso_meteozakh.html">Метеозахист</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="fiso_legkoposivna.html">Легкопосівна</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="fiso_agrarni_rozpisky.html">Аграрні розписки</a></li>
+
+ <li data-filtertext="ззр" data-icon="carat-r" style="background: #039eba; text-transform: none; text-shadow: none; color: #FFFFFF; text-decoration: none"><b>БІБЛІОТЕКА АГРОНОМА</b></li>
+ <li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_actions.html">Акції</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_calc.html">Агро-калькулятори</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_schemes.html">Схеми захисту</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_weeds.html">Шкідники, хвороби</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_about_cp.html">Про ЗЗР</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_about_seeds.html">Про насіння</a></li>
+
+
+ <li data-filtertext="ззр" data-icon="carat-r" style="background: #00a873; text-transform: none; text-shadow: none; color: #FFFFFF; text-decoration: none"><b>КОНТАКТИ</b></li>
+ <li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="contacts_distr.html">Дистриб'ютори</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="contactsKAM.html">КАМ відділ</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="contacts.html">Регіони</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="contacts_fiso.html">Фінансові рішення</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="contacts_main_office.html">Головний офіс</a></li>
+
+<!-- otherpanel -->
+		     </ul>
+		</div><!-- /panel -->
+
+
+	<div data-role="footer" data-position="fixed" data-tap-toggle="false" class="jqm-footer">
+		<p>Сингента Україна 2018</p>
+		<p>версія 1.0</p>
+	</div><!-- /footer -->
+	<!-- TODO: This should become an external panel so we can add input to markup (unique ID) -->
+  	<div data-role="footer" data-position="fixed" data-tap-toggle="false" class="jqm-footer">
+		<p>Сингента Україна 2018</p>
+		<p>версія 1.0</p>
+	</div><!-- /footer -->
+	<!-- TODO: This should become an external panel so we can add input to markup (unique ID) -->
+    <div data-role="panel" class="jqm-search-panel" data-position="right" data-display="overlay" data-theme="a">
+		<div class="jqm-search">
+			<ul class="jqm-list" data-filter-placeholder="Пошук..." data-filter-reveal="true">
+<li data-filtertext="насіння" data-icon="home"><a href="#">насіння</a></li>
+<li data-filtertext="introduction overview getting started"><a href="corn_fenomen.html" data-ajax="false">Феномен</a></li>
+<li data-filtertext="кукурудза фортаго"><a href="corn_fortago.html" data-ajax="false">Фортаго</a></li>
+
+
+
+			</ul>
+		</div>
+	</div><!-- /panel -->
+
+
+</div><!-- /page -->
+
+</body>
+</html>

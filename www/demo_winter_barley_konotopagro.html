@@ -1,0 +1,831 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Syngenta Ukraine</title>
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.5.min.css">
+	<link rel="stylesheet" href="additionals/css/syngenta_demo.css">
+    <link rel="stylesheet" href="additionals/css/sf_cards.css">
+    <link rel="stylesheet" href="additionals/css/syngenta_schemedemo.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="css/awesome2/css/all.css">
+     <link rel="stylesheet" type="text/css" href="css/awesome2/css/addfonts.css">
+	<script src="js/jquery.js"></script>
+	<script src="additionals/js/index.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+
+     <style type="text/css">
+
+    <!--
+   .swiper-container {
+        width: 100%;
+        height: auto;
+        border-radius: 5px
+
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+
+    #custom-collapsible {
+        background-color: white  !important;
+
+
+}
+
+#custom-collapsible h4 a {
+    background: #fff  !important;
+
+    color: #00a0be;
+    font-weight: 300;
+    text-shadow: none;
+     -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: thin solid #00a0be !important;
+
+}
+
+#custom-btn {
+        background-color: #00a0be  !important;
+        color: #fff;
+    font-weight: 300;
+    text-shadow: none
+
+}
+
+ .ui-content {
+     padding: 0.5em !important
+ }
+
+ .ui-collapsible-inset {
+     margin: 0.5em !important;
+ }
+
+ .ui-collapsible-content {
+    padding: 0.5em !important
+ }
+
+ .ui-collapsible-heading  {
+     background-color: #FFFFFF !important
+ }
+
+ .ui-collapsible-heading-toggle {
+     background-color: #FFFFFF !important;
+     text-transform: uppercase;
+     text-shadow: none !important;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight:400 !important;
+     color: #00a0be !important;
+ }
+
+ .ui-icon-plus:after {
+     background-color: #00a0be !important;
+
+ }
+
+  .ui-icon-search:after {
+     background-color: #00a0be !important;
+
+ }
+
+ .ui-icon-minus:after {
+     background-color: #00a0be !important
+ }
+
+
+    #custom-collapsible {
+        background-color: white  !important;
+
+
+}
+
+#custom-collapsible h4 a {
+    background: #fff  !important;
+
+    color: #00a0be;
+    font-weight: 300;
+    text-shadow: none;
+     -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: thin solid #00a0be !important;
+
+}
+
+#custom-btn {
+        background-color: #74c043  !important;
+        color: #fff;
+    font-weight: 300;
+    text-shadow: none
+
+}
+
+
+ .imgCenter35 {position: absolute;
+    top: 50%;
+    margin-top: -21px;
+    height: 35px}
+
+ .imgCenter40 {
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    height: 40px
+    }
+
+    .imgCenter50 {
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    height: 50px
+    }
+
+    .imgCenter55 {
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    height: 55px
+    }
+
+    .imgCenter60 {
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    height: 60px
+    }
+
+    #video .ui-collapsible-heading-toggle {
+  background-color: #5F7800 !important;
+     text-transform: uppercase;
+     text-shadow: none !important;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight:400 !important;
+     color: #fff !important;
+     padding-top: 1em;
+     padding-bottom: 1em
+
+ }
+
+  #video .ui-collapsible-heading-toggle {
+  background-color: #00a0be !important;
+     text-transform: uppercase;
+     text-shadow: none !important;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight:400 !important;
+     color: #fff !important;
+     padding-top: 1em;
+     padding-bottom: 1em
+ }
+
+
+    #video {
+      display: none
+  }
+
+    </style>
+
+</head>
+<body>
+
+<div data-role="page" class="jqm-syt jqm-home" style="background: #f3f3f3">
+    <!-- header -->
+    <div data-role="header" class="jqm-header" data-position="fixed">
+       <h2><img src="images/icons/synlogowhite.png" alt="syngenta"></h2>
+        <a href="#" class="jqm-navmenu-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-bars ui-nodisc-icon ui-icon ui-btn-left">Menu</a>
+        <a href="announcements.html" class="ui-btn ui-btn-icon-notext ui-corner-all ui-icon-mail ui-nodisc-icon ui-icon ui-btn-right" target="_self">Messages</a>
+    </div><!-- /header -->
+
+    <div role="main" class="ui-content jqm-content">
+
+    <div class="ui-body ui-body-a ui-corner-all">
+    <div class="ui-grid-solo"  style="margin-top: 1px;">
+    <div class="ui-block-a">
+        <!-- логотип продукта -->
+        <p class="lozung_seeds" style="text-align: center">
+          Ячмінь озимий
+           </p>
+
+        <!-- end -->
+        </div>
+                </div></div>
+
+  <div class="swiper-container" style="margin-top: 5px">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/barley/galation.jpg"  style="width: 100%; height: auto"></div>
+
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+
+ <div class="ui-grid-a ui-responsive" style="margin-top: 3px">
+
+  <!-- описание -->
+     <div class="jqm-block-herb">
+
+
+
+        		<div style="width: 100%;">
+<p class="text">
+<p style="text-transform: uppercase;line-height: 200%"><i class="far fa-calendar-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>
+Строки посіву: 25.09.2019
+</p>
+    <p style="text-transform: uppercase;line-height: 200%"><i class="fas fa-grip-vertical fa-lg"  style="color: #00a0be; padding-right: 10px"></i>
+Густота: 2 млн. насінин
+</p>
+    <p style="text-transform: uppercase;line-height: 200%"><i class="fas fa-sync-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>
+попередник: соя
+</p>
+
+</p>
+
+
+</div>
+
+        	</div> <!-- END -->
+
+
+    <!-- Живлення -->
+     <div class="jqm-block-herb">
+
+           <p  class="pname"><i class="fas fa-leaf fa-lg" style="color: #00a0be; padding-right: 10px"></i>ПІДЖИВЛЕННЯ
+
+</p>
+
+        	 	<div style="width: 100%;">
+
+<p class="text"><i class="far fa-check-circle" style="color: #00a0be; padding-right: 5px"></i>
+<b>Осіннє внесення</b> - Сульфат амонію 100 кг/га
+</p>
+
+<p class="text"> <i class="far fa-check-circle" style="color: #00a0be; padding-right: 5px"></i>
+<b>Весняне внесення</b> - Селітра 250 кг/га, Яра міла NPK(S) 7.20.28.(8) 100кг/га
+</p>
+
+
+            </div>
+
+        	</div> <!-- END -->
+
+<!-- Гибриды -->
+  <div data-role="collapsible" data-collapsed="true">
+  <h4>Гібриди</h4>
+ <!-- btn -->
+        <a href="bar_galation.html" target="_self" class="btnlink">
+        <div class="jqm-block-demolist animate-in-01" style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/barley/galation.jpg); background-size:cover; border-radius: 10px">
+          <div class="ui-grid-solo">
+            <div class="ui-block-a menu_demo">
+         ГАЛАТІОН
+                </div>
+          </div>
+
+          <div class="ui-grid-solo">
+            <div class="ui-block-a btnslogandemo">
+
+          CТАБІЛЬНІСТЬ І ПЛАСТИЧНІСТЬ ЗА БУДЬ-ЯКИХ УМОВ
+
+            </div>
+          </div>
+
+      <div class="ui-grid-solo" style="padding: 0; margin: 0">
+
+            <div class="ui-block-b">
+             <div class="ui-bar ui-bar-a btnsinfo">
+              </div>
+            </div>
+          </div>
+
+          <div class="ui-grid-solo" style="padding: 0; margin: 0">
+
+            <div class="ui-block-b">
+
+            </div>
+          </div>
+        </div></a> <!-- END -->
+
+ <!-- btn -->
+        <a href="bar_vutan.html" target="_self" class="btnlink">
+        <div class="jqm-block-demolist animate-in-01" style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/barley/galation.jpg); background-size:cover; border-radius: 10px">
+          <div class="ui-grid-solo">
+            <div class="ui-block-a menu_demo">
+              ВУТАН
+                     </div>
+          </div>
+
+          <div class="ui-grid-solo">
+            <div class="ui-block-a btnslogandemo">
+            НОВА ЕРА УРОЖАЙНОСТІ ЯЧМЕНЮ ОЗИМОГО
+            </div>
+          </div>
+
+      <div class="ui-grid-solo" style="padding: 0; margin: 0">
+
+            <div class="ui-block-b">
+             <div class="ui-bar ui-bar-a btnsinfo">
+              </div>
+            </div>
+          </div>
+
+          <div class="ui-grid-solo" style="padding: 0; margin: 0">
+
+            <div class="ui-block-b">
+
+            </div>
+          </div>
+        </div></a> <!-- END -->
+
+
+
+     </div>
+
+
+ <!-- ЗЗР -->
+
+
+
+
+  <div class="jqm-block-herb">
+<p  class="pname"><i class="fas fa-leaf fa-lg" style="color: #00a0be; padding-right: 10px"></i>схема захисту поля
+
+</p>
+        		<div style="width: 100%;">
+<p class="text">
+       <b>Умовні позначення:</b> </p>
+       <div class="ui-grid-b">
+       <div class="ui-block-a"><a class="ui-btn ui-btn-a ui-mini"  target="_self"  href="#" style="font-size: 75%; background-color: #e1a30a; color: #FFFFFF; border: thin solid; text-shadow: none; border-radius: 10px">ПРОТРУЙНИК</a></div>
+ <div class="ui-block-b"><a class="ui-btn ui-btn-a ui-mini"  target="_self"  href="#" style="font-size: 75%; background-color: #a8aa15; color: #FFFFFF; border: thin solid; text-shadow: none; border-radius: 10px">ГЕРБІЦИД</a></div>
+  <div class="ui-block-c"><a class="ui-btn ui-btn-a ui-mini"  target="_self"  href="#" style="font-size: 75%; background-color: #d2001b; color: #FFFFFF; border: thin solid; text-shadow: none; border-radius: 10px">ІНСЕКТИЦИД</a></div>
+ <div class="ui-block-a"><a class="ui-btn ui-btn-a ui-mini"  target="_self"  href="#" style="font-size: 75%; background-color: #2c89c3; color: #FFFFFF; border: thin solid; text-shadow: none; border-radius: 10px">ФУНГІЦИД</a></div>
+ <div class="ui-block-b"><a class="ui-btn ui-btn-a ui-mini"  target="_self"  href="#" style="font-size: 75%; background-color: #8e4d29; color: #FFFFFF; border: thin solid; text-shadow: none; border-radius: 10px">РЕТАРДАНТ</a></div>
+ <div class="ui-block-c"><a class="ui-btn ui-btn-a ui-mini"  target="_self"  href="#" style="font-size: 75%; background-color: #909090; color: #FFFFFF; border: thin solid; text-shadow: none; border-radius: 10px">ДОБРИВО</a></div>
+
+
+       </div>
+      </div> </div>
+
+        <!-- Коментарі -->
+
+
+
+        <!-- BBCH 0-->
+          <div style="width: 100%;">
+            <div data-role="collapsible" style="margin-left: 0.2em; margin-right: 0.2em">
+    <h4><img src="images/schemes/wheat/1.png" class="imgCenter40" alt=""><p style="text-align: left; line-height: 35px;margin-left: 20%;font-weight: 300; font-size: 1.2em">BBCH 00
+        </p></h4>
+
+       <!--
+  <div style="width: 100%; text-align: center">
+            <i class="fa fa-exchange"></i>Таблиця рухома по довжині
+          </div>
+--><!-- таблица, которая движима по горизонтали -->
+
+          <div class="table-cont" style="color: rgb(0, 0, 0);">
+            <table class="tbl">
+              <tbody>
+                <!-- шапка таблицы. Сюда можно добавлять новые столбцы с помощью тега td -->
+
+                <tr>
+                  <td class="tabhead">ШКІДЛИВИЙ ОБ'ЄКТ</td>
+
+                  <td class="tabhead">ПРЕПАРАТ</td>
+
+
+                </tr>
+
+                <tr>
+                  <td class="space"></td>
+                </tr>
+                <tr>
+                  <td class="cell">Протруєння насіння</td>
+                  <td class="cell-c">
+ <a class="ui-btn ui-btn-a ui-mini" target="_self" style="background-color: #e1a30a; color: #FFFFFF; border: thin solid; text-shadow: none; border-radius: 10px; font-family: Arial, Helvetica, sans-serif; font-weight: 300" href="sc_vibrance_integral.html">ВАЙБРАНС ІНТЕГРАЛ<br>2,0 л/т</a>
+                  </td>
+                </tr>
+
+
+              </tbody>
+            </table>
+          </div>
+        </div><!-- END -->
+      </div>
+ <!-- BBCH 12-->
+
+      <div style="width: 100%;">
+            <div data-role="collapsible" style="margin-left: 0.2em; margin-right: 0.2em">
+    <h4><img src="images/schemes/wheat/2.png" class="imgCenter60" alt=""><p style="text-align: left; line-height: 35px;margin-left: 20%;font-weight: 300; font-size: 1.2em">BBCH 29-30 (кінець кущіння)
+        </p></h4>
+
+       <!--
+  <div style="width: 100%; text-align: center">
+            <i class="fa fa-exchange"></i>Таблиця рухома по довжині
+          </div>
+--><!-- таблица, которая движима по горизонтали -->
+
+          <div class="table-cont" style="color: rgb(0, 0, 0);">
+            <table class="tbl">
+              <tbody>
+                <!-- шапка таблицы. Сюда можно добавлять новые столбцы с помощью тега td -->
+
+                <tr>
+                  <td class="tabhead">ШКІДЛИВИЙ ОБ'ЄКТ</td>
+
+                  <td class="tabhead">ПРЕПАРАТ</td>
+
+
+                </tr>
+
+                <tr>
+                  <td class="space"></td>
+                </tr>
+                <tr>
+                  <td class="cell">Контроль хвороб,  комплекс шкідників, бур‘яни та регуляція росту</td>
+                  <td class="cell-c">
+                    <a class="ui-btn ui-btn-a ui-mini" target="_self" style="background-color: #2c89c3; color: #FFFFFF; border: thin solid; text-shadow: none; border-radius: 10px; font-family: Arial, Helvetica, sans-serif; font-weight: 300" href="fung_tilt_turbo.html">ТІЛТ&nbsp;ТУРБО<br>0,8 л/га</a> 
+       <a class="ui-btn ui-btn-a ui-mini" target="_self" style="background-color: #8e4d29; color: #FFFFFF; border: thin solid; text-shadow: none; border-radius: 10px; font-family: Arial, Helvetica, sans-serif; font-weight: 300" href="retar_moddus.html">МОДДУС<br>0,2 л/га</a>
+<a class="ui-btn ui-btn-a ui-mini" target="_self" style="background-color: #a8aa15; color: #FFFFFF; border: thin solid; text-shadow: none; border-radius: 10px; font-family: Arial, Helvetica, sans-serif; font-weight: 300" href="herb_gezagard.html">ДЕРБІ<br>0,07 л/га</a>
+<a class="ui-btn ui-btn-a ui-mini" target="_self" style="background-color: #d2001b; color: #FFFFFF; border: thin solid; text-shadow: none; border-radius: 10px; font-family: Arial, Helvetica, sans-serif; font-weight: 300" href="insect_engeo.html">ЕНЖІО<br>0,18 л/га</a>
+                  </td>
+                </tr>
+
+
+              </tbody>
+            </table>
+          </div>
+        </div><!-- END -->
+      </div>
+
+
+               <!--
+ <tr>
+                  <td class="cell">Фомоз, альтернаріоз, септоріоз, фомопсис, іржа, несправжня борошниста роса</td>
+
+                  <td class="cell-c">
+                    <a class="ui-btn ui-btn-a ui-mini" target="_self" style="background-color: #2c89c3; color: #FFFFFF; border: thin solid; text-shadow: none; border-radius: 10px; font-family: Arial, Helvetica, sans-serif; font-weight: 300" href="fung_amistar_extra.html">АМІСТАР ЕКСТРА<br>0,75-1,0 л/га</a>
+                  </td>
+
+
+                </tr>
+
+ <tr>
+                  <td class="space"></td>
+                </tr>
+
+                <tr>
+                  <td class="cell">Альтернаріоз, фомоз, іржа, септоріоз, фомопсис, біла гниль</td>
+
+                  <td class="cell-c">
+                    <a class="ui-btn ui-btn-a ui-mini" target="_self" style="background-color: #2c89c3; color: #FFFFFF; border: thin solid; text-shadow: none; border-radius: 10px; font-family: Arial, Helvetica, sans-serif; font-weight: 300" href="fung_amistar_gold.html">АМІСТАР ГОЛД<br>0,5-1,0 л/га</a>
+                  </td>
+                </tr>
+
+<tr>
+                  <td class="space"></td>
+                </tr>
+
+
+                <tr>
+                  <td class="cell">Геліхризова попелиця, соняшникова шипоноска</td>
+
+                  <td class="cell-c">
+                    <a class="ui-btn ui-btn-a ui-mini" target="_self" style="background-color: #d2001b; color: #FFFFFF; border: thin solid; text-shadow: none; border-radius: 10px; font-family: Arial, Helvetica, sans-serif; font-weight: 300" href="insect_engeo.html">ЕНЖІО<br>0,18 л/га</a>
+                  </td>
+
+                </tr>
+
+                <tr>
+                  <td class="space"></td>
+                </tr>
+
+                <tr>
+                  <td class="cell">Бавовникова совка, луговий метелик</td>
+
+                  <td class="cell-c">
+                    <a class="ui-btn ui-btn-a ui-mini" target="_self" style="background-color: #d2001b; color: #FFFFFF; border: thin solid; text-shadow: none; border-radius: 10px; font-family: Arial, Helvetica, sans-serif; font-weight: 300" href="insect__ampligo.html">АМПЛІГО<br>0,2-0,3 л/га</a>
+                  </td>
+
+                </tr>
+-->
+
+
+
+
+
+      <!-- BBCH 14-->
+
+
+<!-- конец сегмента 4 с таблицей -->
+
+
+
+ <!-- BBCH 19-->
+
+
+  <div style="width: 100%;">
+            <div data-role="collapsible" style="margin-left: 0.2em; margin-right: 0.2em">
+    <h4><img src="images/schemes/wheat/3.png" class="imgCenter60" alt=""><p style="text-align: left; line-height: 35px;margin-left: 20%;font-weight: 300; font-size: 1.2em">BBCH 37 (прапорцевий листок)
+        </p></h4>
+
+        <div style="width: 100%; text-align: center">
+            <i class="fa fa-exchange"></i>Таблиця рухома по довжині
+          </div>
+
+
+          <div class="table-cont" style="color: rgb(0, 0, 0);">
+            <table class="tbl">
+              <tbody>
+
+
+                <tr>
+                  <td class="tabhead">ШКІДЛИВИЙ ОБ'ЄКТ</td>
+
+                  <td class="tabhead">ПРЕПАРАТ</td>
+
+
+                </tr>
+
+<tr>
+                  <td class="space"></td>
+                </tr>
+
+                <tr>
+                  <td class="cell">Хвороби та шкідники на прапорцевому листку</td>
+
+                  <td class="cell-c">
+                       <a class="ui-btn ui-btn-a ui-mini" target="_self" style="background-color: #d2001b; color: #FFFFFF; border: thin solid; text-shadow: none; border-radius: 10px; font-family: Arial, Helvetica, sans-serif; font-weight: 300" href="insect_karate_zeon.html">КАРАТЕ ЗЕОН<br>0,2 л/га</a>
+  <a class="ui-btn ui-btn-a ui-mini" target="_self" style="background-color: #2c89c3; color: #FFFFFF; border: thin solid; text-shadow: none; border-radius: 10px; font-family: Arial, Helvetica, sans-serif; font-weight: 300" href="insect_karate_zeon.html">ЕЛАТУС&nbsp;РІА<br>0,5 л/га</a>
+                  </td>
+
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- BBCH 30-->
+
+   <!--
+   <div style="width: 100%;">
+            <div data-role="collapsible" style="margin-left: 0.2em; margin-right: 0.2em">
+    <h4><img src="images/schemes/sf/7.png" class="imgCenter60"><p style="text-align: left; line-height: 35px;margin-left: 20%;font-weight: 300; font-size: 1.2em">BBCH 51-59 <br>(від зеленого до жовтого бутонів)
+        </p></h4>
+
+        <div class="table-cont" style="color: rgb(0, 0, 0);">
+            <table class="tbl">
+              <tbody>
+
+
+                <tr>
+                  <td class="tabhead">ШКІДЛИВИЙ ОБ'ЄКТ</td>
+
+                  <td class="tabhead">ПРЕПАРАТ</td>
+
+
+                </tr>
+
+                <tr>
+                  <td class="space"></td>
+                </tr>
+                <tr>
+                  <td class="cell">Ріпаковий квіткоїд, прихованохоботники, комплекс хвороб</td>
+                  <td class="cell-c">
+                    <a class="ui-btn ui-btn-a ui-mini" target="_self" style="background-color: #d2001b; color: #FFFFFF; border: thin solid; text-shadow: none; border-radius: 10px; font-family: Arial, Helvetica, sans-serif; font-weight: 300" href="herb_fusilade.html">КАРАТЕ&nbsp;ЗЕОН<br>0,15 л/га</a>
+                    <a class="ui-btn ui-btn-a ui-mini" target="_self" style="background-color: #d2001b; color: #FFFFFF; border: thin solid; text-shadow: none; border-radius: 10px; font-family: Arial, Helvetica, sans-serif; font-weight: 300" href="herb_fusilade.html">ПЛЕНУМ<br>0,2 л/га</a>
+                    <a class="ui-btn ui-btn-a ui-mini" target="_self" style="background-color: #2c89c3; color: #FFFFFF; border: thin solid; text-shadow: none; border-radius: 10px; font-family: Arial, Helvetica, sans-serif; font-weight: 300" href="herb_fusilade.html">АМІСТАР ЕКСТРА<br>0,5 л/га</a>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="space"></td>
+                </tr>
+
+
+ <tr>
+                  <td class="cell">Фомоз, альтернаріоз, септоріоз, фомопсис, іржа, несправжня борошниста роса</td>
+
+                  <td class="cell-c">
+                    <a class="ui-btn ui-btn-a ui-mini" target="_self" style="background-color: #2c89c3; color: #FFFFFF; border: thin solid; text-shadow: none; border-radius: 10px; font-family: Arial, Helvetica, sans-serif; font-weight: 300" href="fung_amistar_extra.html">АМІСТАР ЕКСТРА<br>0,75-1,0 л/га</a>
+                  </td>
+
+
+                </tr>
+
+ <tr>
+                  <td class="space"></td>
+                </tr>
+
+                <tr>
+                  <td class="cell">Альтернаріоз, фомоз, іржа, септоріоз, фомопсис, біла гниль</td>
+
+                  <td class="cell-c">
+                    <a class="ui-btn ui-btn-a ui-mini" target="_self" style="background-color: #2c89c3; color: #FFFFFF; border: thin solid; text-shadow: none; border-radius: 10px; font-family: Arial, Helvetica, sans-serif; font-weight: 300" href="fung_amistar_gold.html">АМІСТАР ГОЛД<br>0,5-1,0 л/га</a>
+                  </td>
+                </tr>
+
+<tr>
+                  <td class="space"></td>
+                </tr>
+
+
+                <tr>
+                  <td class="cell">Геліхризова попелиця, соняшникова шипоноска</td>
+
+                  <td class="cell-c">
+                    <a class="ui-btn ui-btn-a ui-mini" target="_self" style="background-color: #d2001b; color: #FFFFFF; border: thin solid; text-shadow: none; border-radius: 10px; font-family: Arial, Helvetica, sans-serif; font-weight: 300" href="insect_engeo.html">ЕНЖІО<br>0,18 л/га</a>
+                  </td>
+
+                </tr>
+
+                <tr>
+                  <td class="space"></td>
+                </tr>
+
+                <tr>
+                  <td class="cell">Бавовникова совка, луговий метелик</td>
+
+                  <td class="cell-c">
+                    <a class="ui-btn ui-btn-a ui-mini" target="_self" style="background-color: #d2001b; color: #FFFFFF; border: thin solid; text-shadow: none; border-radius: 10px; font-family: Arial, Helvetica, sans-serif; font-weight: 300" href="insect__ampligo.html">АМПЛІГО<br>0,2-0,3 л/га</a>
+                  </td>
+
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+        </div><!-- END -->
+
+
+
+           <div class="jqm-block-herb" style="display: none">
+
+           <p  class="pname">Відео</p>
+
+
+
+
+        		<div style="width: 100%;">
+ <iframe width="100%" height="250" src="https://www.youtube.com/embed/Zzw7LUCu3HQ?rel=0&showinfo=0&modestbranding=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<div style="width: 100%; text-align: right;"><i class="fas fa-arrow-up" style="padding-right: 20px"></i><br>Після включення відео натисніть на білий квадрат, аби переглянути відео у повноекранному режимі</div>
+</div>
+
+        	</div> <!-- END -->
+
+ <!-- Видео -->
+  <div data-role="collapsible" data-collapsed="true" data-collapsed-icon="video" id="video">
+  <h4>Інші відео з поля</h4>
+
+ <!-- btn -->
+
+
+          <div class="ui-grid-solo">
+       <div class="ui-block-a btnslogandemovideo">
+              <b>Старт посіву</b>
+   <div  class="btnslinedemovideo"></div>
+ </div>
+</div>
+ <iframe width="100%" height="250" src="https://www.youtube.com/embed/UsqaojkVmSw?rel=0&showinfo=0&modestbranding=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p></p>
+
+
+         <!-- END -->
+
+<!-- btn -->
+
+
+          <div class="ui-grid-solo">
+       <div class="ui-block-a btnslogandemovideo">
+              <b>Старт посіву</b>
+   <div  class="btnslinedemovideo"></div>
+ </div>
+</div>
+ <iframe width="100%" height="250" src="https://www.youtube.com/embed/YoOhaEitzdY?rel=0&showinfo=0&modestbranding=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p></p>
+
+   <!-- END -->
+
+ <!-- btn -->
+
+
+          <div class="ui-grid-solo">
+       <div class="ui-block-a btnslogandemovideo">
+              <b>Старт посіву</b>
+   <div  class="btnslinedemovideo"></div>
+ </div>
+</div>
+ <iframe width="100%" height="250" src="https://www.youtube.com/embed/UsqaojkVmSw?rel=0&showinfo=0&modestbranding=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><p></p>
+ <!-- END -->
+
+
+     </div>
+  <div><p></p></div>
+<!-- додатково  -->
+           <div class="jqm-block-herb">
+
+   <p  class="pname">Додатково</p>
+
+<div class="ui-grid-solo">
+
+<div class="ui-block-a"><a target="_self" href="feedback1.html" class="ui-shadow ui-btn ui-corner-all" style="background: #00A0BE !important;color: #FFFFFF; text-shadow: none; text-transform: uppercase">Задати питання</a></div>
+
+<div class="ui-block-a"><a target="_self" href="qrcodelist.html" class="ui-shadow ui-btn ui-corner-all" style="background: #00A0BE !important;color: #FFFFFF; text-shadow: none; text-transform: uppercase">Сканувати QR&nbsp;код</a></div>
+
+
+<div class="ui-grid-solo">
+<div class="ui-block-a"><a target="_self" href="map1.html" class="ui-shadow ui-btn ui-corner-all" style="background: #00A0BE !important;color: #FFFFFF; text-shadow: none; text-transform: uppercase">всі демо поля</a></div>
+</div>
+
+        	</div></div></div></div>
+
+
+	  <!-- left  menu -->
+	    <div data-role="panel" class="jqm-navmenu-panel" data-position="left" data-display="overlay" data-theme="a">
+	    	<ul class="jqm-list ui-alt-icon ui-nodisc-icon">
+<li data-filtertext="home" data-icon="home"><a href="index.html">На головну</a></li>
+<li data-filtertext="ззр" data-icon="carat-r"  style="background: #70840b; text-transform: none; text-shadow: none; color: #FFFFFF; text-decoration: none"><b>ЗЗР</b></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"   href="menu_herb.html">Гербіциди</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_insect.html">Інсектициди</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_fung.html">Фунгіциди</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_sc.html">Протруники</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_retar.html">Ретарданти</a></li>
+
+<li data-filtertext="ззр" data-icon="carat-r" style="background: #ed8001; text-transform: none; text-shadow: none; color: #FFFFFF; text-decoration: none"><b>НАСІННЯ</b></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_sf.html">Соняшник</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_corn.html">Кукурудза</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_osr.html">Ріпак озимий</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_sorgum.html">Сорго</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_cereals.html">Зернові</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="index_veg.html">Овочеві культури</a></li>
+
+<li data-filtertext="ззр" data-icon="carat-r" style="background: #94c120; text-transform: none; text-shadow: none; color: #FFFFFF; text-decoration: none"><b>ФІНАНСОВІ РІШЕННЯ</b></li>
+ <li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="fiso_new_horiz.html">Підтримка плюс</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="fiso_pidtr_XXL.html">Підтримка XXL</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="fiso_meteozakh.html">Метеозахист</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="fiso_legkoposivna.html">Легкопосівна</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="fiso_agrarni_rozpisky.html">Аграрні розписки</a></li>
+
+ <li data-filtertext="ззр" data-icon="carat-r" style="background: #039eba; text-transform: none; text-shadow: none; color: #FFFFFF; text-decoration: none"><b>БІБЛІОТЕКА АГРОНОМА</b></li>
+ <li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_actions.html">Акції</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_calc.html">Агро-калькулятори</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_schemes.html">Схеми захисту</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_weeds.html">Шкідники, хвороби</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_about_cp.html">Про ЗЗР</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_about_seeds.html">Про насіння</a></li>
+
+
+ <li data-filtertext="ззр" data-icon="carat-r" style="background: #00a873; text-transform: none; text-shadow: none; color: #FFFFFF; text-decoration: none"><b>КОНТАКТИ</b></li>
+ <li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="contacts_distr.html">Дистриб'ютори</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="contactsKAM.html">КАМ відділ</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="contacts.html">Регіони</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="contacts_fiso.html">Фінансові рішення</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="contacts_main_office.html">Головний офіс</a></li>
+
+<!-- otherpanel -->
+		     </ul>
+		</div><!-- /panel -->
+
+
+	<div data-role="footer" data-position="fixed" data-tap-toggle="false" class="jqm-footer">
+		<p>Сингента Україна 2020</p>
+		<p>версія 3.0</p>
+	</div><!-- /footer -->
+
+    <div data-role="panel" class="jqm-search-panel" data-position="right" data-display="overlay" data-theme="a">
+		<div class="jqm-search">
+			<ul class="jqm-list" data-filter-placeholder="Пошук..." data-filter-reveal="true">
+<li data-filtertext="насіння" data-icon="home"><a href="#">насіння</a></li>
+<li data-filtertext="introduction overview getting started"><a href="corn_fenomen.html" data-ajax="false">Феномен</a></li>
+<li data-filtertext="кукурудза фортаго"><a href="corn_fortago.html" data-ajax="false">Фортаго</a></li>
+
+
+
+			</ul>
+		</div>
+	</div><!-- /panel -->
+
+
+</div></div><!-- /page -->
+
+</body>
+</html>

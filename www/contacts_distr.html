@@ -1,0 +1,1132 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Syngenta Ukraine</title>
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.5.min.css">
+	<link rel="stylesheet" href="additionals/css/syngenta_veg.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
+	<script src="js/jquery.js"></script>
+	<script src="additionals/js/index.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+
+     <style type="text/css">
+
+    <!--
+   .swiper-container {
+        width: 100%;
+        height: auto;
+        border-radius: 5px
+
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+
+    #custom-collapsible {
+        background-color: white  !important;
+
+
+}
+
+#custom-collapsible h4 a {
+    background: #fff  !important;
+
+    color: #7faf55;
+    font-weight: 300;
+    text-shadow: none;
+     -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: thin solid #7faf55 !important;
+
+}
+
+#custom-btn {
+        background-color: #7faf55  !important;
+        color: #fff;
+    font-weight: 300;
+    text-shadow: none
+
+}
+
+ .ui-content {
+     padding: 0.5em !important
+ }
+
+ .circular--square {
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  max-width: 200px;
+  height: auto;
+  width: 50%
+}
+
+/*basic layout*/
+.material-contact {
+    width:100%;
+    max-width:100%;
+    height:auto;
+    padding:50px 30px 30px 30px;
+    box-sizing:border-box;
+    display:block;
+    position:relative;
+    overflow:hidden;
+
+    box-shadow:0 1px 5px 0 rgba(0,0,0,0.3);
+    background:#fff;
+    border-radius:5px;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px
+}
+
+/*header*/
+.material-contact img {
+    width:150px;
+    height:150px;
+    display:block;
+    margin:0 auto;
+    border-radius:100%;
+}
+.material-contact h1 {
+    width:100%;
+    height:auto;
+    padding:05px 0 5px 0;
+    display:block;
+    font-size:1.5rem;
+    font-weight:300;
+    line-height:1em;
+    text-align:center;
+
+    color:#5F7800;
+    background:none;
+}
+.material-contact h2 {
+    width:100%;
+    height:auto;
+    padding:5px 0;
+    display:block;
+
+    font-size:1.0rem;
+    font-weight:300;
+    line-height:1.6em;
+    text-align:center;
+
+    color:#333;
+    background:none;
+}
+
+.material-contact hr {
+    width:30%;
+    height:0;
+    padding:0;
+    display:block;
+    margin:30px auto;
+    border:1px solid #5F7800;
+}
+
+/*info section*/
+.material-contact p {
+    width:100%;
+    height:auto;
+    padding:10px 0;
+    display:block;
+
+    font-size:1rem;
+    font-weight:400;
+    line-height:1.2em;
+    text-align:justify;
+}
+
+.material-contact .actions {
+    width:100%;
+    height:auto;
+    padding:0;
+    display:block;
+    margin:10px 0 0 0;
+
+    align-content:center;
+    text-align:left;
+}
+.material-contact .actions a {
+    width:auto;
+    height:auto;
+    padding:5px 10px;
+    box-sizing:border-box;
+    display:inline-block;
+    margin:5px auto;
+
+    font-size:1rem;
+    font-weight:300;
+    line-height:1.2em;
+    text-decoration:none;
+
+    border-radius:100px;
+    background:#fff;
+    color:#333;
+
+    transition:.1s;
+}
+.material-contact .actions a:hover {
+    background:#fff;
+    color:#333;
+}
+.material-contact .actions a:active {
+    background:#333;
+    color:#fff;
+}
+
+/*animation*/
+.animate-in-01 {
+    animation:animateIn 1s ease;
+    -webkit-animation:animateIn 1s ease;
+}
+.animate-in-02 {
+    animation:animateIn 1s ease forwards;
+    animation-delay:.2s;
+    -webkit-animation:animateIn 1s ease forwards;
+    -webkit-animation-delay:.2s;
+    opacity:0;
+}
+.animate-in-03 {
+    animation:animateIn 1s ease forwards;
+    animation-delay:.4s;
+    -webkit-animation:animateIn 1s ease forwards;
+    -webkit-animation-delay:.4s;
+    opacity:0;
+}
+.animate-in-04 {
+    animation:animateIn 1s ease forwards;
+    animation-delay:.5s;
+    -webkit-animation:animateIn 1s ease forwards;
+    -webkit-animation-delay:.5s;
+    opacity:0;
+}
+.animate-in-05 {
+    animation:animateIn 1s ease forwards;
+    animation-delay:.6s;
+    -webkit-animation:animateIn 1s ease forwards;
+    -webkit-animation-delay:.6s;
+    opacity:0;
+}
+@keyframes animateIn {
+    0%{
+        opacity:0;
+        transform: translateY(50px);
+        -webkit-transform: translateY(50px);
+        -moz-transform: translateY(50px);
+        -ms-transform: translateY(50px);
+        -o-transform: translateY(50px);
+    }
+    100%{
+        opacity:1;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+    }
+}
+@-webkit-keyframes animateIn {
+    0%{
+        opacity:0;
+        transform: translateY(50px);
+        -webkit-transform: translateY(50px);
+        -moz-transform: translateY(50px);
+        -ms-transform: translateY(50px);
+        -o-transform: translateY(50px);
+    }
+    100%{
+        opacity:1;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+    }
+}
+
+.animate-in-image {
+    animation:animateInImage 1s ease;
+    -webkit-animation:animateInImage 1s ease;
+}
+@keyframes animateInImage {
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+@-webkit-keyframes animateInImage {
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+
+.animate-in-card {
+    animation:animateIn .7s ease;
+    -webkit-animation:animateIn .7s ease;
+}
+    -->
+    </style>
+
+</head>
+<body>
+
+<div data-role="page" class="jqm-syt jqm-home" style="background: #f5f5f5">
+    <!-- header -->
+    <div data-role="header" class="jqm-header" data-position="fixed">
+       <h2><img src="images/icons/synlogowhite.png" alt="syngenta"></h2>
+        <a href="#" class="jqm-navmenu-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-bars ui-nodisc-icon ui-icon ui-btn-left">Menu</a>
+        <!--<a href="announcements.html" class="ui-btn ui-btn-icon-notext ui-corner-all ui-icon-mail ui-nodisc-icon ui-icon ui-btn-right" target="_self">Messages</a>-->
+    </div><!-- /header -->
+
+
+
+    <div role="main" class="ui-content jqm-content">
+
+<div class="ui-body ui-body-a ui-corner-all">
+    <div class="ui-grid-solo"  style="margin-top: 1px">
+             <div class="ui-block-a"><p style="text-align: center"><img src="images/logo/syt_logo_transp.png"  class="logo_cp_short"></p></div>
+
+                    <div class="ui-block-a"><p class="lozung">
+офіційні дистриб'ютори
+                        </p></div>
+                </div></div>
+
+ <!-- the contact card -->
+<div class="material-contact animate-in-card">
+
+			<!-- image -->
+			<img class="animate-in-image" src="images/icons/distr/10725_logo_232x232_site_syngenta_pgr_194.png">
+			<!-- name -->
+			<h1 class="animate-in-01">
+AP GROUP (ТОВ «АП ТРЕЙД»)
+                </h1>
+			<!-- title -->
+			<h2 class="animate-in-02">
+04119, м. Київ, вул. Дегтярівська, буд. 27-Т, літера&nbsp;А
+                </h2>
+
+			<hr class="animate-in-03">
+
+
+
+			<!-- contact links -->
+			<span class="actions animate-in-05">
+
+<a href="tel:+38 044 498 22 40" target="_blank"><i class="fas fa-phone-square fa-lg"></i>&nbsp;+38 (044) 498 22 40</a>
+<a href="tel:+38 067 352 86 12" target="_blank"><i class="fas fa-phone-square fa-lg"></i>&nbsp;+38 (067) 352 86 12</a>
+
+
+<a href="mailto:lstrykhar@agroprosperis.com"><i class="fas fa-envelope fa-lg"></i>&nbsp;
+lstrykhar@agroprosperis.com
+</a>
+
+<a href="https://www.agroprosperis.com/"><i class="fas fa-globe fa-lg"></i>&nbsp;
+https://www.agroprosperis.com/
+</a>
+
+                        </span>
+
+</div>  <!-- END -->
+
+
+  <!-- the contact card -->
+<div class="material-contact animate-in-card">
+
+			<!-- image -->
+			<img class="animate-in-image" src="images/icons/distr/10725_logo_232x232_site_syngenta_pgr_1916.png">
+			<!-- name -->
+			<h1 class="animate-in-01">
+МПП ФІРМА «ЕРІДОН»
+                </h1>
+			<!-- title -->
+			<h2 class="animate-in-02">
+08132, Київська область, Києво–Святошинський район,
+с.&nbsp;Софіївська Борщагівка, вул. Чорновола,&nbsp;30
+                </h2>
+
+			<hr class="animate-in-03">
+
+
+
+			<!-- contact links -->
+			<span class="actions animate-in-05">
+
+<a href="tel:+38 044 536-92-00" target="_blank"><i class="fas fa-phone-square fa-lg"></i>&nbsp;+38 (044) 536-92-00</a>
+<a href="tel:+38 044 501-88-30" target="_blank"><i class="fas fa-phone-square fa-lg"></i>&nbsp;+38 (044) 501-88-30</a>
+
+<a href="mailto:office@eridon.ua"><i class="fas fa-envelope fa-lg"></i>&nbsp;
+office@eridon.ua
+</a>
+
+<a href="https://www.eridon.ua/"><i class="fas fa-globe fa-lg"></i>&nbsp;
+https://www.eridon.ua/
+</a>
+
+                        </span>
+
+</div> <!-- END -->
+
+
+ <!-- the contact card -->
+<div class="material-contact animate-in-card">
+
+			<!-- image -->
+			<img class="animate-in-image" src="images/icons/distr/agrohim_logo_232x232_site_syngenta.png">
+			<!-- name -->
+			<h1 class="animate-in-01">
+ПП «Агрохім»
+                </h1>
+			<!-- title -->
+			<h2 class="animate-in-02">
+025009, м. Кропивницький, вул.&nbsp;Комарова&nbsp;74
+                </h2>
+
+			<hr class="animate-in-03">
+
+
+
+			<!-- contact links -->
+			<span class="actions animate-in-05">
+<a href="tel:+38 044 501-88-30" target="_blank"><i class="fas fa-phone-square fa-lg"></i>&nbsp;+ 38 (0522)33-07-27</a>
+<a href="tel:+38 044 501-88-30" target="_blank"><i class="fas fa-phone-square fa-lg"></i>&nbsp;+ 38 (0522)33-64-56</a>
+<a href="tel:+38 044 536-92-00" target="_blank"><i class="fas fa-phone-square fa-lg"></i>&nbsp;+38 (095) 433-43-37</a>
+<a href="tel:+38 044 501-88-30" target="_blank"><i class="fas fa-phone-square fa-lg"></i>&nbsp;+ 38 (097) 433-43-37</a>
+
+
+<a href="mailto:info@agrokhim.com.ua"><i class="fas fa-envelope fa-lg"></i>&nbsp;
+info@agrokhim.com.ua ua
+</a>
+
+<a href="https://www.agrokhim.com.ua/"><i class="fas fa-globe fa-lg"></i>&nbsp;
+https://www.agrokhim.com.ua/
+</a>
+
+                        </span>
+
+</div> <!-- END -->
+
+
+    <!-- the contact card -->
+<div class="material-contact animate-in-card">
+
+			<!-- image -->
+			<img class="animate-in-image" src="images/icons/distr/10725_logo_232x232_site_syngenta_pgr_1919.png">
+			<!-- name -->
+			<h1 class="animate-in-01">
+ПП «АДЛЄР»
+                                </h1>
+			<!-- title -->
+			<h2 class="animate-in-02">
+10007,м. Житомир, вул. Авіаторів,&nbsp;9
+                                </h2>
+
+			<hr class="animate-in-03">
+
+
+
+			<!-- contact links -->
+			<span class="actions animate-in-05">
+
+<a href="tel:0 800 501 432" target="_blank"><i class="fas fa-phone-square fa-lg"></i>&nbsp;0 800 501 432</a>
+
+<a href="mailto:mail@adler.com.ua"><i class="fas fa-envelope fa-lg"></i>&nbsp;
+mail@adler.com.ua
+</a>
+
+<a href="http://www.adler.com.ua/"><i class="fas fa-globe fa-lg"></i>&nbsp;
+http://www.adler.com.ua/
+</a>
+
+                                                </span>
+
+</div> <!-- END -->
+
+
+
+    <!-- the contact card -->
+<div class="material-contact animate-in-card">
+
+			<!-- image -->
+			<img class="animate-in-image" src="images/icons/distr/10725_logo_232x232_site_syngenta_pgr_1917.png">
+			<!-- name -->
+			<h1 class="animate-in-01">
+ПП «БІЗОН-ТЕХ 2006»
+                                </h1>
+			<!-- title -->
+			<h2 class="animate-in-02">
+Україна, 03189, м. Київ, вул. Ломоносова,&nbsp;71-Г
+                                </h2>
+
+			<hr class="animate-in-03">
+
+
+
+			<!-- contact links -->
+			<span class="actions animate-in-05">
+
+<a href="tel:+38 044 391 44 40" target="_blank"><i class="fas fa-phone-square fa-lg"></i>&nbsp;+38 (044) 391 44 40</a>
+<a href="tel:+38 044 391 44 41" target="_blank"><i class="fas fa-phone-square fa-lg"></i>&nbsp;+38 (044) 391 44 41</a>
+
+<a href="mailto:office@bizontech.ua"><i class="fas fa-envelope fa-lg"></i>&nbsp;
+office@bizontech.ua
+</a>
+
+<a href="http://www.bizontech.ua/"><i class="fas fa-globe fa-lg"></i>&nbsp;
+http://www.bizontech.ua/
+</a>
+
+</span>
+
+</div> <!-- END -->
+
+
+
+    <!-- the contact card -->
+ <!-- END -->
+
+
+    <!-- the contact card -->
+ <!-- END -->
+
+
+    <!-- the contact card -->
+<div class="material-contact animate-in-card">
+
+			<!-- image -->
+			<img class="animate-in-image" src="images/icons/distr/10725_logo_232x232_site_syngenta_pgr_195.png">
+			<!-- name -->
+			<h1 class="animate-in-01">
+ПРАТ «ЛЕБЕДИНСЬКИЙ НАСІННЄВИЙ ЗАВОД»
+                                </h1>
+			<!-- title -->
+			<h2 class="animate-in-02">
+м. Черкаси, вул. Хрещатик,&nbsp;251
+                                </h2>
+
+			<hr class="animate-in-03">
+
+
+
+			<!-- contact links -->
+			<span class="actions animate-in-05">
+
+<a href="tel:+38 04741 2 68 37" target="_blank"><i class="fas fa-phone-square fa-lg"></i>&nbsp;+38 (04741) 2 68 37</a>
+
+<a href="mailto:office@lnz.onmicrosoft.com"><i class="fas fa-envelope fa-lg"></i>&nbsp;
+office@lnz.onmicrosoft.com
+</a>
+
+<a href="https://www.lnz.com.ua/"><i class="fas fa-globe fa-lg"></i>&nbsp;
+https://www.lnz.com.ua/
+</a>
+
+</span>
+
+</div> <!-- END -->
+
+
+    <!-- the contact card -->
+<div class="material-contact animate-in-card">
+
+			<!-- image -->
+			<img class="animate-in-image" src="images/icons/distr/10725_logo_232x232_site_syngenta_pgr_1913.png">
+			<!-- name -->
+			<h1 class="animate-in-01">
+ТЗОВ «ВОЛИНЬ-ЗЕРНО-ПРОДУКТ»
+                                </h1>
+			<!-- title -->
+			<h2 class="animate-in-02">
+м.Луцьк, вул.Мамсурова, Будинок&nbsp;№10
+                                </h2>
+
+			<hr class="animate-in-03">
+
+
+
+			<!-- contact links -->
+			<span class="actions animate-in-05">
+
+<a href="tel:+38 (0332) 28-68-02" target="_blank"><i class="fas fa-phone-square fa-lg"></i>&nbsp;+38 (0332) 28-68-02</a>
+<a href="tel:+38 (0332) 28-68-02" target="_blank"><i class="fas fa-phone-square fa-lg"></i>&nbsp;+38 (0332) 28-68-03</a>
+<a href="tel:+38 (0332) 28-68-02" target="_blank"><i class="fas fa-phone-square fa-lg"></i>&nbsp;+38 (0332) 76-97-28</a>
+
+<a href="mailto:officec@vzp.com.ua"><i class="fas fa-envelope fa-lg"></i>&nbsp;
+office@vzp.com.ua
+</a>
+
+<a href="http://vzp.com.ua/uk/golovna/"><i class="fas fa-globe fa-lg"></i>&nbsp;
+http://vzp.com.ua/uk/golovna/
+</a>
+
+</span>
+
+</div> <!-- END -->
+
+
+
+    <!-- the contact card -->
+<div class="material-contact animate-in-card">
+
+			<!-- image -->
+			<img class="animate-in-image" src="images/icons/distr/10725_logo_232x232_site_syngenta_pgr_1911.png">
+			<!-- name -->
+			<h1 class="animate-in-01">
+ТОВ «АГРАРНО-ХІМІЧНА КОМПАНІЯ»
+                                </h1>
+			<!-- title -->
+			<h2 class="animate-in-02">
+03118, м.Київ, вул. Козацька&nbsp;116&nbsp;Б
+                                </h2>
+
+			<hr class="animate-in-03">
+
+
+
+			<!-- contact links -->
+			<span class="actions animate-in-05">
+
+<a href="tel:+38 044 258 91 21" target="_blank"><i class="fas fa-phone-square fa-lg"></i>&nbsp;+38 (044) 258 91 21</a>
+<a href="tel:+38 044 258 91 31" target="_blank"><i class="fas fa-phone-square fa-lg"></i>&nbsp;+38 (044) 258 91 31</a>
+
+<a href="mailto:uahk@uahk.in.ua"><i class="fas fa-envelope fa-lg"></i>&nbsp;
+uahk@uahk.in.ua
+</a>
+
+<a href="http://www.agro-him.company/"><i class="fas fa-globe fa-lg"></i>&nbsp;
+http://www.agro-him.company/
+</a>
+
+</span>
+
+</div> <!-- END -->
+
+
+    <!-- the contact card -->
+<div class="material-contact animate-in-card">
+
+			<!-- image -->
+			<img class="animate-in-image" src="images/icons/distr/10725_logo_232x232_site_syngenta_pgr_192.png">
+			<!-- name -->
+			<h1 class="animate-in-01">
+ТОВ «АГРОРЕСУРС-А»
+                                </h1>
+			<!-- title -->
+			<h2 class="animate-in-02">
+25014, м. Кропивницький, вул. Перша виставкова,&nbsp;29М
+                                </h2>
+
+			<hr class="animate-in-03">
+
+
+
+			<!-- contact links -->
+			<span class="actions animate-in-05">
+
+<a href="tel:+38 (0522) 35 90 35" target="_blank"><i class="fas fa-phone-square fa-lg"></i>&nbsp;+38 (0522) 35 90 35</a>
+<a href="tel:+38 (050) 487 99 00" target="_blank"><i class="fas fa-phone-square fa-lg"></i>&nbsp;+38 (050) 487 99 00</a>
+
+<a href="mailto:office@agroresurs-a.com"><i class="fas fa-envelope fa-lg"></i>&nbsp;
+office@agroresurs-a.com
+</a>
+
+<a href="http://www.agro.kr.ua/"><i class="fas fa-globe fa-lg"></i>&nbsp;
+http://www.agro.kr.ua/
+</a>
+
+</span>
+
+</div> <!-- END -->
+
+
+    <!-- the contact card -->
+<div class="material-contact animate-in-card">
+
+			<!-- image -->
+			<img class="animate-in-image" src="images/icons/distr/10725_logo_232x232_site_syngenta_pgr_193.png">
+			<!-- name -->
+			<h1 class="animate-in-01">
+ТОВ «АГРОРОСЬ»
+                                </h1>
+			<!-- title -->
+			<h2 class="animate-in-02">
+19400, Черкаська обл., м.Корсунь-Шевченківський, вул.Шевченка,&nbsp;39
+                                </h2>
+
+			<hr class="animate-in-03">
+
+
+
+			<!-- contact links -->
+			<span class="actions animate-in-05">
+
+<a href="tel:+38 (04735) 2 35 90" target="_blank"><i class="fas fa-phone-square fa-lg"></i>&nbsp;+38 (04735) 2 35 90</a>
+<a href="tel:+38 (04735) 2 58 55" target="_blank"><i class="fas fa-phone-square fa-lg"></i>&nbsp;+38 (04735) 2 58 55</a>
+
+<a href="mailto:office@agroros.com.ua"><i class="fas fa-envelope fa-lg"></i>&nbsp;
+office@agroros.com.ua
+</a>
+
+<a href="http://www.agroros.com.ua/"><i class="fas fa-globe fa-lg"></i>&nbsp;
+http://www.agroros.com.ua/
+</a>
+
+</span>
+
+</div> <!-- END -->
+
+
+    <!-- the contact card -->
+<div class="material-contact animate-in-card">
+
+			<!-- image -->
+			<img class="animate-in-image" src="images/icons/distr/10725_logo_232x232_site_syngenta_pgr_1918.png">
+			<!-- name -->
+			<h1 class="animate-in-01">
+ТОВ «АГРІІ УКРАЇНА»
+                                </h1>
+			<!-- title -->
+			<h2 class="animate-in-02">
+03022, Україна, м.Київ, вул. Смольна,&nbsp;9Б
+                                </h2>
+
+			<hr class="animate-in-03">
+
+
+
+			<!-- contact links -->
+			<span class="actions animate-in-05">
+
+<a href="tel:+38 (044) 494-36-60" target="_blank"><i class="fas fa-phone-square fa-lg"></i>&nbsp;+38 (044) 494-36-60</a>
+
+<a href="mailto:feedback@agroscope.ua"><i class="fas fa-envelope fa-lg"></i>&nbsp;
+feedback@agrii.com.ua
+</a>
+
+<a href="https://agrii.com.ua/"><i class="fas fa-globe fa-lg"></i>&nbsp;
+https://agrii.com.ua/
+</a>
+
+</span>
+
+</div> <!-- END -->
+
+
+
+    <!-- the contact card -->
+<div class="material-contact animate-in-card">
+
+			<!-- image -->
+			<img class="animate-in-image" src="images/icons/distr/10725_logo_232x232_site_syngenta_pgr_199.png">
+			<!-- name -->
+			<h1 class="animate-in-01">
+ТОВ «ЗАХІД АГРОБІЗНЕС»
+                                </h1>
+			<!-- title -->
+			<h2 class="animate-in-02">
+33018, Рівненська обл., м. Рівне, Будівельників, 1
+                                </h2>
+
+			<hr class="animate-in-03">
+
+
+
+			<!-- contact links -->
+			<span class="actions animate-in-05">
+
+<a href="tel:+38 (036) 242 07 07" target="_blank"><i class="fas fa-phone-square fa-lg"></i>&nbsp;+38 (036) 242 07 07</a>
+<a href="tel:+38 (067) 354 03 02" target="_blank"><i class="fas fa-phone-square fa-lg"></i>&nbsp;+38 (067) 354 03 02</a>
+
+
+<a href="mailto:info@zahidagro.biz"><i class="fas fa-envelope fa-lg"></i>&nbsp;
+info@zahidagro.biz
+</a>
+<a href="mailto:Zaxidagro@ukr.net"><i class="fas fa-envelope fa-lg"></i>&nbsp;
+zaxidagro@ukr.net
+</a>
+
+<a href="http://www.zahidagro.biz/"><i class="fas fa-globe fa-lg"></i>&nbsp;
+http://www.zahidagro.biz/
+</a>
+
+</span>
+
+</div> <!-- END -->
+
+
+   <!-- the contact card -->
+<div class="material-contact animate-in-card">
+
+			<!-- image -->
+			<img class="animate-in-image" src="images/icons/distr/10725_logo_232x232_site_syngenta_pgr_1912.png">
+			<!-- name -->
+			<h1 class="animate-in-01">
+ТОВ «ПОЛЕТЕХНІКА»
+                                </h1>
+			<!-- title -->
+			<h2 class="animate-in-02">
+69050, м.Запоріжжя, вул.Космічна,&nbsp;121&nbsp;В
+                                </h2>
+
+			<hr class="animate-in-03">
+
+
+
+			<!-- contact links -->
+			<span class="actions animate-in-05">
+
+<a href="tel:+38 (066) 931 31 31" target="_blank"><i class="fas fa-phone-square fa-lg"></i>&nbsp;+38 (066) 931 31 31</a>
+
+<a href="mailto:office@poletehnika.in.ua"><i class="fas fa-envelope fa-lg"></i>&nbsp;
+office@poletehnika.in.ua
+</a>
+
+
+<a href="http://www.poletehnika.com.ua/"><i class="fas fa-globe fa-lg"></i>&nbsp;
+http://www.poletehnika.com.ua/
+</a>
+
+</span>
+
+</div> <!-- END -->
+
+
+
+
+   <!-- the contact card -->
+<div class="material-contact animate-in-card">
+
+			<!-- image -->
+			<img class="animate-in-image" src="images/icons/distr/10725_logo_232x232_site_syngenta_pgr_197.png">
+			<!-- name -->
+			<h1 class="animate-in-01">
+ТОВ «СПЕКТР-АГРО»
+                                </h1>
+			<!-- title -->
+			<h2 class="animate-in-02">
+08702, Київська область, м.Обухів, вул.Промислова,&nbsp;20
+                                </h2>
+
+			<hr class="animate-in-03">
+
+
+
+			<!-- contact links -->
+			<span class="actions animate-in-05">
+
+<a href="tel:+38 (044) 520 94 30" target="_blank"><i class="fas fa-phone-square fa-lg"></i>&nbsp;+38 (044) 520 94 30</a>
+<a href="tel:+38 (067) 219 06 32" target="_blank"><i class="fas fa-phone-square fa-lg"></i>&nbsp;+38 (067) 219 06 32</a>
+
+<a href="mailto:agro@spectr-agro.com"><i class="fas fa-envelope fa-lg"></i>&nbsp;
+agro@spectr-agro.com
+</a>
+
+
+<a href="http://www.spectr-agro.com/"><i class="fas fa-globe fa-lg"></i>&nbsp;
+http://www.spectr-agro.com/
+</a>
+
+</span>
+
+</div> <!-- END -->
+
+
+   <!-- the contact card -->
+<div class="material-contact animate-in-card">
+
+			<!-- image -->
+			<img class="animate-in-image" src="images/icons/distr/10725_logo_232x232_site_syngenta_pgr_198.png">
+			<!-- name -->
+			<h1 class="animate-in-01">
+ТОВ «СУФЛЕ АГРО УКРАЇНА»
+                                </h1>
+			<!-- title -->
+			<h2 class="animate-in-02">
+30068, Україна, Хмельницька область, Славутський район,
+с.&nbsp;Крупець,  вул. Богдана Хмельницького&nbsp;43
+                                </h2>
+
+			<hr class="animate-in-03">
+
+
+
+			<!-- contact links -->
+			<span class="actions animate-in-05">
+
+<a href="tel:+380504367011" target="_blank"><i class="fas fa-phone-square fa-lg"></i>&nbsp;+38 (050) 436 70 11</a>
+<a href="tel:+380384271498" target="_blank"><i class="fas fa-phone-square fa-lg"></i>&nbsp;+38 (03842) 7 14 98</a>
+
+<a href="mailto:sau@soufflet.com"><i class="fas fa-envelope fa-lg"></i>&nbsp;
+sau@soufflet.com
+</a>
+
+
+<a href="http://www.soufflet-agro.com.ua/"><i class="fas fa-globe fa-lg"></i>&nbsp;
+http://www.soufflet-agro.com.ua/
+</a>
+
+</span>
+
+</div> <!-- END -->
+
+
+
+   <!-- the contact card -->
+ <!-- END -->
+
+
+   <!-- the contact card -->
+<div class="material-contact animate-in-card">
+
+			<!-- image -->
+			<img class="animate-in-image" src="images/icons/distr/10725_logo_232x232_site_syngenta_pgr_1910.png">
+			<!-- name -->
+			<h1 class="animate-in-01">
+ТОВ «УКРАГРОРЕСУРС
+                                </h1>
+			<!-- title -->
+			<h2 class="animate-in-02">
+61080, м. Харків, пр. Гагаріна,&nbsp;201, оф.&nbsp;303,&nbsp;311
+                                </h2>
+
+			<hr class="animate-in-03">
+
+
+
+			<!-- contact links -->
+			<span class="actions animate-in-05">
+
+<a href="tel:+38 (067) 520 12 72" target="_blank"><i class="fas fa-phone-square fa-lg"></i>&nbsp;+38 (067) 520 12 72</a>
+<a href="tel:+38 (066) 208 22 48" target="_blank"><i class="fas fa-phone-square fa-lg"></i>&nbsp;+38 (066) 208 22 48</a>
+
+<a href="mailto:ukragroresurs@ukr.net"><i class="fas fa-envelope fa-lg"></i>&nbsp;
+ukragroresurs@ukr.net
+</a>
+
+
+<a href="http://ukragroresurs.com.ua/"><i class="fas fa-globe fa-lg"></i>&nbsp;
+http://ukragroresurs.com.ua/
+</a>
+
+</span>
+
+</div> <!-- END -->
+
+
+    <!-- the contact card -->
+<div class="material-contact animate-in-card">
+
+			<!-- image -->
+			<img class="animate-in-image" src="images/icons/distr/10725_logo_232x232_site_syngenta_pgr_196.png">
+			<!-- name -->
+			<h1 class="animate-in-01">
+ТОВ «ФЛОРА
+                                                                </h1>
+			<!-- title -->
+			<h2 class="animate-in-02">
+69013, м.Запоріжжя, вул.Стартова&nbsp;3В
+                                                                </h2>
+
+			<hr class="animate-in-03">
+
+
+
+			<!-- contact links -->
+			<span class="actions animate-in-05">
+
+<a href="tel:+38 (050) 488 90 60" target="_blank"><i class="fas fa-phone-square fa-lg"></i>&nbsp;+38 (050) 488 90 60</a>
+
+<a href="mailto:office@flora-agro.com.ua"><i class="fas fa-envelope fa-lg"></i>&nbsp;
+office@flora-agro.com.ua
+</a>
+
+
+<a href="http://www.flora-agro.com.ua/"><i class="fas fa-globe fa-lg"></i>&nbsp;
+http://www.flora-agro.com.ua/
+</a>
+
+</span>
+
+</div> <!-- END -->
+
+
+   <!-- the contact card -->
+<div class="material-contact animate-in-card">
+
+			<!-- image -->
+			<img class="animate-in-image" src="images/icons/distr/10725_logo_232x232_site_syngenta_pgr_19.png">
+			<!-- name -->
+			<h1 class="animate-in-01">
+ТОВ «ЩЕДРИЙ ЛАН»
+                                                                </h1>
+			<!-- title -->
+			<h2 class="animate-in-02">
+92703, Луганська обл.,  а/с&nbsp;9. м.&nbsp;Старобільськ, пл. Базарна&nbsp;32/а
+                                                                </h2>
+
+			<hr class="animate-in-03">
+
+
+
+			<!-- contact links -->
+			<span class="actions animate-in-05">
+
+<a href="tel:+38 (095) 291 53 65" target="_blank"><i class="fas fa-phone-square fa-lg"></i>&nbsp;+38 (095) 291 53 65</a>
+
+<a href="mailto:shedrlan02@gmail.com"><i class="fas fa-envelope fa-lg"></i>&nbsp;
+shedrlan02@gmail.com
+</a>
+
+</span>
+
+</div> <!-- END -->
+
+
+   <!-- the contact card -->
+<div class="material-contact animate-in-card">
+
+			<!-- image -->
+			<img class="animate-in-image" src="images/icons/distr/10725_logo_232x232_site_syngenta_pgr_1914.png">
+			<!-- name -->
+			<h1 class="animate-in-01">
+ФОП МАЛИК Н.С./ ПП «БІЛОЦЕРКІВАГРОБІЗНЕС»
+                                                                </h1>
+			<!-- title -->
+			<h2 class="animate-in-02">
+09170, Київська обл. Білоцерківський р-н, с.&nbsp;Шкарівка, вул. 2-га Таращанська&nbsp;28Б
+                                                                </h2>
+
+			<hr class="animate-in-03">
+
+
+
+			<!-- contact links -->
+			<span class="actions animate-in-05">
+
+<a href="tel:+380677092966" target="_blank"><i class="fas fa-phone-square fa-lg"></i>&nbsp;+38 (067) 709 29 66</a>
+<a href="tel:+380672497071" target="_blank"><i class="fas fa-phone-square fa-lg"></i>&nbsp;+38 (067) 249 70 71</a>
+
+<a href="mailto:malik-n@ukr.net"><i class="fas fa-envelope fa-lg"></i>&nbsp;
+malik-n@ukr.net
+</a>
+
+<a href="mailto:malik-logist@ukr.net "><i class="fas fa-envelope fa-lg"></i>&nbsp;
+malik-logist@ukr.net
+</a>
+
+
+<a href="http://malik.agrobiz.net/"><i class="fas fa-globe fa-lg"></i>&nbsp;
+http://malik.agrobiz.net/
+</a>
+
+</span>
+
+</div> <!-- END -->
+
+    </div>
+
+    <!-- /content -->
+
+
+	  <!-- left  menu -->
+	    <div data-role="panel" class="jqm-navmenu-panel" data-position="left" data-display="overlay" data-theme="a">
+	    	<ul class="jqm-list ui-alt-icon ui-nodisc-icon">
+<li data-filtertext="home" data-icon="home"><a href="index.html">На головну</a></li>
+<li data-filtertext="ззр" data-icon="carat-r"  style="background: #70840b; text-transform: none; text-shadow: none; color: #FFFFFF; text-decoration: none"><b>ЗЗР</b></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"   href="menu_herb.html">Гербіциди</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_insect.html">Інсектициди</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_fung.html">Фунгіциди</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_sc.html">Протруники</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_retar.html">Ретарданти</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_rodent.html">Родентициди</a></li>
+
+<li data-filtertext="ззр" data-icon="carat-r" style="background: #ed8001; text-transform: none; text-shadow: none; color: #FFFFFF; text-decoration: none"><b>НАСІННЯ</b></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_sf.html">Соняшник</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_corn.html">Кукурудза</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_osr.html">Ріпак озимий</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_sorgum.html">Сорго</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_cereals.html">Зернові</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="index_veg.html">Овочеві культури</a></li>
+
+<li data-filtertext="ззр" data-icon="carat-r" style="background: #94c120; text-transform: none; text-shadow: none; color: #FFFFFF; text-decoration: none"><b>ФІНАНСОВІ РІШЕННЯ</b></li>
+ <li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="fiso_new_horiz.html">Підтримка плюс</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="fiso_pidtr_XXL.html">Підтримка XXL</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="fiso_meteozakh.html">Метеозахист</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="fiso_legkoposivna.html">Легкопосівна</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="fiso_agrarni_rozpisky.html">Аграрні розписки</a></li>
+
+ <li data-filtertext="ззр" data-icon="carat-r" style="background: #039eba; text-transform: none; text-shadow: none; color: #FFFFFF; text-decoration: none"><b>БІБЛІОТЕКА АГРОНОМА</b></li>
+ <li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_actions.html">Акції</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_calc.html">Агро-калькулятори</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_schemes.html">Схеми захисту</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_weeds.html">Шкідники, хвороби</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_about_cp.html">Про ЗЗР</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_about_seeds.html">Про насіння</a></li>
+
+
+ <li data-filtertext="ззр" data-icon="carat-r" style="background: #00a873; text-transform: none; text-shadow: none; color: #FFFFFF; text-decoration: none"><b>КОНТАКТИ</b></li>
+ <li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="contacts_distr.html">Дистриб'ютори</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="contactsKAM.html">КАМ відділ</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="contacts.html">Регіони</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="contacts_fiso.html">Фінансові рішення</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="contacts_main_office.html">Головний офіс</a></li>
+
+<!-- otherpanel -->
+		     </ul>
+		</div><!-- /panel -->
+
+
+	<div data-role="footer" data-position="fixed" data-tap-toggle="false" class="jqm-footer">
+		<p>Сингента Україна 2020</p>
+		<p>версія 1.0</p>
+	</div><!-- /footer -->
+	<!-- TODO: This should become an external panel so we can add input to markup (unique ID) -->
+
+    <div data-role="panel" class="jqm-search-panel" data-position="right" data-display="overlay" data-theme="a">
+		<div class="jqm-search">
+			<ul class="jqm-list" data-filter-placeholder="Пошук..." data-filter-reveal="true">
+<li data-filtertext="насіння" data-icon="home"><a href="#">насіння</a></li>
+<li data-filtertext="introduction overview getting started"><a href="corn_fenomen.html" data-ajax="false">Феномен</a></li>
+<li data-filtertext="кукурудза фортаго"><a href="corn_fortago.html" data-ajax="false">Фортаго</a></li>
+
+
+
+			</ul>
+		</div>
+	</div><!-- /panel -->
+
+
+</div><!-- /page -->
+
+</body>
+</html>

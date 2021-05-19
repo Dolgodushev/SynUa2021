@@ -1,0 +1,1996 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Syngenta Ukraine</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="additionals/css/syngenta.css">
+    	<link rel="stylesheet" href="additionals/css/demo_menu.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+   <link rel="stylesheet" type="text/css" href="css/awesome2/css/all.css">
+
+    <script src="js/jquery.js"></script>
+    <script src="additionals/js/index.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+
+     <style type="text/css">
+
+    <!--
+   .swiper-container {
+        width: 100%;
+        height: auto;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    #promo {
+        background: transparent;
+        text-decoration: none;
+        text-shadow: none;
+        text-transform: uppercase;
+        color: #00a0be;
+        border-radius: 3px;
+        font-weight: 300;
+        text-align: center
+
+    }
+
+          /*animation*/
+.animate-in-01 {
+    animation:animateIn .6s ease;
+    -webkit-animation:animateIn 1s ease;
+}
+
+@keyframes animateIn {
+    0%{
+        opacity:0;
+        transform: translateY(50px);
+        -webkit-transform: translateY(50px);
+        -moz-transform: translateY(50px);
+        -ms-transform: translateY(50px);
+        -o-transform: translateY(50px);
+    }
+    100%{
+        opacity:1;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+    }
+}
+@-webkit-keyframes animateIn {
+    0%{
+        opacity:0;
+        transform: translateY(50px);
+        -webkit-transform: translateY(50px);
+        -moz-transform: translateY(50px);
+        -ms-transform: translateY(50px);
+        -o-transform: translateY(50px);
+    }
+    100%{
+        opacity:1;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+    }
+}
+
+.animate-in-image {
+    animation:animateInImage 1s ease;
+    -webkit-animation:animateInImage 1s ease;
+}
+@keyframes animateInImage {
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+@-webkit-keyframes animateInImage {
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+
+.animate-in-card {
+    animation:animateIn .7s ease;
+    -webkit-animation:animateIn .7s ease;
+}
+    -->
+    </style>
+
+</head>
+<body>
+<div data-role="page" class="jqm-syt jqm-home" style="background: #f5f5f5">
+     <!-- header -->
+    <div data-role="header" class="jqm-header" data-position="fixed">
+       <h2><img src="images/icons/synlogowhite.png" alt="syngenta"></h2>
+        <a href="#" class="jqm-navmenu-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-bars ui-nodisc-icon ui-icon ui-btn-left">Menu</a>
+        <!--<a href="announcements.html" class="ui-btn ui-btn-icon-notext ui-corner-all ui-icon-mail ui-nodisc-icon ui-icon ui-btn-right" target="_self">Messages</a>-->
+    </div><!-- /header -->
+
+
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="images/fields/gryga/agrocenter.jpg"  style="width: 100%; height: auto"></div>
+
+
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+        <!-- END Swiper -->
+
+<div style="width: 100%; background: #DEDEDE; height: 1px">&nbsp;</div>
+        <div role="main" class="ui-content jqm-content">
+  <!-- ГОЛОВНІ ПЕРЕВАГИ ПРЕПАРАТУ -->
+
+
+           <p  class="pname"></p>
+<div class="ui-grid-solo">
+<div class="ui-block-a"><a target="_self" href="map1.html" class="ui-shadow ui-btn ui-corner-all" style="background: #00a0be !important;color: #FFFFFF; text-shadow: none">Демо на мапі</a></div>
+
+
+</div>
+
+
+
+
+  <form style="margin-left: 0.5em; margin-right: 0.5em">
+    <input data-type="search" id="cont-input" placeholder="Пошук по області або назві">
+</form>
+
+<div class="jqm-block-menu animate-in-01"  style="background: transparent">
+<div class="scrollmenu">
+  <a href="#" id="showall">Всі області</a>
+<a href="#" class="2">Вінницька область</a>
+<a href="#" class="3">Волинська область</a>
+<a href="#" class="4">Дніпропетровська область</a>
+<a href="#" class="5">Донецька область</a>
+<a href="#" class="6">Житомирська область</a>
+<a href="#" class="7">Закарпатська область</a>
+<a href="#" class="8">Запорізька область</a>
+<a href="#" class="9">Івано-Франківська область</a>
+<a href="#" class="10">Київська область</a>
+<a href="#" class="11">Кіровоградська область</a>
+<a href="#" class="12">Луганська область</a>
+<a href="#" class="13">Львівська область</a>
+<a href="#" class="14">Миколаївська область</a>
+<a href="#" class="15">Одеська область</a>
+<a href="#" class="16">Полтавська область</a>
+<a href="#" class="17">Рівненська область</a>
+<a href="#" class="18">Сумська область</a>
+<a href="#" class="19">Тернопільська область</a>
+<a href="#" class="20">Харківська область</a>
+<a href="#" class="21">Херсонська область</a>
+<a href="#" class="22">Хмельницька область</a>
+<a href="#" class="23">Черкаська область</a>
+<a href="#" class="24">Чернівецька область</a>
+<a href="#" class="25">Чернігівська область</a>
+
+
+
+</div></div>
+
+    <div class="elements" data-filter="true" data-input="#cont-input">
+
+
+
+<div class="vegline" ></div>
+
+                                                                 <!-- card start -->
+<a href="demo_myronivske.html" target="_self" class="btnlink all st2">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>ТОВ «АМГ МИРОНІВСЬКЕ»</h3>
+        <h4>
+Поле 8 га
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>Вінницька обл., Ямпільський р/н, с. Петрашівка</li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+<!-- card start -->
+<a href="demo_olga.html" target="_self" class="btnlink all st2">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>ТОВ «ОЛЬГА»</h3>
+        <h4>
+Поле 20 га
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>Вінницький район, Вінницька область, смт Десна </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+<!-- card start -->
+<a href="demo_shelepyny.html" target="_self" class="btnlink all st3">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>ФГ «ЄВГЕНА ШЕЛЕПІНИ»</h3>
+        <h4  style="color: #ff0000">
+<i class="fab fa-youtube"></i>&nbsp; відео
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>Волинська обл., Володимиро-Волинський р/н, с. Заріччя </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+<!-- card start -->
+<a href="demo_sokilcha.html" target="_self" class="btnlink all st6">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>ПСП «СОКІЛЬЧА»</h3>
+    <h4  style="color: #ff0000">
+<i class="fab fa-youtube"></i>&nbsp; відео
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>Житомирська обл,Попільнянський р.,с.Сокільча </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+
+<!-- card start -->
+<a href="demo_prometey.html" target="_self" class="btnlink all st9">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>ФГ «ПРОМЕТЕЙ»</h3>
+   <h4  style="color: #ff0000">
+<i class="fab fa-youtube"></i>&nbsp; відео
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>Снятинський район, Івано-Франківська область, с. Борщів </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+<!-- card start -->
+<a href="demo_nyva_pereyaslavshyny.html" target="_self" class="btnlink all st10">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>Спільне українсько-великобританське ТОВ «НИВА ПЕРЕЯСЛАВЩИНИ»</h3>
+        <h4>
+Поле 10 га
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>Бориспільський р.,с.Козлів </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+
+
+<!--<a href="demo_apogey_agro.html" target="_self" class="btnlink all st13">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>ТОВ «АПОГЕЙ АГРО»</h3>
+        <h4>
+Поле 13 га
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>Буський район, Львівська область </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>-->
+<!-- card end -->
+
+
+<!--<a href="demo_verkhivsk.html" target="_self" class="btnlink all st17">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>ТОВ «ВЕРХІВСЬК-АГРО»</h3>
+        <h4>
+Поле 2,5 га
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>Рівненський район, Рівненська область, Грушвиця </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>-->
+<!-- card end -->
+<!-- card start -->
+<a href="demo_konotopagro.html" target="_self" class="btnlink all st18">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>ТДВ "КОНОТОПАГРОПОСТАЧ"</h3>
+       <h4  style="color: #ff0000">
+<i class="fab fa-youtube"></i>&nbsp; відео
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>Сумська обл, м. Конотоп </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+<!-- card start -->
+<a href="demo_viktoriya.html" target="_self" class="btnlink all st18">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>ТОВ агрофірма "ВІКТОРІЯ"</h3>
+         <h4  style="color: #ff0000">
+<i class="fab fa-youtube"></i>&nbsp; відео
+            </h4>
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>Сумська обл. Білопільський р-н, с Миколаївка </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+<!-- card start -->
+<a href="demo_mriya.html" target="_self" class="btnlink all st18">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>ТОВ сільськогосподарська науково-виробнича агрофірма «МРІЯ»</h3>
+        <h4  style="color: #ff0000">
+<i class="fab fa-youtube"></i>&nbsp; відео
+            </h4>
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>Сумська обл, Великописарівський р-н, с. Ямне </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+<!-- card start -->
+<a href="demo_pod_zern_comp.html" target="_self" class="btnlink all st22">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>ТОВ «АГРОФІРМА «ПОДІЛЬСЬКА ЗЕРНОВА КОМПАНІЯ» </h3>
+        <h4  style="color: #ff0000">
+<i class="fab fa-youtube"></i>&nbsp; відео
+            </h4>
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>Волочиський район, Хмельницька область,с.Лозова </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+<!-- card start -->
+<a href="demo_agroros.html" target="_self" class="btnlink all st23">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>ТОВ «АГРО РОСЬ»</h3>
+        <h4>
+Поле 12,5 га
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>Черкаська обл. Корсьнький р-н. с. Самарідня </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+<!-- card start -->
+<a href="demo_novyj_svit_agro.html" target="_self" class="btnlink all st23">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>ТОВ «НОВИЙ СВІТ - АГРО»</h3>
+        <h4>
+<h4  style="color: #ff0000">
+<i class="fab fa-youtube"></i>&nbsp; відео
+            </h4>
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>Черкаська обл.,Уманський р..с.Городниця. </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+<!-- card start -->
+<a href="demo_olymp.html" target="_self" class="btnlink all st23">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>ТОВ «ОЛІМП»</h3>
+        <h4>
+<h4  style="color: #ff0000">
+<i class="fab fa-youtube"></i>&nbsp; відео
+            </h4>
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>Черкаська обл.,Камянський р..с.Мехайлин. </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+<!-- card start -->
+<a href="demo_nadiya.html" target="_self" class="btnlink all st25">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>Сільськогосподарське ТОВ «НАДІЯ»</h3>
+        <h4>
+Поле 12 га
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>Чернігівська обл, Прилуцький р-н, с. Заїзд </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+<!-- card start -->
+<a href="demo_velykosorochynske.html" target="_self" class="btnlink all st16">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>Аграрне орендно-приватне підприємство «ВЕЛИКОСОРОЧИНСЬКЕ»</h3>
+         <h4  style="color: #ff0000">
+<i class="fab fa-youtube"></i>&nbsp; відео
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>Полтавська обл, Миргородський р-н, с. Великі Сороченці</li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+<!-- card start -->
+<a href="demo_illynetskiy.html" target="_self" class="btnlink all st2">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>ІЛЛІНЕЦЬКИЙ ДЕРЖАВНИЙ АГРАРНИЙ КОЛЕДЖ</h3>
+        <h4>
+Поле 10 га
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>Вінницька обл., Іллінецький р/н, с. Хороша</li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+<!-- card start -->
+<a href="demo_agroprodservis.html" target="_self" class="btnlink all st19">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>ТОВ «АГРОПРОДСЕРВІС»</h3>
+        <h4  style="color: #ff0000">
+<i class="fab fa-youtube"></i>&nbsp; відео
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>Тернопільська обл., Тернопільський р/н, с. Настасів</li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+<!-- card start -->
+<a href="demo_agrotechservice.html" target="_self" class="btnlink all st16">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>ТОВ «АГРОТЕХСЕРВІС»</h3>
+        <h4>
+<h4  style="color: #ff0000">
+<i class="fab fa-youtube"></i>&nbsp; відео
+            </h4>
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>Полтавська обл, Решетилівський р-н, с. Сені</li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+<!-- card start -->
+<a href="demo_dokychaev.html" target="_self" class="btnlink all st16">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>ТОВ «ДОКУЧАЄВСЬКІ ЧОРНОЗЕМИ»</h3>
+        <h4>
+Поле 10 га
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>Полтавська обл, Карлівський р-н.</li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+<!-- card start -->
+<a href="demo_zernyatko.html" target="_self" class="btnlink all st25">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>ТОВ «ДП ЗЕРНЯТКО»</h3>
+        <h4>
+Поле 12 га
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>Чернігівська обл., Менський р-н., с. Петровське</li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+<!-- card start -->
+<a href="demo_agroprodservis_ukraine_agro.html" target="_self" class="btnlink all st22">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>ТОВ «УКРАЇНА АГРО 2С»</h3>
+       <h4  style="color: #ff0000">
+<i class="fab fa-youtube"></i>&nbsp; відео
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>Хмельницька обл., м. Чемерівці</li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+<!-- card start -->
+<a href="demo_krynytsya.html" target="_self" class="btnlink all st16">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>ТОВ «ЧИСТА КРИНИЦЯ»</h3>
+        <h4>
+Поле 10 га
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>Полтавська обл, Новосанжарський р-н.</li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+<!-- card start -->
+<a href="demo_gryga.html" target="_self" class="btnlink all st16">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>ФГ «ГРИГА»</h3>
+        <h4>
+Поле 38 га
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>Полтавська обл, Полтавський р-н, с. Василівка</li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+<!-- card start -->
+<a href="demo_edelveys.html" target="_self" class="btnlink all st6">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>СФГ «Едельвейс»</h3>
+        <h4>
+Поле 9 га
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>Житомирська обл., Любарський р/н, с. Громада</li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+<!-- card start -->
+<a href="demo_lad.html" target="_self" class="btnlink all st10">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>СФГ «ЛАД»</h3>
+        <h4>
+Поле 9 га
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>Білоцерківський р-н, с.Піщане</li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+<!-- card start -->
+<a href="demo_yzynska.html" target="_self" class="btnlink all st6">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>ПП «Агрофірма Узинська»</h3>
+        <h4>
+Поле 9 га
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>Житомирська обл., Любарський р/н, с. Громада</li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+ <!-- NEW!! -->
+
+
+ <!-- card start -->
+<a href="demo_novyj_svit_agro.html" target="_self" class="btnlink all st23">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3> ТОВ «НОВИЙ СВІТ - АГРО»</h3>
+        <h4>
+Поле 9 га
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>Черкаська обл.,Уманський р..с.Городниця.</li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+<!-- card start -->
+<a href="demo_balinvest.html" target="_self" class="btnlink all st20">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>тов «ІНВЕСТИЦІЙНА АГРАРНА КОМПАНІЯ «БАЛІНВЕСТ»</h3>
+        <h4>
+Поле 9 га
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>Харківська обл. Балаклійський рн с. Яковенково</li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+
+<!-- card start -->
+<a href="demo_apk_ukraine.html" target="_self" class="btnlink all st20">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>ТОВ «АПК УКРАЇНА»</h3>
+        <h4>
+<h4  style="color: #ff0000">
+<i class="fab fa-youtube"></i>&nbsp; відео
+            </h4>
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>Харківська обл. Зміївський рн м. Зміїв</li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+
+<!-- card start -->
+<a href="demo_hlib_produkt.html" target="_self" class="btnlink all st20">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>СТОВ «ХЛІБОПРОДУКТ»</h3>
+        <h4>
+<h4  style="color: #ff0000">
+<i class="fab fa-youtube"></i>&nbsp; відео
+            </h4>
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>Харківська обл. Ізюмський рн. С. Глинське</li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+
+<!-- card start -->
+<a href="demo_yzynska.html" target="_self" class="btnlink all st6">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>Агрофірма «ОКТЯБРЬ»</h3>
+        <h4>
+Поле 9 га
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>Житомирська обл., Любарський р/н, с. Громада</li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+
+<!-- card start -->
+<a href="demo_don_dosl_stanciya.html" target="_self" class="btnlink all st5">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>Донецька державна сільськогосподарська дослідна станція</h3>
+        <h4>
+<h4  style="color: #ff0000">
+<i class="fab fa-youtube"></i>&nbsp; відео
+            </h4>
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>Донецька обл. Великоновосілківський рн с. Розлив</li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+
+<!-- card start -->
+<a href="demo_yzynska.html" target="_self" class="btnlink all st5">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>ФГ «АЛЬФА-ТН»</h3>
+        <h4>
+<h4  style="color: #ff0000">
+<i class="fab fa-youtube"></i>&nbsp; відео
+            </h4>
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>Донецька обл., Слов'янський р-н</li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+
+<!-- card start -->
+<a href="demo_agroton.html" target="_self" class="btnlink all st12">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>СВФ «АГРОТОН»</h3>
+        <h4>
+<h4  style="color: #ff0000">
+<i class="fab fa-youtube"></i>&nbsp; відео
+            </h4>
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>Луганська обл. Кремінський рн. с. Варварівка</li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+
+<!-- card start -->
+<a href="demo_sortostanciya.html" target="_self" class="btnlink all st8">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>ТОВ «НВП СОРТОСТАНЦІЯ»</h3>
+        <h4>
+<h4  style="color: #ff0000">
+<i class="fab fa-youtube"></i>&nbsp; відео
+            </h4>
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>Запорізька обл. Вільнянський р-н., Вільнянськ</li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+
+<!-- card start -->
+<a href="demo_batkivshyna.html" target="_self" class="btnlink all st8">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>	Товариство з обмеженою відповідальністю «АГРОФІРМА» БАТЬКІВЩИНА»	</h3>
+        <h4>
+Поле 9 га
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>	Запорізька обл. Пологівський р-н., Пологи	</li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+<!-- card start -->
+<a href="demo_kleschynov.html" target="_self" class="btnlink all st8">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>	Фізична особа-підприємець КЛЄЩУНОВ ЛЕОНІД ГЕННАДІЙОВИЧ	</h3>
+        <h4>
+Поле 9 га
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>	Запорізька обл. Бердянський р-н., с. Дмитрівка	</li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+<!-- card start -->
+<a href="demo_vesela_dolyna.html" target="_self" class="btnlink all st4">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>	Селянське фермерське господарство «ВЕСЕЛА ДОЛИНА»	</h3>
+        <h4>
+Поле 9 га
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>	Дніпропетровська обл. Томаківський р-н., с. Семенівка	</li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+<!-- card start -->
+<a href="demo_kolos.html" target="_self" class="btnlink all st4">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>	Товариство з обмеженою відповідальністю Агрофірма «КОЛОС»	</h3>
+        <h4>
+Поле 9 га
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>	Дніпропетровська обл. Царичанський р-н., с. Селянівка	</li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+<!-- card start -->
+<a href="demo_rassvet.html" target="_self" class="btnlink all st4">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>	Товариство з обмеженою відповідальністю «АГРОФІРМА РАССВЕТ»	</h3>
+        <h4>
+Поле 9 га
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>	Дніпропетровська обл. Новомосковський р-н., с. Знаменівка	</li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+<!-- card start -->
+<a href="demo_omelyanenko.html" target="_self" class="btnlink all st11">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>	Фермерське господарство «ОМЕЛЬЯНЕНКО»	</h3>
+        <h4>
+<h4  style="color: #ff0000">
+<i class="fab fa-youtube"></i>&nbsp; відео
+            </h4>
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>	Кіровоградська обл. Новоукраїнський р-н., с. Іванівка	</li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+<!-- card start -->
+<a href="demo_korp_ukraine.html" target="_self" class="btnlink all st14">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>	Приватне сільськогосподарське підприємство «КОРПОРАЦІЯ УКРАЇНИ»	</h3>
+        <h4>
+<h4  style="color: #ff0000">
+<i class="fab fa-youtube"></i>&nbsp; відео
+            </h4>
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>	с. Лукашівка, Первомайсьий р-н, Миколаївська область	</li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+<!-- card start -->
+<a href="demo_ferom.html" target="_self" class="btnlink all st14">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>	Фермерське господарство «ФЕРОМ»	</h3>
+        <h4>
+<h4  style="color: #ff0000">
+<i class="fab fa-youtube"></i>&nbsp; відео
+            </h4>
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>	с. Тімерязівка, Вознесенський р-н.,  Миколаївська обл.	</li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+<!-- card start -->
+<a href="demo_promin.html" target="_self" class="btnlink all st14">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>	Товариство з обмеженою відповідальністю «ПРОМІНЬ»	</h3>
+        <h4>
+Поле 9 га
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>	с. Воєводське, Арбузинський р-н, Миколаївська область	</li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+<!-- card start -->
+<a href="demo_korona.html" target="_self" class="btnlink all st14">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>	Приватне сільськогосподарське підприємство «КОРОНА»	</h3>
+        <h4>
+Поле 9 га
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>	смт. Баштанка, Баштанський р-н, Миколаївська область	</li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+<!-- card start -->
+<a href="demo_zlato_tavrii.html" target="_self" class="btnlink all st21">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>	Товариство з обмеженою відповідальністю  "Сільськогосподарське підприємство "ЗЛАТО ТАВРІЇ"	</h3>
+        <h4>
+Поле 9 га
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>	с. Новокаїри, Бориславський р-н, Херсонська область	</li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+<!-- card start -->
+<a href="demo_rice_ukraine.html" target="_self" class="btnlink all st21">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>	Товариство з обмеженою відповідальністю «РИС УКРАЇНИ»	</h3>
+        <h4>
+Поле 9 га
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>	смт. Каланчак, Каланчатського р-н, Херсонська область	</li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+<!-- card start -->
+<a href="demo_slavyta_south.html" target="_self" class="btnlink all st21">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>	Товариство з обмеженою відповідальністю «СЛАВУТА ЮГ»	</h3>
+        <h4>
+Поле 9 га
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>	с. Хрестівка, Чаплинський р-н, Херсонська область	</li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+<!-- card start -->
+<a href="demo_agroregion.html" target="_self" class="btnlink all st21">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>	Приватне Підприємство «АГРОРЕГІОН»	</h3>
+        <h4>
+Поле 9 га
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>	с. Обривка, Новокаховського р-н, Херсонська область	</li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+<!-- card start -->
+<a href="demo_zorya.html" target="_self" class="btnlink all st21">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>	Фермерське господарство «ЗОРЯ»	</h3>
+        <h4>
+Поле 9 га
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>	с.Кисилівка, Білозірський р-н, Херсонська область	</li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+<!-- card start -->
+<a href="demo_olenaik.html" target="_self" class="btnlink all st15">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>	Фермерське господарство «ОЛЕНА І К»	</h3>
+        <h4>
+Поле 9 га
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>	с. Янишівка, Любашівський р-н, Одеська область	</li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+<!-- card start -->
+<a href="demo_rodyna.html" target="_self" class="btnlink all st15">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>	Сільськогосподарський виробничий кооператив «РОДИНА»	</h3>
+        <h4>
+Поле 9 га
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>	с. Плахтіївка, Саратський р-н, Одеська область	</li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+<!-- card start -->
+<a href="demo_burgydzhy.html" target="_self" class="btnlink all st15">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>	Товариство з обмеженою відповідальністю  "БУРГУДЖИ"	</h3>
+        <h4>
+Поле 9 га
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>	с. Виноградівка, Болградський р-н, Одеська область	</li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+<!-- card start -->
+<a href="demo_sina.html" target="_self" class="btnlink all st21">
+<div class="card">
+    <div class="card-header">
+
+    </div>
+      <div class="card-content">
+        <h3>	Товариство з обмеженою відповідальністю "СіНа"	</h3>
+        <h4>
+Поле 9 га
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="fas fa-map-marked-alt fa-lg"  style="color: #00a0be; padding-right: 10px"></i>	Херсонська обл., Чаплинський р-н., смт. Чаплинка	</li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+
+<div class="vegline" ></div>
+
+
+
+<div class="vegline" ></div>
+
+
+    </div></div>
+    <!-- /content -->
+
+            <!-- left  menu -->
+        <div data-role="panel" class="jqm-navmenu-panel" data-position="left" data-display="overlay" data-theme="a">
+        	<ul class="jqm-list ui-alt-icon ui-nodisc-icon">
+<li data-filtertext="home" data-icon="home"><a href="index.html">На головну</a></li>
+<li data-filtertext="ззр" data-icon="carat-r"  style="background: #70840b; text-transform: none; text-shadow: none; color: #FFFFFF; text-decoration: none"><b>ЗЗР</b></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"   href="menu_herb.html">Гербіциди</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_insect.html">Інсектициди</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_fung.html">Фунгіциди</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_sc.html">Протруники</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_retar.html">Ретарданти</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_rodent.html">Родентициди</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_fert.html">Органічне добриво</a></li>
+
+<li data-filtertext="ззр" data-icon="carat-r" style="background: #ed8001; text-transform: none; text-shadow: none; color: #FFFFFF; text-decoration: none"><b>НАСІННЯ</b></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_sf.html">Соняшник</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_corn.html">Кукурудза</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_osr.html">Ріпак озимий</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_sorgum.html">Сорго</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_cereals.html">Зернові</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="index_veg.html">Овочеві культури</a></li>
+
+<li data-filtertext="ззр" data-icon="carat-r" style="background: #94c120; text-transform: none; text-shadow: none; color: #FFFFFF; text-decoration: none"><b>ФІНАНСОВІ РІШЕННЯ</b></li>
+ <li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="fiso_new_horiz.html">Підтримка плюс</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="fiso_pidtr_XXL.html">Підтримка XXL</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="fiso_meteozakh.html">Метеозахист</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="fiso_legkoposivna.html">Легкопосівна</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="fiso_agrarni_rozpisky.html">Аграрні розписки</a></li>
+
+ <li data-filtertext="ззр" data-icon="carat-r" style="background: #039eba; text-transform: none; text-shadow: none; color: #FFFFFF; text-decoration: none"><b>БІБЛІОТЕКА АГРОНОМА</b></li>
+ <li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_actions.html">Акції</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_calc.html">Агро-калькулятори</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_schemes.html">Схеми захисту</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_weeds.html">Шкідники, хвороби</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_about_cp.html">Про ЗЗР</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_about_seeds.html">Про насіння</a></li>
+
+
+ <li data-filtertext="ззр" data-icon="carat-r" style="background: #00a873; text-transform: none; text-shadow: none; color: #FFFFFF; text-decoration: none"><b>КОНТАКТИ</b></li>
+ <li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="contacts_distr.html">Дистриб'ютори</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="contactsKAM.html">КАМ відділ</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="contacts.html">Регіони</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="contacts_fiso.html">Фінансові рішення</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="contacts_main_office.html">Головний офіс</a></li>
+
+<!-- otherpanel -->
+             </ul>
+        </div><!-- /panel -->
+
+
+    <div data-role="footer" data-position="fixed" data-tap-toggle="false" class="jqm-footer">
+        <p>Сингента Україна 2019</p>
+        <p>версія 1.0</p>
+    </div><!-- /footer -->
+    <!-- TODO: This should become an external panel so we can add input to markup (unique ID) -->
+    <div data-role="panel" class="jqm-search-panel" data-position="right" data-display="overlay" data-theme="a">
+        <div class="jqm-search">
+            <ul class="jqm-list" data-filter-placeholder="Пошук..." data-filter-reveal="true">
+<li data-filtertext="насіння" data-icon="carat-r"><a href="#">насіння</a></li>
+<li data-filtertext="introduction overview getting started"><a href="corn_fenomen.html" data-ajax="false">Феномен</a></li>
+<li data-filtertext="кукурудза фортаго"><a href="corn_fortago.html" data-ajax="false">Фортаго</a></li>
+
+
+
+            </ul>
+        </div>
+    </div><!-- /panel -->
+
+
+</div><!-- /page -->
+
+ <script>
+jQuery(function(){
+         jQuery('#showall').click(function(){
+               jQuery('.all').show();
+        });
+        jQuery('.1').click(function(){
+              jQuery('.all').hide();
+              jQuery('.st1').show();
+        });
+
+        jQuery('.2').click(function(){
+              jQuery('.all').hide();
+              jQuery('.st2').show();
+        });
+
+        jQuery('.3').click(function(){
+              jQuery('.all').hide();
+              jQuery('.st3').show();
+        });
+
+        jQuery('.4').click(function(){
+              jQuery('.all').hide();
+              jQuery('.st4').show();
+        });
+
+        jQuery('.5').click(function(){
+              jQuery('.all').hide();
+              jQuery('.st5').show();
+        });
+
+        jQuery('.6').click(function(){
+              jQuery('.all').hide();
+              jQuery('.st6').show();
+        });
+
+        jQuery('.7').click(function(){
+              jQuery('.all').hide();
+              jQuery('.st7').show();
+        });
+
+        jQuery('.8').click(function(){
+              jQuery('.all').hide();
+              jQuery('.st8').show();
+        });
+
+        jQuery('.9').click(function(){
+              jQuery('.all').hide();
+              jQuery('.st9').show();
+        });
+
+        jQuery('.10').click(function(){
+              jQuery('.all').hide();
+              jQuery('.st10').show();
+        });
+
+                jQuery('.11').click(function(){
+              jQuery('.all').hide();
+              jQuery('.st11').show();
+        });
+
+        jQuery('.12').click(function(){
+              jQuery('.all').hide();
+              jQuery('.st12').show();
+        });
+
+     jQuery('.13').click(function(){
+              jQuery('.all').hide();
+              jQuery('.st13').show();
+        });
+jQuery('.14').click(function(){
+              jQuery('.all').hide();
+              jQuery('.st14').show();
+        });
+jQuery('.15').click(function(){
+              jQuery('.all').hide();
+              jQuery('.st15').show();
+        });
+jQuery('.16').click(function(){
+              jQuery('.all').hide();
+              jQuery('.st16').show();
+        });
+jQuery('.30').click(function(){
+              jQuery('.all').hide();
+              jQuery('.st30').show();
+        });
+jQuery('.17').click(function(){
+              jQuery('.all').hide();
+              jQuery('.st17').show();
+        });
+jQuery('.18').click(function(){
+              jQuery('.all').hide();
+              jQuery('.st18').show();
+        });
+jQuery('.19').click(function(){
+              jQuery('.all').hide();
+              jQuery('.st19').show();
+        });
+jQuery('.20').click(function(){
+              jQuery('.all').hide();
+              jQuery('.st20').show();
+        });
+jQuery('.21').click(function(){
+              jQuery('.all').hide();
+              jQuery('.st21').show();
+        });
+jQuery('.22').click(function(){
+              jQuery('.all').hide();
+              jQuery('.st22').show();
+        });
+jQuery('.23').click(function(){
+              jQuery('.all').hide();
+              jQuery('.st23').show();
+        });
+        jQuery('.24').click(function(){
+              jQuery('.all').hide();
+              jQuery('.st24').show();
+        });
+        jQuery('.25').click(function(){
+              jQuery('.all').hide();
+              jQuery('.st25').show();
+        });
+});
+</script>
+<!-- Swiper JS -->
+
+        <script src="js/swiper.min.js"></script>
+        <!-- Initialize Swiper -->
+        <script>
+        $(document).ready(function () {
+        //initialize swiper when document ready
+        var mySwiper = new Swiper ('.swiper-container', {
+            // Optional parameters
+
+            loop: false,
+
+            autoplay: 3000
+        })
+    });
+        </script>
+</body>
+</html>

@@ -1,0 +1,180 @@
+
+
+/* table in schemes */
+
+ .cell {
+  text-align: center;
+  color: #333;
+  padding: 1%;
+  background-color: #fff;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.3);
+  text-transform: none
+
+  }
+
+  .cell-r {
+
+  text-align: center;
+  color: #333;
+  padding: 1%;
+  background-color: #e9f0f5;
+  border: none;
+  box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.3);
+
+  }
+
+  .cell-c {
+
+  text-align: center;
+  color: #333;
+  padding: 1%;
+  background-color: #e9f0f5;
+  border: none;
+  box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.3);
+
+  }
+
+  .tabhead   {
+   background: #00A0BE;
+   border: none;
+   padding: 15px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 105%;
+   color: rgb(255, 255, 255);
+   text-align: center;
+   box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.3);
+  }
+
+
+
+/* Additional CSS */
+
+
+
+/* wide table */
+ .table-cont
+    {
+        width: 100%;
+        overflow-y: auto;
+        _overflow: auto;
+        margin: 0 0 1em;
+        text-shadow: none
+
+    }
+
+    .tbl {
+        border: none;
+        color: rgb(51, 51, 51);
+        font-family: sans-serif, Arial, Verdana,;
+        line-height: 20.799999237060547px;
+        border-collapse: collapse;
+        margin: 0.1em;
+        background: transparent
+    }
+
+    .tdheader
+    {
+       border: none;
+       text-align: center;
+       background-color: #a8a900;
+       text-shadow: none;
+       color: #fff;
+       text-transform: uppercase;
+       box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.3);
+
+    }
+
+    .tdtext
+    {
+      border: none;
+      text-align: center;
+      text-shadow: none;
+
+
+
+
+    }
+
+    .tdtextwide
+        {
+            border: none;
+            text-align: center;
+            text-shadow: none;
+            min-width: 250px;
+
+
+
+        }
+
+    .logobig {
+       max-width: 50%;
+       height: auto
+
+    }
+
+    .logobig2 {
+       max-width: 40%;
+       height: auto
+
+    }
+
+    .logosmall {
+       max-width: 65%;
+       height: auto
+
+    }
+
+    .btnslogan {
+        font-size: 0.7em;
+        text-transform: uppercase
+    }
+
+
+    .btnslogo {
+        font-size: 1.2em;
+        text-transform: uppercase;
+        color: #5F7800;
+        font-weight: 400
+
+    }
+
+    .btnsinfo {
+        font-size: 0.8em;
+        background: transparent;
+        border: none;
+        text-transform: lowercase
+
+
+    }
+
+    .btnsline {
+        width: 100%;
+        height: 1px;
+        background: #a8a900;
+        margin-top: 1em
+    }
+
+    .btnlink {
+        text-transform: none;
+        text-decoration: none
+    }
+
+    .image {
+        width: 100%;
+        height: auto
+    }
+
+    .scbtn {
+        background-color: #e1a30a !important;
+        color: #FFFFFF !important;
+        border: thin solid !important;
+        text-shadow: none !important;
+        border-radius: 10px !important;
+        font-family: Arial, Helvetica, sans-serif !important;
+        font-weight: 300 !important;
+        font-size: 0.9em
+    }
+

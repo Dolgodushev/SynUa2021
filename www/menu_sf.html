@@ -1,0 +1,1594 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Syngenta Ukraine</title>
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.5.min.css">
+	<link rel="stylesheet" href="additionals/css/syngenta.css">
+    	<link rel="stylesheet" href="additionals/css/sf_cards.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet_h3.css">
+	<script src="js/jquery.js"></script>
+	<script src="additionals/js/index.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+
+     <style type="text/css">
+
+    <!--
+   .swiper-container {
+        width: 100%;
+        height: auto;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    #promo {
+        background: transparent;
+        text-decoration: none;
+        text-shadow: none;
+        text-transform: uppercase;
+        color: #00a0be;
+        border-radius: 3px;
+        font-weight: 300;
+        text-align: center
+
+    }
+
+          /*animation*/
+.animate-in-01 {
+    animation:animateIn .5s ease;
+    -webkit-animation:animateIn .8s ease;
+}
+
+@keyframes animateIn {
+    0%{
+        opacity:0;
+        transform: translateY(50px);
+        -webkit-transform: translateY(50px);
+        -moz-transform: translateY(50px);
+        -ms-transform: translateY(50px);
+        -o-transform: translateY(50px);
+    }
+    100%{
+        opacity:1;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+    }
+}
+@-webkit-keyframes animateIn {
+    0%{
+        opacity:0;
+        transform: translateY(50px);
+        -webkit-transform: translateY(50px);
+        -moz-transform: translateY(50px);
+        -ms-transform: translateY(50px);
+        -o-transform: translateY(50px);
+    }
+    100%{
+        opacity:1;
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+    }
+}
+
+.animate-in-image {
+    animation:animateInImage 1s ease;
+    -webkit-animation:animateInImage 1s ease;
+}
+@keyframes animateInImage {
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+@-webkit-keyframes animateInImage {
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+
+.animate-in-card {
+    animation:animateIn .7s ease;
+    -webkit-animation:animateIn .7s ease;
+}
+    -->
+    </style>
+
+</head>
+<body>
+<div data-role="page" class="jqm-syt jqm-home" style="background: #f5f5f5">
+     <!-- header -->
+	<div data-role="header" class="jqm-header" data-position="fixed">
+	   <h2><img src="images/icons/synlogowhite.png" alt="syngenta"></h2>
+		<a href="#" class="jqm-navmenu-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-bars ui-nodisc-icon ui-icon ui-btn-left">Menu</a>
+		<!--<a href="announcements.html" class="ui-btn ui-btn-icon-notext ui-corner-all ui-icon-mail ui-nodisc-icon ui-icon ui-btn-right" target="_self">Messages</a>-->
+	</div><!-- /header -->
+
+
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="images/banners/sf.jpg"  style="width: 100%; height: auto"></div>
+
+
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+        <!-- END Swiper -->
+
+<div style="width: 100%; background: #DEDEDE; height: 1px">&nbsp;</div>
+        <div role="main" class="ui-content jqm-content">
+
+  <form style="margin-left: 0.5em; margin-right: 0.5em">
+    <input data-type="search" id="cont-input" placeholder="Пошук по назві \ періоду вегетації">
+</form>
+
+<div class="jqm-block-menu animate-in-01"  style="background: transparent">
+<div class="scrollmenu">
+  <a href="#" id="showall">Всі гібриди</a>
+  <a href="#" class="1classic">Класичні</a>
+  <a href="#" class="1new">Новинки</a>
+  <a href="#" class="1hioil">Високоолеїнові</a>
+  <a href="#" class="1hts">HTS-гібриди</a>
+  <a href="#" class="1clear">Clearfield®</a>
+  <a href="#" class="1clearplus">Clearfield® Plus</a>
+  <a href="#" class="1solg">Solguard</a>
+
+</div></div>
+
+    <div class="elements" data-filter="true" data-input="#cont-input">
+
+
+<!-- card start -->
+<!--
+<a href="sf_roky.html" target="_self" class="btnlink all classic">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/sf/rocky.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+НК Рокі
+            </h3>
+        <h4>
+НАЙВИЩА ВРОЖАЙНІСТЬ У РАННІЙ ГРУПІ
+СТИГЛОСТІ, НЕ ЗМЕНШУЄ ВРОЖАЙНІСТЬ
+ПРИ ПІЗНІХ ТЕРМІНАХ ПОСІВУ
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="far fa-calendar-alt fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Ранньостиглий
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="fas fa-seedling fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Класичний
+            </li>
+        </ul>
+    </div>
+</div></a>
+-->
+<!-- card end -->
+
+<div class="vegline" ></div>
+
+<!-- card start -->
+<a href="sf_chester.html" target="_self" class="btnlink all classic solg new">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/sf/chester_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+СИ Честер
+            </h3>
+        <h4>
+ВИСОКИЙ ВИХІД ОЛІЇ ТА СТАБІЛЬНА
+ВРОЖАЙНІСТЬ У ПОСУШЛИВИХ УМОВАХ
+І ЗОНІ ПОШИРЕННЯ НОВИХ РАС ВОВЧКА
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="far fa-calendar-alt fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Ранньостиглий
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="fas fa-seedling fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Класичний
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+<div class="vegline" ></div>
+
+<!-- card start -->
+<a href="sf_alkantara.html" target="_self" class="btnlink all classic solg">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/sf/alcantara.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+Алькантара
+            </h3>
+        <h4>
+ГІБРИД З ВИСОКОЮ ВРОЖАЙНІСТЮ Й
+ОЛІЙНІСТЮ В ПОСУШЛИВИХ УМОВАХ
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="far fa-calendar-alt fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Середньоранній
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="fas fa-seedling fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Класичний
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+<div class="vegline" ></div>
+
+<!-- card start -->
+<!--
+<a href="sf_bosfora.html" target="_self" class="btnlink all classic solg">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/sf/bosfora_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+Босфора
+            </h3>
+        <h4>
+СТАБІЛЬНО ВИСОКА ВРОЖАЙНІСТЬ В УМОВАХ
+ПОСУХИ ТА СТІЙКІСТЬ ДО НОВИХ РАС ВОВЧКА
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="far fa-calendar-alt fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Середньоранній
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="fas fa-seedling fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Класичний
+            </li>
+        </ul>
+    </div>
+</div></a>
+-->
+<!-- card end -->
+
+
+<!-- card start -->
+<a href="sf_kaddix.html" target="_self" class="btnlink all classic solg">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/sf/kadix_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+СИ Кадікс
+            </h3>
+        <h4>
+УНІКАЛЬНЕ ПОЄДНАННЯ СТІЙКОСТІ ДО
+ПОСУХИ, ХВОРОБ ТА НОВИХ РАС ВОВЧКА
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="far fa-calendar-alt fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Середньоранній
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="fas fa-seedling fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Класичний
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+<div class="vegline" ></div>
+
+<!-- card start -->
+<a href="sf_brio.html" target="_self" class="btnlink all classic">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/sf/brio_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+НК Бріо
+            </h3>
+        <h4>
+ЛІДЕР З ПРОДАЖІВ У СВІТІ, МАКСИМАЛЬНА
+ВРОЖАЙНІСТЬ В УМОВАХ ЛІСОСТЕПУ Й ПОЛІССЯ
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="far fa-calendar-alt fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Середньостиглий
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="fas fa-seedling fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Класичний
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+<div class="vegline" ></div>
+
+<!-- card start -->
+<a href="sf_kondi.html" target="_self" class="btnlink all classic">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/sf/kondi_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+НК Конді
+            </h3>
+        <h4>
+ВІДМІННИЙ ПАРТНЕР ДЛЯ ПЕРЕРОБНИКІВ,
+РЕКОРД УРОЖАЮ ОЛІЇ
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="far fa-calendar-alt fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Середньостиглий
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="fas fa-seedling fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Класичний
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+<div class="vegline" ></div>
+
+<!-- card start -->
+<a href="sf_kupava.html" target="_self" class="btnlink all classic solg">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/sf/kupava_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+СИ Купава
+            </h3>
+        <h4>
+НАЙКРАЩІ ВРОЖАЙНІСТЬ І ВМІСТ ОЛІЇ
+В УМОВАХ НОВИХ РАС ВОВЧКА
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="far fa-calendar-alt fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Середньостиглий
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="fas fa-seedling fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Класичний
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+<div class="vegline" ></div>
+
+<!-- card start -->
+<a href="sf_lascala.html" target="_self" class="btnlink all classic solg">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/sf/lascala_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+СИ Ласкала
+            </h3>
+        <h4>
+СТАБІЛЬНО ВИСОКА ВРОЖАЙНІСТЬ
+ТА СТІЙКІСТЬ ДО ВОВЧКА І ХВОРОБ
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="far fa-calendar-alt fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Середньостиглий
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="fas fa-seedling fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Класичний
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+
+<div class="vegline" ></div>
+
+<!-- card start -->
+<a href="sf_arizona.html" target="_self" class="btnlink all classic solg">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/sf/arizona_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+CИ Арізона
+            </h3>
+        <h4>
+НАЙВИЩИЙ ПОТЕНЦІАЛ УРОЖАЙНОСТІ В
+УМОВАХ НОВИХ РАС ВОВЧКА, ВІДМІННА
+ТОЛЕРАНТНІСТЬ ДО ПОСУХИ
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="far fa-calendar-alt fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Середньостиглий
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="fas fa-seedling fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Класичний
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+
+<div class="vegline" ></div>
+
+<!-- card start -->
+<a href="sf_edison.html" target="_self" class="btnlink all classic solg">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/sf/edison_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+СИ Едісон
+            </h3>
+        <h4>
+ВИСОКА ВРОЖАЙНІСТЬ В УМОВАХ
+ПОСУХИ І НОВИХ РАС ВОВЧКА
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="far fa-calendar-alt fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Середньостиглий
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="fas fa-seedling fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Класичний
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+<div class="vegline" ></div>
+
+<!-- card start -->
+<a href="sf_estrada.html" target="_self" class="btnlink all classic solg">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/sf/estrada_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+Естрада
+            </h3>
+        <h4>
+РЕКОРДСМЕН З УРОЖАЙНОСТІ
+Й ОЛІЙНОСТІ В УМОВАХ НОВИХ РАС
+ВОВЧКА, ТОЛЕРАНТНИЙ ДО ПОСУХИ
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="far fa-calendar-alt fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Середньопізній
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="fas fa-seedling fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Класичний
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+ <div class="vegline" ></div>
+
+ <a href="sf_nx_81220.html" target="_self" class="btnlink all hts solg new">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/sf/sufix_800_350.jpg" alt="">
+    </div>
+    <div class="card-content">
+        <h3>
+NX 81220 HTS
+            </h3>
+        <h4>
+УНІВЕРСАЛЬНЕ РІШЕННЯ
+ДЛЯ РАННЬОГО ПРИБУТКУ
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="far fa-calendar-alt fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Ранньостиглий
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="fas fa-seedling fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+HTS
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+ <div class="vegline" ></div>
+<!-- card start -->
+<a href="sf_symatra.html" target="_self" class="btnlink all hts solg new">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/sf/symatra_hts.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+Суматра HTS
+            </h3>
+        <h4>
+РАННЬОСТИГЛИЙ ТА ПЛАСТИЧНИЙ HTS-ГІБРИД
+З ВИСОКОЮ ВРОЖАЙНІСТЮ У СВОЄМУ СЕГМЕНТІ
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="far fa-calendar-alt fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Ранньостиглий
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="fas fa-seedling fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+HTS
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+  <div class="vegline" ></div>
+<!--
+<div class="vegline" ></div>
+-->
+
+<!-- card start -->
+<!--
+<a href="sf_estrada.html" target="_self" class="btnlink all classic solg">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/sf/estrada_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+Естрада
+            </h3>
+        <h4>
+РЕКОРДСМЕН З УРОЖАЙНОСТІ
+Й ОЛІЙНОСТІ В УМОВАХ НОВИХ РАС
+ВОВЧКА, ТОЛЕРАНТНИЙ ДО ПОСУХИ
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="far fa-calendar-alt fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Середньопізній
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="fas fa-seedling fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Класичний
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+ <div class="vegline" ></div>
+
+
+<!-- card start -->
+<a href="sf_suzuka.html" target="_self" class="btnlink all hts solg new">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/sf/suzuka_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+Сузука HTS
+            </h3>
+        <h4>
+ПЛАСТИЧНИЙ HTS-ГІБРИД ІЗ ВИСОКОЮ
+ВРОЖАЙНІСТЮ ТА ОЛІЙНІСТЮ В УМОВАХ ПОСУХИ
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="far fa-calendar-alt fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Середньоранній
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="fas fa-seedling fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+HTS
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+
+ <div class="vegline" ></div>
+
+<!-- card start -->
+<!--
+<a href="sf_sumiko.html" target="_self" class="btnlink all hts">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/sf/sumiko_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+Суміко HTS
+            </h3>
+        <h4>
+ВИСОКА ВРОЖАЙНІСТЬ
+І НАЙВИЩИЙ ВМІСТ ОЛІЇ
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="far fa-calendar-alt fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Середньоранній
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="fas fa-seedling fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+HTS
+            </li>
+        </ul>
+    </div>
+</div></a>
+
+<!-- card end -->
+
+ <div class="vegline" ></div>
+
+<!-- card start -->
+<a href="sf_subaru.html" target="_self" class="btnlink all hts">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/sf/subaru_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+Субаро HTS
+            </h3>
+        <h4>
+НОВИЙ СТАНДАРТ УРОЖАЙНОСТІ
+В HTS-СЕГМЕНТІ
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="far fa-calendar-alt fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Середньопізній
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="fas fa-seedling fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+HTS
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+<!-- card start -->
+<a href="sf_sayberik.html" target="_self" class="btnlink all hts new">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/sf/siberik_800x350.jpg" alt="">
+    </div>
+    <div class="card-content">
+        <h3>
+Сайберік HTS
+            </h3>
+        <h4>
+НОВА ГЕНЕТИКА В СЕГМЕНТІ СУЛЬФО
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="far fa-calendar-alt fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Середньостиглий
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="fas fa-seedling fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+HTS
+            </li>
+        </ul>
+    </div>
+</div></a>
+
+
+
+
+ <div class="vegline" ></div>
+
+
+<!-- card start -->
+<!--
+<a href="sf_arko.html" target="_self" class="btnlink all hioil solg new">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/sf/arko_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+СИ Арко
+            </h3>
+        <h4>
+РАННЬОСТИГЛИЙ ВИСОКООЛЕЇНОВИЙ ГІБРИД
+З МАКСИМАЛЬНОЮ СТІЙКІСТЮ ДО ІРЖІ
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="far fa-calendar-alt fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Ранньостиглий
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="fas fa-seedling fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Високоолеїновий
+            </li>
+        </ul>
+    </div>
+</div></a>
+-->
+<!-- card end -->
+  <a href="sf_arko.html" target="_self" class="btnlink all hioil solg new">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/sf/arko_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+СИ Арко
+            </h3>
+        <h4>
+РАННЬОСТИГЛИЙ ВИСОКООЛЕЇНОВИЙ ГІБРИД
+З МАКСИМАЛЬНОЮ СТІЙКІСТЮ ДО ІРЖІ
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="far fa-calendar-alt fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Ранньостиглий
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="fas fa-seedling fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Класичний
+            </li>
+        </ul>
+    </div>
+</div></a>
+
+<!-- card end -->
+ <div class="vegline" ></div>
+
+<!-- card start -->
+<a href="sf_tutti.html" target="_self" class="btnlink all hioil">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/sf/tutti_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+Тутті
+            </h3>
+        <h4>
+ЧЕМПІОН ЗА ВРОЖАЙНІСТЮ СЕРЕД
+ВИСОКООЛЕЇНОВИХ ГІБРИДІВ
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="far fa-calendar-alt fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Середньостиглий
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="fas fa-seedling fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Високоолеїновий
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+
+ <div class="vegline" ></div>
+
+<!-- card start -->
+<a href="sf_colombi.html" target="_self" class="btnlink all hioil clear solg">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/sf/colombi_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+Коломбі
+            </h3>
+        <h4>
+ВИСОКООЛЕЇНОВИЙ СТАНДАРТ ІЗ
+ПОСУХОСТІЙКОСТІ ДЛЯ СИСТЕМИ CLEARFIELD®
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="far fa-calendar-alt fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Середньоранній
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="fas fa-seedling fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Високоолеїновий
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+
+ <div class="vegline" ></div>
+
+<!-- card start -->
+<a href="sf_talento.html" target="_self" class="btnlink all hioil clear">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/sf/talento_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+Таленто
+            </h3>
+        <h4>
+ВИСОКОПРОДУКТИВНИЙ ВИСОКООЛЕЇНОВИЙ
+CLEARFIELD® ГІБРИД
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="far fa-calendar-alt fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Середньостиглий
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="fas fa-seedling fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Високоолеїновий
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+<div class="vegline" ></div>
+
+<!-- card start -->
+<a href="sf_eksperto.html" target="_self" class="btnlink all hioil clear solg">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/sf/eksperto_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+СИ Експерто
+            </h3>
+        <h4>
+ВИСОКООЛЕЇНОВИЙ CLEARFIELD® ГІБРИД
+ІЗ ВИСОКОЮ ВРОЖАЙНІСТЮ І ВИХОДОМ
+ЦІННОЇ ОЛІЇ
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="far fa-calendar-alt fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Середньостиглий
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="fas fa-seedling fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Високоолеїновий
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+<div class="vegline" ></div>
+
+<!-- card start -->
+<!--
+<a href="sf_fortimi.html" target="_self" class="btnlink all clear solg">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/sf/fortimi_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+НК Фортімі
+            </h3>
+        <h4>
+РАННІЙ CLEARFIELD® ГІБРИД
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="far fa-calendar-alt fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Ранньостиглий
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="fas fa-seedling fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Clearfield®
+            </li>
+        </ul>
+    </div>
+</div></a>
+-->
+<!-- card end -->
+
+
+
+<!-- card start -->
+<a href="sf_barbati.html" target="_self" class="btnlink all clear solg">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/sf/barbati.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+СИ Барбаті
+            </h3>
+        <h4>
+CLEARFIELD® ГІБРИД ДЛЯ ПОСУШЛИВИХ УМОВ
+І НИЗЬКОГО АГРОФОНУ
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="far fa-calendar-alt fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Середньоранній
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="fas fa-seedling fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Clearfield®
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+<div class="vegline" ></div>
+
+<!-- card start -->
+<a href="sf_sanay.html" target="_self" class="btnlink all clear solg">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/sf/sanay_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+Санай МР
+            </h3>
+        <h4>
+СТАБІЛЬНІСТЬ В УМОВАХ ПОСУХИ
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="far fa-calendar-alt fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Середньоранній
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="fas fa-seedling fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Clearfield®
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+
+<div class="vegline" ></div>
+
+<!-- card start -->
+<a href="sf_neoma.html" target="_self" class="btnlink all clear solg">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/sf/neoma_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+НК Неома
+            </h3>
+        <h4>
+ІНТЕНСИВНИЙ ГІБРИД ДЛЯ ВИРОБНИЧОЇ
+СИСТЕМИ CLEARFIELD®
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="far fa-calendar-alt fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Середньостиглий
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="fas fa-seedling fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Clearfield®
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+
+<div class="vegline" ></div>
+
+<!-- card start -->
+<!--
+<a href="sf_adadzhyo.html" target="_self" class="btnlink all clear solg">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/sf/adadzhyo.jpg" alt="">
+    </div>
+    <div class="card-content">
+        <h3>
+НК Ададжіо
+            </h3>
+        <h4>
+НАЙВИЩИЙ ПОТЕНЦІАЛ УРОЖАЙНОСТІ В СЕГМЕНТІ CLEARFIELD® ГІБРИДІВ
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="far fa-calendar-alt fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Середньопізній
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="fas fa-seedling fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Clearfield®
+            </li>
+        </ul>
+    </div>
+</div></a>
+-->
+<!-- card end -->
+
+
+<div class="vegline" ></div>
+
+<!-- card start -->
+<a href="sf_diamantis.html" target="_self" class="btnlink all clear solg">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/sf/diamantis_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+СИ Діамантіс
+            </h3>
+        <h4>
+ВИСОКОВРОЖАЙНИЙ CLEARFIELD® ГІБРИД
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="far fa-calendar-alt fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Середньостиглий
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="fas fa-seedling fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Clearfield®
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+
+<div class="vegline" ></div>
+
+<!-- card start -->
+<a href="sf_rozeta.html" target="_self" class="btnlink all clearplus new solg">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/sf/rozeta_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+СИ Розета КЛП
+            </h3>
+        <h4>
+ЕКСТЕНСИВНИЙ CLEARFIELD® PLUS ГІБРИД
+З ВІДМІННИМ РІВНЕМ УРОЖАЙНОСТІ
+В ПОСУШЛИВИХ УМОВАХ
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="far fa-calendar-alt fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Середньоранній
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="fas fa-seedling fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Clearfield® Plus
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+
+<div class="vegline" ></div>
+
+<!-- card start -->
+<a href="sf_bacardi.html" target="_self" class="btnlink all clearplus solg">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/sf/bacardi_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+СИ Бакарді КЛП
+            </h3>
+        <h4>
+ІНТЕНСИВНИЙ CLEARFIELD® PLUS ГІБРИД
+З НАЙВИЩОЮ ВРОЖАЙНІСТЮ В СЕГМЕНТІ
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="far fa-calendar-alt fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Середньостиглий
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="fas fa-seedling fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Clearfield® Plus
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+
+<div class="vegline" ></div>
+
+<!-- card start -->
+<a href="sf_katana.html" target="_self" class="btnlink all clearplus new solg">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/sf/katana_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+СИ Катана КЛП
+            </h3>
+        <h4>
+ВИСОКОВРОЖАЙНИЙ CLEARFIELD® PLUS ГІБРИД
+З ГЕНЕТИЧНОЮ СТІЙКІСТЮ ДО НОВИХ РАС ВОВЧКА
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="far fa-calendar-alt fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Середньостиглий
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="fas fa-seedling fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Clearfield® Plus
+            </li>
+        </ul>
+    </div>
+</div></a>
+<!-- card end -->
+
+ <div class="vegline" ></div>
+
+<!-- card start -->
+<!--
+<a href="sf_neostar.html" target="_self" class="btnlink all clearplus solg">
+<div class="card animate-in-01">
+    <div class="card-header">
+        <img src="images/sf/Neostar_new.jpg">
+    </div>
+    <div class="card-content">
+        <h3>
+СИ Неостар КЛП
+            </h3>
+        <h4>
+НАЙКРАЩА ГЕНЕТИКА СЕРЕД
+CLEARFIELD® PLUS ГІБРИДІВ
+            </h4>
+
+    </div>
+    <div class="card-footer">
+        <ul>
+            <li>
+               <i class="far fa-calendar-alt fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Середньостиглий
+            </li>
+            <li>
+               &nbsp;
+            </li>
+            <li>
+               <i class="fas fa-seedling fa-lg"  style="color: #eb8200; padding-right: 10px"></i>
+Clearfield® Plus
+            </li>
+        </ul>
+    </div>
+</div></a>
+-->
+<!-- card end -->
+
+
+<div class="vegline" ></div>
+
+
+
+
+    </div></div>
+    <!-- /content -->
+
+            <!-- left  menu -->
+	    <div data-role="panel" class="jqm-navmenu-panel" data-position="left" data-display="overlay" data-theme="a">
+	    	<ul class="jqm-list ui-alt-icon ui-nodisc-icon">
+<li data-filtertext="home" data-icon="home"><a href="index.html">На головну</a></li>
+<li data-filtertext="ззр" data-icon="carat-r"  style="background: #70840b; text-transform: none; text-shadow: none; color: #FFFFFF; text-decoration: none"><b>ЗЗР</b></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"   href="menu_herb.html">Гербіциди</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_insect.html">Інсектициди</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_fung.html">Фунгіциди</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_sc.html">Протруники</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_retar.html">Ретарданти</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_rodent.html">Родентициди</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_fert.html">Органічне добриво</a></li>
+
+<li data-filtertext="ззр" data-icon="carat-r" style="background: #ed8001; text-transform: none; text-shadow: none; color: #FFFFFF; text-decoration: none"><b>НАСІННЯ</b></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_sf.html">Соняшник</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_corn.html">Кукурудза</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_osr.html">Ріпак озимий</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_sorgum.html">Сорго</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_cereals.html">Зернові</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="index_veg.html">Овочеві культури</a></li>
+
+<li data-filtertext="ззр" data-icon="carat-r" style="background: #94c120; text-transform: none; text-shadow: none; color: #FFFFFF; text-decoration: none"><b>ФІНАНСОВІ РІШЕННЯ</b></li>
+ <li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="fiso_new_horiz.html">Підтримка плюс</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="fiso_pidtr_XXL.html">Підтримка XXL</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="fiso_meteozakh.html">Метеозахист</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="fiso_legkoposivna.html">Легкопосівна</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="fiso_agrarni_rozpisky.html">Аграрні розписки</a></li>
+
+ <li data-filtertext="ззр" data-icon="carat-r" style="background: #039eba; text-transform: none; text-shadow: none; color: #FFFFFF; text-decoration: none"><b>БІБЛІОТЕКА АГРОНОМА</b></li>
+ <li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_actions.html">Акції</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_calc.html">Агро-калькулятори</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_schemes.html">Схеми захисту</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_weeds.html">Шкідники, хвороби</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_about_cp.html">Про ЗЗР</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_about_seeds.html">Про насіння</a></li>
+
+
+ <li data-filtertext="ззр" data-icon="carat-r" style="background: #00a873; text-transform: none; text-shadow: none; color: #FFFFFF; text-decoration: none"><b>КОНТАКТИ</b></li>
+ <li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="contacts_distr.html">Дистриб'ютори</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="contactsKAM.html">КАМ відділ</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="contacts.html">Регіони</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="contacts_fiso.html">Фінансові рішення</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="contacts_main_office.html">Головний офіс</a></li>
+
+<!-- otherpanel -->
+		     </ul>
+		</div><!-- /panel -->
+
+
+	<div data-role="footer" data-position="fixed" data-tap-toggle="false" class="jqm-footer">
+		<p>Сингента Україна 2019</p>
+		<p>версія 1.0</p>
+	</div><!-- /footer -->
+	<!-- TODO: This should become an external panel so we can add input to markup (unique ID) -->
+    <div data-role="panel" class="jqm-search-panel" data-position="right" data-display="overlay" data-theme="a">
+		<div class="jqm-search">
+			<ul class="jqm-list" data-filter-placeholder="Пошук..." data-filter-reveal="true">
+<li data-filtertext="насіння" data-icon="carat-r"><a href="#">насіння</a></li>
+<li data-filtertext="introduction overview getting started"><a href="corn_fenomen.html" data-ajax="false">Феномен</a></li>
+<li data-filtertext="кукурудза фортаго"><a href="corn_fortago.html" data-ajax="false">Фортаго</a></li>
+
+
+
+			</ul>
+		</div>
+	</div><!-- /panel -->
+
+
+</div><!-- /page -->
+
+ <script>
+jQuery(function(){
+         jQuery('#showall').click(function(){
+               jQuery('.all').show();
+        });
+        jQuery('.1classic').click(function(){
+              jQuery('.all').hide();
+              jQuery('.classic').show();
+        });
+
+        jQuery('.1hts').click(function(){
+              jQuery('.all').hide();
+              jQuery('.hts').show();
+        });
+
+        jQuery('.1hioil').click(function(){
+              jQuery('.all').hide();
+              jQuery('.hioil').show();
+        });
+
+        jQuery('.1clear').click(function(){
+              jQuery('.all').hide();
+              jQuery('.clear').show();
+        });
+
+        jQuery('.1clearplus').click(function(){
+              jQuery('.all').hide();
+              jQuery('.clearplus').show();
+        });
+
+        jQuery('.1new').click(function(){
+              jQuery('.all').hide();
+              jQuery('.new').show();
+        });
+
+        jQuery('.1solg').click(function(){
+              jQuery('.all').hide();
+              jQuery('.solg').show();
+        });
+});
+</script>
+<!-- Swiper JS -->
+
+        <script src="js/swiper.min.js"></script>
+        <!-- Initialize Swiper -->
+        <script>
+        $(document).ready(function () {
+        //initialize swiper when document ready
+        var mySwiper = new Swiper ('.swiper-container', {
+            // Optional parameters
+
+            loop: false,
+
+            autoplay: 3000
+        })
+    });
+        </script>
+</body>
+</html>

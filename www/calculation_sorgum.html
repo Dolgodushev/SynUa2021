@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Syngenta Ukraine</title>
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.5.min.css">
+  <link rel="stylesheet" href="additionals/css/syngenta_seeds.css"><!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
+  <link rel="stylesheet" type="text/css" href="addfonts/css/Glyphter.css">
+ <script src="js/jquery.js">
+</script>
+<script src="js/jquery-calx-sample-2.2.5.min.js" type="text/javascript"></script>
+  <script src="additionals/js/index.js">
+</script>
+  <script src="js/jquery.mobile-1.4.5.min.js">
+</script>
+
+ <style type="text/css">
+
+   .ui-slider-track  {
+  background: #ddd !important;
+  height: 10px;
+  border: none;
+  margin: 10px;
+
+}
+
+.ui-slider-handle  {
+  border: none;
+  border-radius: 100px;
+  background: #ff7a00 !important;
+}
+
+
+
+.ui-slider-input {
+    display : none !important;
+
+}
+
+.ui-input-text input {
+  min-height: 1.1em !important;
+  line-height: 0.2em;
+
+
+
+}
+
+.ui-input-text {
+  border-width: 0px;
+  margin: 0px
+
+
+
+}
+
+
+
+  button:focus{
+    background:olive !important;
+}
+
+.bott {
+
+}
+
+.page {
+  /* IE10+ */
+background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #D9D9D9 60%);
+
+/* Mozilla Firefox */
+background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #D9D9D9 60%);
+
+/* Opera */
+background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #D9D9D9 60%);
+
+/* Webkit (Safari/Chrome 10) */
+background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #FFFFFF), color-stop(60, #D9D9D9));
+
+/* Webkit (Chrome 11+) */
+background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #D9D9D9 60%);
+
+/* W3C Markup */
+background-image: linear-gradient(to top, #FFFFFF 0%, #D9D9D9 60%);
+}
+
+  -->
+  </style>
+ <script type="text/javascript">
+    function updateTextInput(val) {
+      document.getElementById('textInput').value=val;
+    }
+
+
+
+  </script>
+
+
+
+<style type="text/css">
+<!--
+a {
+  text-decoration: none
+}
+
+.ui-content {
+     padding: 0.3em !important
+ }
+
+ #label1 {
+     background-color: #FFFFFF;
+     border: none;
+     margin: auto;
+     font-weight: bold;
+     margin-top: 3px
+ }
+
+ #num {
+  border: none;
+ }
+
+ .line-2 {
+     width: 100%;
+     height: 1px;
+     background: #00a0be;
+     margin-top: 15px;
+ }
+
+ #apply {
+     text-decoration: none;
+     text-shadow: none;
+     text-transform: uppercase;
+     color: #FFFFFF;
+     background: #00a0be
+ }
+
+-->
+</style>
+
+</head>
+<body>
+   <div data-role="page" class="jqm-syt jqm-home" style="background: #f5f5f5">
+    <!-- header -->
+
+    <div data-role="header" class="jqm-header" data-position="fixed">
+      <h2><img src="images/icons/synlogowhite.png" alt="syngenta"></h2><a href="#" class="jqm-navmenu-link ui-btn ui-btn-icon-notext ui-corner-all ui-icon-bars ui-nodisc-icon ui-icon ui-btn-left">Menu</a> <!--<a href="announcements.html" class="ui-btn ui-btn-icon-notext ui-corner-all ui-icon-mail ui-nodisc-icon ui-icon ui-btn-right" target="_self">Messages</a>-->
+    </div><!-- /header -->
+
+      <!-- content -->
+
+
+<div role="main" class="ui-content jqm-content">
+    <div class="ui-body ui-body-a ui-corner-all">
+    <div class="ui-grid-solo"  style="margin-top: 1px">
+    <div class="ui-block-a">
+        <!-- логотип продукта -->
+        <p class="lozung_seeds" style="text-align: center">СОРГО ЗЕРНОВЕ   </p>
+
+        <!-- end -->
+        </div>
+                       <!-- слоган -->
+<div class="ui-block-a"><p class="lozung">
+Винос елементів живлення при запланованому врожаї<br>
+(в кг діючої речовини на 1 га):
+                        </p></div><!-- end -->
+
+
+                </div></div>
+<form id="basic_math" accept-charset="UTF-8" data-theme="a" data-ajax="false">
+
+<fieldset data-role="fieldcontain">
+
+
+<div class="ui-body ui-body-a ui-corner-all">
+ <div style="margin: auto; width: 100%; font-weight: 300; text-align: center;text-transform: uppercase; font-size: 0.8em">
+<p>Вкажіть заплановану врожайність за допомогою повзунка нижче та натисніть кнопку "Розрахувати":</p></div>
+<a href="#popupBasic" data-rel="popup" data-transition="pop"><input type="text" data-mini="true" id="textInput" value="0" style="border: none; background: #fff; margin: auto; font-family: Arial, Helvetica, sans-serif; font-size: 6em; font-weight: 200; color: #333333; text-align: center; box-shadow: none;" readonly></a>
+<div style="font-family: Arial, Helvetica, sans-serif; font-size: 1.1em"><b><center>Т/ГА</center></b></div>
+
+
+<div data-role="popup" id="popupBasic" data-theme="b">
+<p>Вкажіть бажану врожайність за допомогою повзунка нижче</p>
+</div>
+ <div style="margin-top: 20px">
+<label for="A1" class="ui-hidden-accessible">Врожайність:</label>
+<input type="range"  step="0.1" id="A1" name="A1" data-cell="A1" value="0" min="0" max="10" data-highlight="true" data-popup-enabled="false" data-format="0[.]00" data-formula="" required onchange="updateTextInput(this.value);">
+
+<button class="start" data-theme="d" type="button" id="apply" >Розрахувати</button></div></div></fieldset>
+ <div class="line"></div>
+
+<div class="ui-body ui-body-a ui-corner-all">
+<div style="font-family: Arial, Helvetica, sans-serif; font-size: 110%; text-align: center; font-weight: normal; color: #333; line-height: 130%; padding-left: 15px; padding-right: 15px; margin-left: 15px; margin-right: 15px; margin-top: 15px"><b>Винос елементів живлення при запланованому урожаї</b><br>(в кг діючої речовини на 1 га):</div>
+ <fieldset data-role="fieldcontain">
+
+
+
+<!-- АЗОТ -->
+<div class="ui-grid-a" style="background: #FFFFFF; border: none">
+
+<div class="ui-block-a" ><div class="ui-bar" id="label1">АЗОТ:</div></div>
+
+<div class="ui-block-b"><div class="ui-bar ui-bar-a" id="num" style="padding: 0; margin: 0">
+<input type="text" id="A2" name="A2" data-cell="A2" data-format="0[.]00"  data-formula="A1*13" readonly style="text-align: center; font-size: 120%;background: #FFFFFF;border: thin none #FFFFFF; box-shadow: none; font-weight: bold"></div></div></div>
+
+<!-- ФОСФОР -->
+<div class="line-2"></div>
+
+<div class="ui-grid-a" style="background: #FFFFFF; border: none">
+<div class="ui-block-a" ><div class="ui-bar" id="label1">ФОСФОР:</div></div>
+
+<div class="ui-block-b"><div class="ui-bar ui-bar-a" id="num" style="padding: 0; margin: 0">
+<input type="text"  id="A3" name="A3" data-cell="A3" data-format="0[.]00" data-formula="A1*7.8" readonly style="text-align: center; font-size: 120%;background: #FFFFFF;border: thin none #FFFFFF; box-shadow: none; font-weight: bold"></div></div></div>
+
+<!-- КАЛИЙ -->
+<div class="line-2"></div>
+<div class="ui-grid-a" style="background: #FFFFFF; border: none">
+<div class="ui-block-a" ><div class="ui-bar" id="label1">КАЛІЙ:</div></div>
+
+
+<div class="ui-block-b"><div class="ui-bar ui-bar-a" id="num" style="padding: 0; margin: 0">
+<input type="text" id="A4" name="A4" data-cell="A4" data-format="0[.]00" data-formula="A1*5.4" readonly style="text-align: center; font-size: 120%;background: #FFFFFF;border: thin none #FFFFFF; box-shadow: none; font-weight: bold"></div></div></div>
+
+<!-- СЕРА -->
+<div class="line-2"></div>
+<div class="ui-grid-a" style="background: #FFFFFF; border: none">
+<div class="ui-block-a" ><div class="ui-bar" id="label1">СІРКА:</div></div>
+
+
+<div class="ui-block-b"><div class="ui-bar ui-bar-a" id="num" style="padding: 0; margin: 0">
+<input type="text" id="A5" name="A5" data-cell="A5" data-format="0[.]00" data-formula="A1*1.2" readonly style="text-align: center; font-size: 120%;background: #FFFFFF;border: thin none #FFFFFF; box-shadow: none; font-weight: bold"></div></div></div>
+
+
+<!-- КАЛЬЦИЙ -->
+<div class="line-2"></div>
+<div class="ui-grid-a" style="background: #FFFFFF; border: none">
+<div class="ui-block-a" ><div class="ui-bar" id="label1">КАЛЬЦІЙ</div></div>
+
+
+<div class="ui-block-b"><div class="ui-bar ui-bar-a" id="num" style="padding: 0; margin: 0">
+<input type="text" id="A6" name="A6" data-cell="A6" data-format="0[.]00" data-formula="A1*1.12" readonly style="text-align: center; font-size: 120%;background: #FFFFFF;border: thin none #FFFFFF; box-shadow: none; font-weight: bold"></div></div></div>
+
+
+<!-- МАГНИЙ -->
+<div class="line-2"></div>
+<div class="ui-grid-a" style="background: #FFFFFF; border: none">
+<div class="ui-block-a" ><div class="ui-bar" id="label1">МАГНІЙ</div></div>
+
+
+<div class="ui-block-b"><div class="ui-bar ui-bar-a" id="num" style="padding: 0; margin: 0">
+<input type="text" id="A7" name="A7" data-cell="A7" data-format="0[.]00" data-formula="A1*1.34" readonly style="text-align: center; font-size: 120%;background: #FFFFFF;border: thin none #FFFFFF; box-shadow: none; font-weight: bold"></div></div></div>
+<div class="line-2"></div>
+
+    <!-- Конец -->
+
+  </fieldset></div>
+
+
+ </form>
+ <div class="bott" style="font-size: smaller; font-family: Arial, Helvetica, sans-serif; color: #CFCFCF; text-shadow: none; text-align: center">На основі даних International Plant Nutrition Institute</div>
+          </div>
+ <!-- /content -->
+
+  <!-- left  menu -->
+	    <div data-role="panel" class="jqm-navmenu-panel" data-position="left" data-display="overlay" data-theme="a">
+	    	<ul class="jqm-list ui-alt-icon ui-nodisc-icon">
+<li data-filtertext="home" data-icon="home"><a href="index.html">На головну</a></li>
+<li data-filtertext="ззр" data-icon="carat-r"  style="background: #70840b; text-transform: none; text-shadow: none; color: #FFFFFF; text-decoration: none"><b>ЗЗР</b></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_herb.html">Гербіциди</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_insect.html">Інсектициди</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_fung.html">Фунгіциди</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_sc.html">Протруники</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_retar.html">Ретарданти</a></li>
+
+<li data-filtertext="ззр" data-icon="carat-r" style="background: #ed8001; text-transform: none; text-shadow: none; color: #FFFFFF; text-decoration: none"><b>НАСІННЯ</b></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_sf.html">Соняшник</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_corn.html">Кукурудза</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_osr.html">Ріпак озимий</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_sorgum.html">Сорго</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_cereals.html">Зернові</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="index_veg.html">Овочеві культури</a></li>
+
+<li data-filtertext="ззр" data-icon="carat-r" style="background: #94c120; text-transform: none; text-shadow: none; color: #FFFFFF; text-decoration: none"><b>ФІНАНСОВІ РІШЕННЯ</b></li>
+ <li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="fiso_new_horiz.html">Підтримка плюс</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="fiso_pidtr_XXL.html">Підтримка XXL</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="fiso_meteozakh.html">Метеозахист</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="fiso_legkoposivna.html">Легкопосівна</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="fiso_agrarni_rozpisky.html">Аграрні розписки</a></li>
+
+ <li data-filtertext="ззр" data-icon="carat-r" style="background: #039eba; text-transform: none; text-shadow: none; color: #FFFFFF; text-decoration: none"><b>БІБЛІОТЕКА АГРОНОМА</b></li>
+ <li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_actions.html">Акції</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_calc.html">Агро-калькулятори</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_schemes.html">Схеми захисту</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_weeds.html">Шкідники, хвороби</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_about_cp.html">Про ЗЗР</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="menu_about_seeds.html">Про насіння</a></li>
+
+
+ <li data-filtertext="ззр" data-icon="carat-r" style="background: #00a873; text-transform: none; text-shadow: none; color: #FFFFFF; text-decoration: none"><b>КОНТАКТИ</b></li>
+ <li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="contacts_distr.html">Дистриб'ютори</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="contactsKAM.html">КАМ відділ</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="contacts.html">Регіони</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="contacts_fiso.html">Фінансові рішення</a></li>
+<li data-filtertext="home" data-icon="carat-r"><a target="_self"  href="contacts_main_office.html">Головний офіс</a></li>
+
+<!-- otherpanel -->
+		     </ul>
+		</div><!-- /panel -->
+
+
+
+    
+
+ </div>
+
+
+        <script>
+  /** init the calx first */
+
+
+ $('#apply').click(function(){
+ $('#basic_math').calx(); });
+
+
+        </script>
+
+
+        <script>
+        $("button").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".bott").offset().top},
+        'slow');
+});
+        </script>
+
+</body> </html>
